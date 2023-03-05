@@ -3,24 +3,20 @@
   <entry>
     <title>dshboom个人博客</title>
     <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2>]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/03/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
+    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
+<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                     
+                ></p>
+<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1675686773703-da33d8ac2c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                     
+                ></p>
+<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
   </entry>
 </search>
