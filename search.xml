@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【置顶】dshboom个人博客</title>
-    <url>/2023/03/05/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
-<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
-<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
-<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
-<p>==我最近在做的事==：[点此前往](<a href="https://dshboom.top/log/">log - dshboom blog site</a>)</p>
-<p>==说说入口==：[点此前往](<a href="https://dshboom.top/essays/">essays - dshboom blog site</a>)</p>
-<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
-                     
-                ></p>
-<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1675686773703-da33d8ac2c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                     
-                ></p>
-<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
-  </entry>
-  <entry>
     <title>【日志】2023-03-18 小记</title>
-    <url>/2023/03/18/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-03-18%20%E5%B0%8F%E8%AE%B0/</url>
+    <url>/blog/2023/03/18/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-03-18%20%E5%B0%8F%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><hr>
 <p>发布时间：<em>2023-03-18 7:46</em></p>
 <p>截止至本日志发布，我的个人网站已经运行了12天。从 3月5日(2023-03-05) 网站建立以来，几乎每个周末都在不断调整优化网站的使用体验，以至于这个声称 ”blog site“ 的网站还没有发布一篇像样的博客😂。为此，我添加了<a href="https://dshboom.top/essays/">说说</a>板块和日志板块，前者主要以照片的形式记录自己的日常生活，后者则以文字的形式记录我作为开发者的故事、同时兼任介绍网站新功能的任务。</p>
@@ -80,8 +56,27 @@
 ]]></content>
   </entry>
   <entry>
-    <title>论文设计_基于Arduino的桌面气象时钟</title>
-    <url>/2023/03/11/%E8%AE%BA%E6%96%87%E8%AE%BE%E8%AE%A1_%E5%9F%BA%E4%BA%8EArduino%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%B0%94%E8%B1%A1%E6%97%B6%E9%92%9F/</url>
-    <content><![CDATA[<h2 id="我发表了一篇论文，点击查看-lt-–"><a href="#我发表了一篇论文，点击查看-lt-–" class="headerlink" title="我发表了一篇论文，点击查看 &lt;–"></a>我发表了一篇论文，<a class="link"   href="https://maifile.cn/est/a2646785203523/pdf" >点击查看 &lt;– <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2><h5 id="github地址-dshboom时钟气象站-github-com"><a href="#github地址-dshboom时钟气象站-github-com" class="headerlink" title="github地址:dshboom时钟气象站 (github.com)"></a>github地址:<a class="link"   href="https://github.com/dshboom/esp8266-" >dshboom时钟气象站 (github.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h5>]]></content>
+    <title>【置顶】dshboom个人博客</title>
+    <url>/blog/2023/03/05/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
+<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
+<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
+<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
+<p>==我最近在做的事==：[点此前往](<a href="https://dshboom.top/log/">log - dshboom blog site</a>)</p>
+<p>==说说入口==：[点此前往](<a href="https://dshboom.top/essays/">essays - dshboom blog site</a>)</p>
+<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                     
+                ></p>
+<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1675686773703-da33d8ac2c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                     
+                ></p>
+<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
   </entry>
 </search>
