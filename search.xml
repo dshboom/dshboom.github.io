@@ -228,4 +228,95 @@
 <hr>
 ]]></content>
   </entry>
+  <entry>
+    <title>Arduino教程-安装Arduino IDE</title>
+    <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
+    <content><![CDATA[<h2 id="Arduino教程-安装Arduino-IDE"><a href="#Arduino教程-安装Arduino-IDE" class="headerlink" title="Arduino教程 | 安装Arduino IDE"></a>Arduino教程 | 安装Arduino IDE</h2><h3 id="一、Arduino是什么"><a href="#一、Arduino是什么" class="headerlink" title="一、Arduino是什么"></a>一、Arduino是什么</h3><p>​    Arduino是一种开源电子原型平台，由硬件和软件组成。支持Arduino的开发板可以通过Arduino变成来读取输入信号（输入信号可以来自按钮、开关、传感器等）并将其转换为输出以控制灯、马达和其他设备。</p>
+<h3 id="二、下载Arduino-IDE"><a href="#二、下载Arduino-IDE" class="headerlink" title="二、下载Arduino IDE"></a>二、下载Arduino IDE</h3><h4 id="1-官网下载"><a href="#1-官网下载" class="headerlink" title="1.官网下载"></a>1.官网下载</h4><p>​    Arduino官网网址：[点击前往](<a class="link"   href="https://www.arduino.cc/" >Arduino - Home <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)&lt;–</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/d9a2d1ef0v3dc2bd91e1646ee74d6f71?fid=1100553093578-16051585-186429232451635&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-PH%2FBd541xqrG%2Boek0GzGitO%2BlDU%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325212210465" style="zoom:67%;" 
+                ><em>Arduino官网截图</em></p>
+<p>点击SOFTWARE选项，选择适合您操作系统的Arduino IDE版本并下载（本文以win 10为例）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/2899fb74br0fe5d840a5c0784e18c79c?fid=1100553093578-16051585-1062635989774726&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hO7onJBNSkI%2FAqzORkl%2FPCnyJJs%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325212401146" style="zoom:67%;" 
+                >
+
+<p>选择下载后，您可能会看到如下页面</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/6da51b3c8k691bda42bee80c1fa64c58?fid=1100553093578-16051585-916654458864274&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-oDmtqHKrBsE%2Fyf0f4EugZTq0FCg%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325212516531" style="zoom: 67%;" 
+                >
+
+<p>如果您有能力捐赠Arduino官方，您可以选择捐赠并下载，您也可以点击JUST DOWNLOAD按钮仅下载Arduino IDE</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/80b68cbfbn5a4178eb266f8b5831dbd5?fid=1100553093578-16051585-924452567268895&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-WxKPdv9iezJtv+52u77c39U2B58=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325213158142"
+                ></p>
+<p>点击后，浏览器将自动下载相应的Arduino IDE安装文件</p>
+<h4 id="2-我分享的网盘链接"><a href="#2-我分享的网盘链接" class="headerlink" title="2.我分享的网盘链接"></a>2.我分享的网盘链接</h4><p><em>您也可以选择我分享的网盘链接下载2.0.4版本的Arduino IDE</em></p>
+<p>链接：<a class="link"   href="https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon" >https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：wkon</p>
+<h3 id="三、安装Arduino-IDE"><a href="#三、安装Arduino-IDE" class="headerlink" title="三、安装Arduino IDE"></a>三、安装Arduino IDE</h3><p>在您的电脑上找到刚才下载的双击安装文件即可开始安装。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/8e56da3cbl5939e96e3e21f1f2ec9902?fid=1100553093578-16051585-172516114330569&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-MYtTPy5G6lSlBwiYQnpqLQv2rcY=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325213608632"
+                ></p>
+<p>双击安装后，点击我同意</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/46211b1ael5c24506bded2137f4930e3?fid=1100553093578-16051585-88119646321324&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hqdXWMbFQNQll0fPbgxRy2wKsXE=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325213937949"
+                ></p>
+<p>您可以选择为所有用户安装或为某一特定用户安装</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/0d22e14f7m951be4278446bffa05979c?fid=1100553093578-16051585-542646250814318&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-+0Runoq/yagH0eoExBpmeclH0rw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325214104851"
+                ></p>
+<p><em>注：为所有用户安装需要电脑的管理员权限，在选择此选项的时候请确定您拥有电脑的管理员权限。</em></p>
+<p>选择安装位置</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/ee7fd133aoa21b9f8cd550e60a71b4b9?fid=1100553093578-16051585-441052870466131&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-8MyYLjIdUn8WLKWrXh7JBmI48Gw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325214359886"
+                ></p>
+<p>注：不建议将应用程序安装在C盘（系统盘）中，您可以选择其他盘符</p>
+<p>点击下一步后，Arduino会开始安装</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/7f3aae702ia7f653b8581f5593dff741?fid=1100553093578-16051585-783053102958907&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-gY39oHiWzmVk1m/G1bFgkTFxkh4=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325214544022"
+                ></p>
+<p>出现如下界面则代表安装完成</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/177ce8f0ds0d97e6c38f0d28089ae413?fid=1100553093578-16051585-693841574843633&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-6avNQh84C52rfQ+1JEIuDA/yqhE=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325215246029"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/40e85c4f2s7b85f84a8ae32b5970be06?fid=1100553093578-16051585-730465262270973&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-pwchEURFINjxmlJUjQVH3+Iz8Yw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325215508475"
+                ></p>
+<hr>
+<p>本文章同步发布到知乎，<a class="link"   href="https://zhuanlan.zhihu.com/p/617017855" >Arduino教程 | 安装Arduino IDE - 知乎 (zhihu.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
 </search>
