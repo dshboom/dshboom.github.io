@@ -229,9 +229,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Arduino教程-安装Arduino IDE</title>
+    <title>Arduino教程 | 安装Arduino IDE</title>
     <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
-    <content><![CDATA[<h2 id="Arduino教程-安装Arduino-IDE"><a href="#Arduino教程-安装Arduino-IDE" class="headerlink" title="Arduino教程 | 安装Arduino IDE"></a>Arduino教程 | 安装Arduino IDE</h2><h3 id="一、Arduino是什么"><a href="#一、Arduino是什么" class="headerlink" title="一、Arduino是什么"></a>一、Arduino是什么</h3><p>​    Arduino是一种开源电子原型平台，由硬件和软件组成。支持Arduino的开发板可以通过Arduino变成来读取输入信号（输入信号可以来自按钮、开关、传感器等）并将其转换为输出以控制灯、马达和其他设备。</p>
+    <content><![CDATA[<h3 id="一、Arduino是什么"><a href="#一、Arduino是什么" class="headerlink" title="一、Arduino是什么"></a>一、Arduino是什么</h3><p>​    Arduino是一种开源电子原型平台，由硬件和软件组成。支持Arduino的开发板可以通过Arduino变成来读取输入信号（输入信号可以来自按钮、开关、传感器等）并将其转换为输出以控制灯、马达和其他设备。</p>
 <h3 id="二、下载Arduino-IDE"><a href="#二、下载Arduino-IDE" class="headerlink" title="二、下载Arduino IDE"></a>二、下载Arduino IDE</h3><h4 id="1-官网下载"><a href="#1-官网下载" class="headerlink" title="1.官网下载"></a>1.官网下载</h4><p>​    Arduino官网网址：[点击前往](<a class="link"   href="https://www.arduino.cc/" >Arduino - Home <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)&lt;–</p>
 <p><img  
                      lazyload
