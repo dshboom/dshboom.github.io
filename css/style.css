@@ -735,8 +735,8 @@ body {
   background: var(--background-color);
   font-family: Open Sans, Noto Sans, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
   font-weight: 400;
-  font-size: 15.2px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -746,15 +746,15 @@ body::-webkit-scrollbar {
 @media (max-width: 780px) {
   html,
   body {
-    font-size: 14.591999999999999px;
-    line-height: 21.119999999999997px;
+    font-size: 15.36px;
+    line-height: 1.44;
   }
 }
 @media (max-width: 500px) {
   html,
   body {
-    font-size: 13.68px;
-    line-height: 19.8px;
+    font-size: 14.4px;
+    line-height: 1.35;
   }
 }
 ::selection {
@@ -832,8 +832,8 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: "Open Sans", "Noto Sans SC", sans-serif;
-  font-size: 1rem;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-size: 16px;
 }
 .markdown-body blockquote {
   box-sizing: border-box;
@@ -929,7 +929,7 @@ button {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  font-family: "Open Sans", "Noto Sans SC", sans-serif;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
   color: var(--second-text-color);
   line-height: 1.5;
   margin-bottom: 1rem !important;
@@ -941,7 +941,7 @@ button {
   .markdown-body h4,
   .markdown-body h5,
   .markdown-body h6 {
-    line-height: 1.25;
+    line-height: 1.44;
   }
 }
 .markdown-body h1 {
@@ -1000,7 +1000,7 @@ button {
 .markdown-body h6 {
   font-size: 1.2rem;
   font-weight: 550;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 2rem;
 }
 @media (max-width: 780px) {
@@ -2818,11 +2818,12 @@ pre .deletion {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, "Noto Sans", "Noto Sans SC", sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
   color: var(--default-text-color);
+  font-weight: 500;
   margin-bottom: 0.2rem;
 }
 .post-toc-wrap .post-toc .page-title {
@@ -5730,12 +5731,81 @@ pre .deletion {
   font-size: 1rem;
   margin-top: 30px;
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+.paginator a {
+  margin: 0 0.3rem;
+}
+.paginator a.active {
+  color: var(--background-color);
+  background: var(--primary-color);
 }
 .paginator a.prev {
   float: left;
 }
+@media (max-width: 500px) {
+  .paginator a.prev {
+    display: none;
+  }
+}
 .paginator a.next {
   float: right;
+}
+@media (max-width: 500px) {
+  .paginator a.next {
+    display: none;
+  }
+}
+.paginator .space {
+  padding: 8px 10px;
+}
+@media (max-width: 500px) {
+  .paginator .space {
+    padding: 8px 2px;
+  }
+}
+.paginator a.page-number,
+.paginator span.page-number,
+.paginator a.prev,
+.paginator a.next {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 9px;
+  padding: 8px 16px;
+  background: var(--background-color);
+  box-shadow: var(--redefine-box-shadow);
+  transition-property: color, background, box-shadow, border-color, transform;
+  transition-delay: 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  transition-timing-function: ease, ease, ease, ease, linear;
+}
+.paginator a.page-number:hover,
+.paginator span.page-number:hover,
+.paginator a.prev:hover,
+.paginator a.next:hover {
+  box-shadow: var(--redefine-box-shadow-hover);
+}
+.paginator a.page-number:hover,
+.paginator span.page-number:hover,
+.paginator a.prev:hover,
+.paginator a.next:hover {
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+.paginator a.page-number:active,
+.paginator span.page-number:active,
+.paginator a.prev:active,
+.paginator a.next:active {
+  transform: translateY(3px);
+  transition: transform 0.1s ease;
+}
+.paginator span.current {
+  color: var(--background-color);
+  background: var(--primary-color);
 }
 :root {
   --background-color: #fff;
@@ -6874,7 +6944,7 @@ pre .deletion {
   }
 }
 .article-copyright-info-container {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Open Sans", "Noto Sans SC", sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -7675,7 +7745,7 @@ pre .deletion {
   margin: 10px 0 30px 0;
   line-height: 1;
   color: var(--second-text-color);
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, "Noto Sans SC", sans-serif;
 }
 .post-page-container .article-content-container .article-title .article-title-cover {
   display: flex;
@@ -7686,7 +7756,7 @@ pre .deletion {
   bottom: 36px;
   left: 0;
   text-align: center;
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, "Noto Sans SC", sans-serif;
   color: var(--second-text-color);
   font-size: 3.2rem;
   font-weight: 600;
@@ -7710,7 +7780,7 @@ pre .deletion {
   }
 }
 .post-page-container .article-content-container .article-header {
-  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
+  font-family: 'Open Sans', 'Noto Sans', sans-serif, 'Noto Sans SC', sans-serif, "Noto Sans", "Noto Sans SC", sans-serif;
   position: relative;
   padding-left: 46px;
   width: 100%;
@@ -8288,23 +8358,23 @@ pre .deletion {
 }
 .category-container .category-name {
   color: var(--second-text-color);
-  font-size: 1.6rem;
+  font-size: 2.8rem;
   font-weight: 600;
   padding-bottom: 20px;
   margin-bottom: 38px;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--shadow-color-1);
 }
 .category-container .category-name i {
   color: var(--second-text-color);
 }
 @media (max-width: 780px) {
   .category-container .category-name {
-    font-size: 1.44rem;
+    font-size: 2.52rem;
   }
 }
 @media (max-width: 500px) {
   .category-container .category-name {
-    font-size: 1.28rem;
+    font-size: 2.24rem;
   }
 }
 :root {
