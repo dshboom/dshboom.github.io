@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>dshboom个人博客</title>
+    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
+<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
+<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
+<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
+<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                     
+                ></p>
+<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1675686773703-da33d8ac2c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                     
+                ></p>
+<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
+  </entry>
+  <entry>
+    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
+    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
+<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
+                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
+                >
+
+<p><em>图为Type B为Arduino UNO开发板供电</em></p>
+<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
+<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
+                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
+                >
+
+<p><em>图为手机电源适配器为Arduino供电</em></p>
+<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
+                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
+                >
+
+<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
+<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
+<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
+<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
+                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
+                >
+
+<p><em>图为使用VIN引脚为Arduiino供电</em></p>
+<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
+<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
+<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
+<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
+<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
+<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
+<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
+<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
+                      alt="某电商网站截图"
+                ></p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p><a class="link"   href="https://www.zhihu.com/question/591611418/answer/2953835320" >点击前往知乎阅读 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>&lt;—</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Arduino教程 | (一)安装Arduino IDE</title>
     <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
     <content><![CDATA[<p>本篇教程介绍了Arduino IDE的下载、安装和基础设置。</p>
@@ -134,96 +224,6 @@
 <p>您可以选择您需要的设置以满足您的需求。</p>
 <hr>
 <p>本文章同步发布到知乎，<a class="link"   href="https://zhuanlan.zhihu.com/p/617017855" >Arduino教程 | 安装Arduino IDE - 知乎 (zhihu.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>dshboom个人博客</title>
-    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
-<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
-<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
-<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
-<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
-                     
-                ></p>
-<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1675686773703-da33d8ac2c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                     
-                ></p>
-<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
-  </entry>
-  <entry>
-    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
-    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
-<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
-                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
-                >
-
-<p><em>图为Type B为Arduino UNO开发板供电</em></p>
-<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
-<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
-                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
-                >
-
-<p><em>图为手机电源适配器为Arduino供电</em></p>
-<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
-                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
-                >
-
-<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
-<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
-<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
-<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
-                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
-                >
-
-<p><em>图为使用VIN引脚为Arduiino供电</em></p>
-<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
-<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
-<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
-<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
-<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
-<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
-<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
-<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
-                      alt="某电商网站截图"
-                ></p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p><a class="link"   href="https://www.zhihu.com/question/591611418/answer/2953835320" >点击前往知乎阅读 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>&lt;—</p>
 ]]></content>
   </entry>
   <entry>
