@@ -1,6 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Arduino教程 | (一)安装Arduino IDE</title>
+    <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
+    <content><![CDATA[<p>本篇教程介绍了Arduino IDE的下载、安装和基础设置。</p>
+<h3 id="一、Arduino是什么"><a href="#一、Arduino是什么" class="headerlink" title="一、Arduino是什么"></a>一、Arduino是什么</h3><p>​    Arduino是一种开源电子原型平台，由硬件和软件组成。支持Arduino的开发板可以通过Arduino变成来读取输入信号（输入信号可以来自按钮、开关、传感器等）并将其转换为输出以控制灯、马达和其他设备。</p>
+<h3 id="二、下载Arduino-IDE"><a href="#二、下载Arduino-IDE" class="headerlink" title="二、下载Arduino IDE"></a>二、下载Arduino IDE</h3><h4 id="1-官网下载"><a href="#1-官网下载" class="headerlink" title="1.官网下载"></a>1.官网下载</h4><p>​    Arduino官网网址：[点击前往](<a class="link"   href="https://www.arduino.cc/" >Arduino - Home <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)&lt;–</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325212210465.png"
+                      alt="image-20230325212210465" style="zoom:67%;" 
+                ><em>Arduino官网截图</em></p>
+<p>点击SOFTWARE选项，选择适合您操作系统的Arduino IDE版本并下载（本文以win 10为例）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pcsdata.baidu.com/thumbnail/2899fb74br0fe5d840a5c0784e18c79c?fid=1100553093578-16051585-1062635989774726&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hO7onJBNSkI%2FAqzORkl%2FPCnyJJs%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                      alt="image-20230325212401146" style="zoom:67%;" 
+                >
+
+<p>选择下载后，您可能会看到如下页面</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325212516531.png"
+                      alt="image-20230325212516531" style="zoom: 67%;" 
+                >
+
+<p>如果您有能力捐赠Arduino官方，您可以选择捐赠并下载，您也可以点击JUST DOWNLOAD按钮仅下载Arduino IDE</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325213158142.png"
+                      alt="image-20230325213158142"
+                ></p>
+<p>点击后，浏览器将自动下载相应的Arduino IDE安装文件</p>
+<h4 id="2-我分享的网盘链接"><a href="#2-我分享的网盘链接" class="headerlink" title="2.我分享的网盘链接"></a>2.我分享的网盘链接</h4><p><em>您也可以选择我分享的网盘链接下载2.0.4版本的Arduino IDE</em></p>
+<p>链接：<a class="link"   href="https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon" >https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：wkon</p>
+<h3 id="三、安装Arduino-IDE"><a href="#三、安装Arduino-IDE" class="headerlink" title="三、安装Arduino IDE"></a>三、安装Arduino IDE</h3><p>在您的电脑上找到刚才下载的双击安装文件即可开始安装。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325213608632.png"
+                      alt="image-20230325213608632"
+                ></p>
+<p>双击安装后，点击我同意</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325213937949.png"
+                      alt="image-20230325213937949"
+                ></p>
+<p>您可以选择为所有用户安装或为某一特定用户安装</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325214104851.png"
+                      alt="image-20230325214104851"
+                ></p>
+<p><em>注：为所有用户安装需要电脑的管理员权限，在选择此选项的时候请确定您拥有电脑的管理员权限。</em></p>
+<p>选择安装位置</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325214359886.png"
+                      alt="image-20230325214359886"
+                ></p>
+<p>注：不建议将应用程序安装在C盘（系统盘）中，您可以选择其他盘符</p>
+<p>点击下一步后，Arduino会开始安装</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325214544022.png"
+                      alt="image-20230325214544022"
+                ></p>
+<p>出现如下界面则代表安装完成</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325215246029.png"
+                      alt="image-20230325215246029"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E5%AE%89%E8%A3%85/image-20230325215508475.png"
+                      alt="image-20230325215508475"
+                ></p>
+<h3 id="四、设置Arduino-IDE"><a href="#四、设置Arduino-IDE" class="headerlink" title="四、设置Arduino IDE"></a>四、设置Arduino IDE</h3><h4 id="1-更改软件语言"><a href="#1-更改软件语言" class="headerlink" title="1.更改软件语言"></a>1.更改软件语言</h4><p>Arduino默认语言是英文，进行以下设置可将Arduino IDE软件语言设置为中文。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326113127215.png"
+                      alt="image-20230326113518480"
+                ></p>
+<p>点击”File”-&gt;”Preferences”或按下Ctrl+逗号即可进入首选项设置</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326113518480.png"
+                      alt="image-20230326114148191"
+                ></p>
+<p>找到”Language”下拉选框找到”中文(简体)”</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326114251778.png"
+                      alt="image-20230326114251778"
+                ></p>
+<p>然后点击”OK”按钮，Arduino IDE会重新加载。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326114355964.png"
+                      alt="image-20230326114355964"
+                ></p>
+<p>出现相应语言的界面即代表您的语言设置生效。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326114524569.png"
+                      alt="image-20230326114524569"
+                ></p>
+<h4 id="2-首选项设置"><a href="#2-首选项设置" class="headerlink" title="2.首选项设置"></a>2.首选项设置</h4><p>点击”文件”-&gt;”首选项”或按下Ctrl+逗号即可进入首选项设置。在首选项设置中，您可以修改颜色主题，字体大小等设置。</p>
+<p>在本篇教程中将使用如下设置：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E8%AE%BE%E7%BD%AE/image-20230326115535247.png"
+                      alt="image-20230326115535247"
+                ></p>
+<p>您可以选择您需要的设置以满足您的需求。</p>
+<hr>
+<p>本文章同步发布到知乎，<a class="link"   href="https://zhuanlan.zhihu.com/p/617017855" >Arduino教程 | 安装Arduino IDE - 知乎 (zhihu.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>dshboom个人博客</title>
     <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
@@ -28,7 +164,7 @@
     <content><![CDATA[<p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/5c8aa3722i16a1bc30fdecfb8c2e9bc9?fid=1100553093578-16051585-1088194900213376&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Yt9UDAqnkBDKsbEg3AjP6S4TjUg=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
                       alt="知乎问题"
                 ></p>
 <h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
@@ -36,7 +172,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/ec921c8fcm6a6b3a150e62477f107a9e?fid=1100553093578-16051585-414975320034288&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-bbPPMi57iFbYwkYd6ZTZmFrclMc%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
                       alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
                 >
 
@@ -46,7 +182,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/4d784df33ja13f9d9d0605f767135c3d?fid=1100553093578-16051585-586711527547383&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Rr9lg5amSlzYbAEzao7b2uSxAIY%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
                       alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
                 >
 
@@ -55,7 +191,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/f6d8bc468v437ec045a59e3ab59a97fa?fid=1100553093578-16051585-1024969125457451&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-lc9KDON25UEw8KztOWZ0JYfWLi0%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
                       alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
                 >
 
@@ -66,7 +202,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/52a496eb6ve36f92f6739c04b1a24b61?fid=1100553093578-16051585-671712653193391&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-nT2%2BfcyfVPbBY6gDnASIIY7C0Ck%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
                       alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
                 >
 
@@ -82,148 +218,12 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/a7a148d55mf2436e0bfb5aafcc63c11f?fid=1100553093578-16051585-670598421791582&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-p3D/nCFMrhTjft5dFmprJCOBYUA=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8875276607575868428&dp-callid=0&time=1679792400&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
                       alt="某电商网站截图"
                 ></p>
 <hr>
 <p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
 <p><a class="link"   href="https://www.zhihu.com/question/591611418/answer/2953835320" >点击前往知乎阅读 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>&lt;—</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Arduino教程 | (一)安装Arduino IDE</title>
-    <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
-    <content><![CDATA[<p>本篇教程介绍了Arduino IDE的下载、安装和基础设置。</p>
-<h3 id="一、Arduino是什么"><a href="#一、Arduino是什么" class="headerlink" title="一、Arduino是什么"></a>一、Arduino是什么</h3><p>​    Arduino是一种开源电子原型平台，由硬件和软件组成。支持Arduino的开发板可以通过Arduino变成来读取输入信号（输入信号可以来自按钮、开关、传感器等）并将其转换为输出以控制灯、马达和其他设备。</p>
-<h3 id="二、下载Arduino-IDE"><a href="#二、下载Arduino-IDE" class="headerlink" title="二、下载Arduino IDE"></a>二、下载Arduino IDE</h3><h4 id="1-官网下载"><a href="#1-官网下载" class="headerlink" title="1.官网下载"></a>1.官网下载</h4><p>​    Arduino官网网址：[点击前往](<a class="link"   href="https://www.arduino.cc/" >Arduino - Home <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)&lt;–</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/d9a2d1ef0v3dc2bd91e1646ee74d6f71?fid=1100553093578-16051585-186429232451635&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-PH%2FBd541xqrG%2Boek0GzGitO%2BlDU%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325212210465" style="zoom:67%;" 
-                ><em>Arduino官网截图</em></p>
-<p>点击SOFTWARE选项，选择适合您操作系统的Arduino IDE版本并下载（本文以win 10为例）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/2899fb74br0fe5d840a5c0784e18c79c?fid=1100553093578-16051585-1062635989774726&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hO7onJBNSkI%2FAqzORkl%2FPCnyJJs%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325212401146" style="zoom:67%;" 
-                >
-
-<p>选择下载后，您可能会看到如下页面</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/6da51b3c8k691bda42bee80c1fa64c58?fid=1100553093578-16051585-916654458864274&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-oDmtqHKrBsE%2Fyf0f4EugZTq0FCg%3D&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325212516531" style="zoom: 67%;" 
-                >
-
-<p>如果您有能力捐赠Arduino官方，您可以选择捐赠并下载，您也可以点击JUST DOWNLOAD按钮仅下载Arduino IDE</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/80b68cbfbn5a4178eb266f8b5831dbd5?fid=1100553093578-16051585-924452567268895&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-WxKPdv9iezJtv+52u77c39U2B58=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325213158142"
-                ></p>
-<p>点击后，浏览器将自动下载相应的Arduino IDE安装文件</p>
-<h4 id="2-我分享的网盘链接"><a href="#2-我分享的网盘链接" class="headerlink" title="2.我分享的网盘链接"></a>2.我分享的网盘链接</h4><p><em>您也可以选择我分享的网盘链接下载2.0.4版本的Arduino IDE</em></p>
-<p>链接：<a class="link"   href="https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon" >https://pan.baidu.com/s/17PKlawZkRe_prZwB8qWa1g?pwd=wkon <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：wkon</p>
-<h3 id="三、安装Arduino-IDE"><a href="#三、安装Arduino-IDE" class="headerlink" title="三、安装Arduino IDE"></a>三、安装Arduino IDE</h3><p>在您的电脑上找到刚才下载的双击安装文件即可开始安装。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/8e56da3cbl5939e96e3e21f1f2ec9902?fid=1100553093578-16051585-172516114330569&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-MYtTPy5G6lSlBwiYQnpqLQv2rcY=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325213608632"
-                ></p>
-<p>双击安装后，点击我同意</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/46211b1ael5c24506bded2137f4930e3?fid=1100553093578-16051585-88119646321324&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hqdXWMbFQNQll0fPbgxRy2wKsXE=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325213937949"
-                ></p>
-<p>您可以选择为所有用户安装或为某一特定用户安装</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/0d22e14f7m951be4278446bffa05979c?fid=1100553093578-16051585-542646250814318&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-+0Runoq/yagH0eoExBpmeclH0rw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325214104851"
-                ></p>
-<p><em>注：为所有用户安装需要电脑的管理员权限，在选择此选项的时候请确定您拥有电脑的管理员权限。</em></p>
-<p>选择安装位置</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/ee7fd133aoa21b9f8cd550e60a71b4b9?fid=1100553093578-16051585-441052870466131&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-8MyYLjIdUn8WLKWrXh7JBmI48Gw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325214359886"
-                ></p>
-<p>注：不建议将应用程序安装在C盘（系统盘）中，您可以选择其他盘符</p>
-<p>点击下一步后，Arduino会开始安装</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/7f3aae702ia7f653b8581f5593dff741?fid=1100553093578-16051585-783053102958907&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-gY39oHiWzmVk1m/G1bFgkTFxkh4=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325214544022"
-                ></p>
-<p>出现如下界面则代表安装完成</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/177ce8f0ds0d97e6c38f0d28089ae413?fid=1100553093578-16051585-693841574843633&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-6avNQh84C52rfQ+1JEIuDA/yqhE=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325215246029"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/40e85c4f2s7b85f84a8ae32b5970be06?fid=1100553093578-16051585-730465262270973&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-pwchEURFINjxmlJUjQVH3+Iz8Yw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8863961227860694213&dp-callid=0&time=1679752800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230325215508475"
-                ></p>
-<h3 id="四、设置Arduino-IDE"><a href="#四、设置Arduino-IDE" class="headerlink" title="四、设置Arduino IDE"></a>四、设置Arduino IDE</h3><h4 id="1-更改软件语言"><a href="#1-更改软件语言" class="headerlink" title="1.更改软件语言"></a>1.更改软件语言</h4><p>Arduino默认语言是英文，进行以下设置可将Arduino IDE软件语言设置为中文。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/6fae23108t6e5bf89c190bf5f5bd347a?fid=1100553093578-16051585-1023025528311341&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-B+AAv2vJncc5O3wvUKerX5bKDl4=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326113518480"
-                ></p>
-<p>点击”File”-&gt;”Preferences”或按下Ctrl+逗号即可进入首选项设置</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/ceb83c461ia5789393ce3ccb9326e55c?fid=1100553093578-16051585-392546965380409&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-IQHB/3ci5LGVWLMqFaMs/++Wj58=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326114148191"
-                ></p>
-<p>找到”Language”下拉选框找到”中文(简体)”</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/a35fa05b5see95fbe7d0580f8f3ba28f?fid=1100553093578-16051585-749875234323589&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Yd8FEGKB/76dX0w6b4YN41UNQmg=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326114251778"
-                ></p>
-<p>然后点击”OK”按钮，Arduino IDE会重新加载。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/5d579f39ah53d077b87b3dd534803aee?fid=1100553093578-16051585-502035494664266&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-5T9dI5XdtCrgV6FO7rfi0ABW9Ws=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326114355964"
-                ></p>
-<p>出现相应语言的界面即代表您的语言设置生效。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/b5b155101j705809e9fb0b4cfea93075?fid=1100553093578-16051585-855650854607748&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-/1M/Jbzc4fUs02blc8QRXBb4XKM=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326114524569"
-                ></p>
-<h4 id="2-首选项设置"><a href="#2-首选项设置" class="headerlink" title="2.首选项设置"></a>2.首选项设置</h4><p>点击”文件”-&gt;”首选项”或按下Ctrl+逗号即可进入首选项设置。在首选项设置中，您可以修改颜色主题，字体大小等设置。</p>
-<p>在本篇教程中将使用如下设置：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/2aa4ac2a5qae1d9c0846121528dcd61a?fid=1100553093578-16051585-1046347509200379&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Xe5R4yWH/cHD+ZAGZYYbF0+Sgso=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8877314725064214969&dp-callid=0&time=1679799600&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
-                      alt="image-20230326115535247"
-                ></p>
-<p>您可以选择您需要的设置以满足您的需求。</p>
-<hr>
-<p>本文章同步发布到知乎，<a class="link"   href="https://zhuanlan.zhihu.com/p/617017855" >Arduino教程 | 安装Arduino IDE - 知乎 (zhihu.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
   </entry>
   <entry>
@@ -239,21 +239,21 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/6845ba963tc56c709744c2c26bd51ccb?fid=1100553093578-16051585-830522973985220&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-gI+XeSbmmB+4GO0/joSy2IRXVZE=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/11db43ea9mada5a614241906608eb5e5.png"
                       alt="VMware英文官网"
                 ></p>
 <p>1.点击右上角“语言“图标。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/2d35f8295vf775d212555fa77a6de3ca?fid=1100553093578-16051585-752899153655788&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-691x3AXn2sd/T5A4aQdn2reG+9c=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/5aeeea00cq2a3b57298814f284964f19.png"
                       alt="VMware英文官网截图"
                 ></p>
 <p>2.点击”Asia“下的”China(简体中文)“即可修改网站语言为简体中文。若您有其他的需求，可自行选择所需要的语言。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/0b21774a3gc2a02e4f9c6f2c4fb07072?fid=1100553093578-16051585-891753491025292&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-33NQGcb06EItaijLISqRZLnteD8=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/db4758c48p952684f35cdacbff0574a1.png"
                       alt="VMware中文网截图"
                 ></p>
 <p>3.如果出现相应的中文(或您所选的其他语言)界面，则代表语言修改成功。</p>
@@ -261,14 +261,14 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/dc92be247g18dae0004c921645904bcd?fid=1100553093578-16051585-184853902510869&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-iOSKkGyxgDEktLFciMF+forueBg=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853250920582019244&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325091338077.png"
                       alt="image-20230325091338077"
                 ></p>
 <p>1.在网站首页中点击“产品”选项</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/3c36795efqc5b31ce87f27a7d10e2e11?fid=1100553093578-16051585-87350332226780&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-JdGos3bDbPfGlPW+hdBBewaajNA=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325091752471.png"
                       alt="image-20230325091752471"
                 ></p>
 <p>2.找到“桌面平台虛擬化管理程序”选项栏，我们可以看到三个子选项，第一个是Mac OS操作系统使用的VMware虚拟机软件，第二个是VMware Workstation Player（免费版），第三个是VMware Workstation Pro。您可以根据您的需要选择合适的产品。本教程中以Workstation Pro为例演示安装过程。</p>
@@ -276,21 +276,21 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/bb8b3a3c9mbb88086b02f87bbc81bf09?fid=1100553093578-16051585-769939765350&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-W67xnitcX2kowcAFlZnUhWl1YiI=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325092803259.png"
                       alt="image-20230325092803259"
                 ></p>
 <p>3.若您点击了Workstation Pro按钮，将会跳转到如图所示的网页，若您需要购买VMware产品，您可以选择“在线购买”获得VMware的服务。对于个人试用，可以向下滑动找到“下载试用版”试用软件。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/75ee11026safb330680e52be443a10f4?fid=1100553093578-16051585-612553639159961&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-of/sQ668sTySJWuPM1tDNod0xrI=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325093125613.png"
                       alt="image-20230325093125613"
                 ></p>
 <p>4.点击“下载试用版”。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/94d4124f3k78ed6e3bd5ceaf746dbfb3?fid=1100553093578-16051585-441192947012193&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-L/GpsgY3h366J8bbXQ43tGmTzCo=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325093425759.png"
                       alt="image-20230325093240013"
                 ></p>
 <p><em>注：此时网页将跳转为英文界面。</em></p>
@@ -298,7 +298,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/33a3a57edqc2037150ed6203c163fd6a?fid=1100553093578-16051585-273912220640595&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-oG3vAIIjdSPVb8EgJbuncKAfFZw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325093452691.pngo"
                       alt="image-20230325093452691"
                 ></p>
 <p><em>注：您可以选择您需要的版本，本教程以Windows版本为例</em>。</p>
@@ -307,28 +307,28 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/06f794cbck7464390e428cdae00486b1?fid=1100553093578-16051585-301294745014228&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-5CV+gu7Jv582lNvb90Y42gEnfrI=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325094017405.png"
                       alt="image-20230325094017405"
                 ></p>
 <p>2.双击安装程序，开始安装。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/6c67a4f6ft927f8caaa7544528cbdb38?fid=1100553093578-16051585-68237722068925&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-hdZ3Krdq/DrbJjKhmu4oOhtdZGc=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325094151538.png"
                       alt="image-20230325094213790"
                 ></p>
 <p>3.授权管理员权限后，VMware Workstation Pro安装向导会指引您安装。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/3575ce3cai828f55704bd656bbd47afc?fid=1100553093578-16051585-388621526890850&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-REyhOURLyt6XEmUtZJBLbHLqVGw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325094430228.png"
                       alt="image-20230325094430228"
                 ></p>
 <p>4.点击下一步-&gt;接受条款-&gt;下一步，会出现如下界面。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/e943fa9ccte6d80126610ef8f8d898e0?fid=1100553093578-16051585-5853049127111&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-iJFJNv002aJJH0lQqNxCqaAE6Kg=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325094530987.png"
                       alt="image-20230325094530987"
                 ></p>
 <p><em>注：建议您将VMware Workstation Pro安装到C盘以外的盘符</em></p>
@@ -336,7 +336,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/b8e84f89eo0a4afdcb14991584763939?fid=1100553093578-16051585-562451330296197&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-mWq/4eba0Hdrn6CckoSDyf4mEhw=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325101008643.png"
                       alt="image-20230325101008643"
                 ></p>
 <p>6.<del>若您使用网络上公开的密钥，不建议您勾选以上两个选项</del>（有能力的还是支持正版）</p>
@@ -344,28 +344,28 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/bf62f89f7sfc51c1ae6af30aa5e740f7?fid=1100553093578-16051585-904967356807567&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-8Nm74uiylHWJmyettX2723p3og8=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325101207426.png"
                       alt="image-20230325101301738"
                 ></p>
 <p>8.点击下一步后，VMware Workstation Pro会开始安装</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/a20be2ec7n52e90921505ec90df210ac?fid=1100553093578-16051585-836526142324739&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-7vTuDoJNHmla1IHxqKNjmXm6zTI=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325101301738.png"
                       alt="image-20230325101520431"
                 ></p>
 <p>9.出现以下界面则代表安装完成，若果您有许可证密钥，可以选择安装。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/8fa51dabapf40aad28c68a1e3b39e222?fid=1100553093578-16051585-142129213674614&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-SPj8oxhDzN97m+hbPMQIKff7o5c=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325101520431.png"
                       alt="image-20230325101840744"
                 ></p>
 <p>10.打开VMware软件，若出现以下界面，恭喜您安装成功！</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://pcsdata.baidu.com/thumbnail/f33295a2bvd9f27e38e891bcfa6a2219?fid=1100553093578-16051585-380393247104360&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-A6us61slDBemFLkwJlS6IhZaSvU=&expires=48h&chkv=0&chkbd=0&chkpc=&dp-logid=8853236011360927654&dp-callid=0&time=1679713200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/VMware%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20230325101840744.png"
                       alt="image-20230325101840744"
                 ></p>
 <p><em>注：若您没有密钥，则只能试用该产品30天。</em></p>
