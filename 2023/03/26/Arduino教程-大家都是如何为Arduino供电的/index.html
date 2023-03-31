@@ -18,21 +18,31 @@
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Arduino教程 | 【问答】大家都是如何为Arduino供电的">
-    <meta property="og:description" content="“人生如逆旅，我亦是行人”">
-    <meta property="og:url" content="https://dshboom.top2023/03/26/Arduino教程-大家都是如何为Arduino供电的/">
     
-    <meta property="og:site_name" content="dshboom blog site">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arduino教程 | 【问答】大家都是如何为Arduino供电的">
-    <meta name="twitter:description" content="“人生如逆旅，我亦是行人”">
-    <meta name="twitter:image" content="/images/redefine-logo.svg">
+        <meta name="description" content="来自dshboom的回答：面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法 一、使用Type B插口为Arduino UNO供电在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。   图为Type B为Arduino UNO开发板供电 注意：在下载程序时不建议在Arduin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Arduino教程 | 【问答】大家都是如何为Arduino供电的">
+<meta property="og:url" content="https://dshboom.top/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/index.html">
+<meta property="og:site_name" content="dshboom的个人博客">
+<meta property="og:description" content="来自dshboom的回答：面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法 一、使用Type B插口为Arduino UNO供电在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。   图为Type B为Arduino UNO开发板供电 注意：在下载程序时不建议在Arduin">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg">
+<meta property="og:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg">
+<meta property="article:published_time" content="2023-03-26T01:55:00.000Z">
+<meta property="article:modified_time" content="2023-03-31T11:28:37.863Z">
+<meta property="article:author" content="dshboom">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg">
+    
     <!--- Icon Part-->
-    <link rel="icon" type="image/png" href="/images/redefine-logo.svg" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-logo.svg">
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
     <meta name="theme-color" content="#005080">
-    <link rel="shortcut icon" href="/images/redefine-logo.svg">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
     <!--- Page Info-->
     
     <title>
@@ -71,10 +81,10 @@
                 
     
     <script id="hexo-configurations">
-    let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"dshboom.top","root":"/","language":"zh-CN","path":"search.xml"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/dshboom_photo.svg","favicon":"/images/redefine-logo.svg","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://evan.beee.top/img/wallhaven-wqery6-light.webp","dark":"https://evan.beee.top/img/wallhaven-wqery6-dark.webp"},"title_color":{"light":"#fff","dark":"#d1d1b6"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"“人生如逆旅，我亦是行人”","subtitle":{"enable":false,"list":["做自己所热爱的事。","唯寂寞始能长保清醒，唯清醒始能永耐寂寞。","静水流深，平静致远。","小舟从此逝，江海寄余生。"]},"custom_font":{"enable":false,"font_family":null,"font_url":null},"description":"“人生如逆旅，我亦是行人”"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.3","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":true,"audio":[{"name":"Canon in D","artist":"Brian Crain","url":"http://music.163.com/song/media/outer/url?id=1091088.mp3","cover":"https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
-    REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"dshboom.top","root":"/","language":"zh-CN","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center"},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[""]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":false,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#005080","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true},"home_banner":{"enable":true,"image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"“人生如逆旅，我亦是行人”","subtitle":{"text":["做自己所热爱的事。","唯寂寞始能长保清醒，唯清醒始能永耐寂寞。","静水流深，平静致远。","小舟从此逝，江海寄余生。"],"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":null,"github":"https://github.com/dshboom","email":"dshboom@outlook.com","qq":"https://i.328888.xyz/2023/03/05/GdZDC.md.jpeg","zhihu":"https://www.zhihu.com/people/dshboom"}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":true,"audios":[{"name":"Canon in D","artist":"Brian Crain","url":"http://music.163.com/song/media/outer/url?id=1091088.mp3","cover":"https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.0.3","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"日常":{"path":"/imageShare","icon":"fa-solid fa-image"}},"search":{"enable":true,"preload":true,"path":"search.json","field":"post","content":true,"format":"striptags"}},"page_templates":{"friends_column":0,"tags_style":"blur"},"home":{"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}}};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
   </script>
     
     <!--- Fontawesome Part-->
@@ -100,8 +110,6 @@
 <body>
 <div class="progress-bar-container">
     
-        <span class="scroll-progress-bar"></span>
-    
 
     
         <span class="pjax-progress-bar"></span>
@@ -116,12 +124,12 @@
 
     
 
-    <div class="page-main-content">
+    <div class="main-content-container">
 
-        <div class="page-main-content-top">
-            <header class="menu-wrapper">
+        <div class="main-content-header">
+            <header class="navbar-container">
     
-    <div class="menu-content">
+    <div class="navbar-content">
         <div class="left">
             
             <a class="logo-title" href="/">
@@ -133,11 +141,11 @@
 
         <div class="right">
             <!-- PC -->
-            <div class="pc">
-                <ul class="menu-list">
+            <div class="desktop">
+                <ul class="navbar-list">
                     
                         
-                            <li class="menu-item">
+                            <li class="navbar-item">
                                 <!-- Menu -->
                                 <a class="" 
                                     href="/"  >
@@ -153,7 +161,7 @@
                             </li>
                     
                         
-                            <li class="menu-item">
+                            <li class="navbar-item">
                                 <!-- Menu -->
                                 <a class="" 
                                     href="/imageShare"  >
@@ -169,7 +177,7 @@
                             </li>
                     
                     
-                        <li class="menu-item search search-popup-trigger">
+                        <li class="navbar-item search search-popup-trigger">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </li>
                     
@@ -180,19 +188,19 @@
                 
                     <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
                 
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Mobile drawer -->
-    <div class="menu-drawer">
-        <ul class="drawer-menu-list">
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
             
                 
-                    <li class="drawer-menu-item flex-center">
+                    <li class="drawer-navbar-item flex-center">
                         <a class="" 
                         href="/"  >
                              
@@ -207,7 +215,7 @@
                     
             
                 
-                    <li class="drawer-menu-item flex-center">
+                    <li class="drawer-navbar-item flex-center">
                         <a class="" 
                         href="/imageShare"  >
                              
@@ -232,7 +240,7 @@
 
         </div>
 
-        <div class="page-main-content-middle">
+        <div class="main-content-body">
 
             <div class="main-content">
 
@@ -254,25 +262,27 @@
             
                 <div class="article-header">
                     <div class="avatar">
-                        <img src="/images/dshboom_photo.svg">
+                        <img src="/images/redefine-avatar.svg">
                     </div>
                     <div class="info">
                         <div class="author">
                             <span class="name">dshboom</span>
+                            
+                                <span class="author-label"></span>
                             
                         </div>
                         <div class="meta-info">
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2023-03-26 09:55</span>
+        <span class="desktop">2023-03-26 09:55</span>
         <span class="mobile">2023-03-26 09:55</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-31 19:28:37</span>
+            <span class="desktop">2023-03-31 19:28:37</span>
             <span class="mobile">2023-03-31 19:28</span>
             <span class="hover-info">更新</span>
         </span>
@@ -283,14 +293,6 @@
 
     
     
-        <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-file-word"></i>&nbsp;<span>988 字</span>
-        </span>
-    
-    
-        <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>3 分钟</span>
-        </span>
     
     
 </div>
@@ -449,7 +451,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">Arduino教程 | 【问答】大家都是如何为Arduino供电的</div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9D%A5%E8%87%AAdshboom%E7%9A%84%E5%9B%9E%E7%AD%94%EF%BC%9A"><span class="nav-text">来自dshboom的回答：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Type-B%E6%8F%92%E5%8F%A3%E4%B8%BAArduino-UNO%E4%BE%9B%E7%94%B5"><span class="nav-text">一、使用Type B插口为Arduino UNO供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81DC%E4%BE%9B%E7%94%B5%E6%8F%92%E5%A4%B4%E4%B8%BAArduino-UNO%E4%BE%9B%E7%94%B5"><span class="nav-text">二、DC供电插头为Arduino UNO供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81VIN%E5%BC%95%E8%84%9A%E4%BE%9B%E7%94%B5"><span class="nav-text">三、VIN引脚供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E4%BD%BF%E7%94%A85V%E7%94%B5%E6%BA%90%E5%8F%A3%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%EF%BC%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%EF%BC%89"><span class="nav-text">四、使用5V电源口为Arduino供电（不建议）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%A6%82%E6%9E%9C%E6%82%A8%E4%BD%BF%E7%94%A8%E5%85%B6%E4%BB%96%E7%9A%84%E5%BC%80%E5%8F%91%E6%9D%BF%E6%88%96%E8%87%AA%E5%B7%B1%E4%B8%BA%E5%85%BC%E5%AE%B9Arduino%E7%9A%84%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%94%B5%E8%B7%AF"><span class="nav-text">五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E5%85%B6%E5%AE%83%E7%9A%84%E5%BC%80%E5%8F%91%E6%9D%BF"><span class="nav-text">1.其它的开发板</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E6%82%A8%E4%B8%BA%E5%85%BC%E5%AE%B9Arduino%E7%9A%84%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%94%B5%E8%B7%AF"><span class="nav-text">2.您为兼容Arduino的芯片设计的电路</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-220V%E8%BE%93%E5%85%A5"><span class="nav-text">a.220V输入</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E7%9B%B4%E6%B5%81%E8%BE%93%E5%85%A5"><span class="nav-text">b.直流输入</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#c-%E7%94%B5%E6%B1%A0%E8%BE%93%E5%85%A5"><span class="nav-text">c.电池输入</span></a></li></ol></li></ol></li></ol></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9D%A5%E8%87%AAdshboom%E7%9A%84%E5%9B%9E%E7%AD%94%EF%BC%9A"><span class="nav-text">来自dshboom的回答：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Type-B%E6%8F%92%E5%8F%A3%E4%B8%BAArduino-UNO%E4%BE%9B%E7%94%B5"><span class="nav-text">一、使用Type B插口为Arduino UNO供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81DC%E4%BE%9B%E7%94%B5%E6%8F%92%E5%A4%B4%E4%B8%BAArduino-UNO%E4%BE%9B%E7%94%B5"><span class="nav-text">二、DC供电插头为Arduino UNO供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81VIN%E5%BC%95%E8%84%9A%E4%BE%9B%E7%94%B5"><span class="nav-text">三、VIN引脚供电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E4%BD%BF%E7%94%A85V%E7%94%B5%E6%BA%90%E5%8F%A3%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%EF%BC%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%EF%BC%89"><span class="nav-text">四、使用5V电源口为Arduino供电（不建议）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%A6%82%E6%9E%9C%E6%82%A8%E4%BD%BF%E7%94%A8%E5%85%B6%E4%BB%96%E7%9A%84%E5%BC%80%E5%8F%91%E6%9D%BF%E6%88%96%E8%87%AA%E5%B7%B1%E4%B8%BA%E5%85%BC%E5%AE%B9Arduino%E7%9A%84%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%94%B5%E8%B7%AF"><span class="nav-text">五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</span></a></li></ol></li></ol></li></ol>
 
     </div>
 </div>
@@ -467,7 +469,7 @@
 
         </div>
 
-        <div class="page-main-content-bottom">
+        <div class="main-content-footer">
             <footer class="footer">
     <div class="info-container">
         <div class="copyright-info">
@@ -479,15 +481,29 @@
             2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">dshboom</a>
         </div>
         
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
         <div class="theme-info info-item">
             <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
-                <br> 
-            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v1.2.3</a>
+                <br>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.0.3</a>
         </div>
         
         
         
-            <div id="start_time_div" style="display:none">
+            <div id="start_div" style="display:none">
                 2023/3/5 9:35:00
             </div>
             <div>
@@ -527,7 +543,7 @@
     
         <div class="post-tools">
             <div class="post-tools-container">
-    <ul class="tools-list">
+    <ul class="article-tools-list">
         <!-- TOC aside toggle -->
         
             <li class="right-bottom-tools page-aside-toggle">
@@ -547,9 +563,9 @@
         </div>
     
 
-    <div class="right-bottom-side-tools">
+    <div class="right-side-tools-container">
         <div class="side-tools-container">
-    <ul class="unfolded-tools-list">
+    <ul class="hidden-tools-list">
         <li class="right-bottom-tools tool-font-adjust-plus flex-center">
             <i class="fa-regular fa-magnifying-glass-plus"></i>
         </li>
@@ -576,8 +592,8 @@
         </li>
     </ul>
 
-    <ul class="folded-tools-list">
-        <li class="right-bottom-tools tool-toggle-show flex-center">
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
             <i class="fa-regular fa-cog fa-spin"></i>
         </li>
         
@@ -637,22 +653,22 @@
 
 <script src="/js/main.js"></script>
 
-<script src="/js/layouts/menu-shrink.js"></script>
+<script src="/js/layouts/navbarShrink.js"></script>
 
-<script src="/js/tools/go-top-bottom.js"></script>
+<script src="/js/tools/scrollTopBottom.js"></script>
 
-<script src="/js/tools/dark-light-toggle.js"></script>
-
-
-
-    
-<script src="/js/tools/local-search.js"></script>
-
+<script src="/js/tools/lightDarkSwitch.js"></script>
 
 
 
     
-<script src="/js/tools/code-block.js"></script>
+<script src="/js/tools/localSearch.js"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
 
 
 
@@ -675,6 +691,13 @@
 
 
 
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
 
 
 
@@ -683,7 +706,7 @@
 <div class="post-scripts pjax">
     
         
-<script src="/js/tools/toc-toggle.js"></script>
+<script src="/js/tools/tocToggle.js"></script>
 
 <script src="/js/libs/anime.min.js"></script>
 
@@ -717,13 +740,13 @@
         });
 
         document.addEventListener('pjax:send', () => {
-            REDEFINE.utils.pjaxProgressBarStart();
+            Global.utils.pjaxProgressBarStart();
         });
 
         document.addEventListener('pjax:complete', () => {
-            REDEFINE.utils.pjaxProgressBarEnd();
+            Global.utils.pjaxProgressBarEnd();
             window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
-            REDEFINE.refresh();
+            Global.refresh();
         });
     });
 </script>
