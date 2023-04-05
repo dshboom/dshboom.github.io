@@ -4,7 +4,7 @@
   --second-background-color: #fafafa;
   --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
-  --primary-color: #a31f34;
+  --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
@@ -12,7 +12,7 @@
   --default-text-color: #373d3f;
   --invert-text-color: #bebec6;
   --border-color: rgba(0,0,0,0.08);
-  --selection-color: #be243c;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
   --shadow-color-2: rgba(0,0,0,0.05);
   --shadow-hover-color: rgba(0,0,0,0.28);
@@ -23,7 +23,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
+  --archive-timeline-last-child-color: linear-gradient(to bottom, #e8e8e8 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -50,7 +50,7 @@
     --second-background-color: #fafafa;
     --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
-    --primary-color: #a31f34;
+    --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
@@ -58,7 +58,7 @@
     --default-text-color: #373d3f;
     --invert-text-color: #bebec6;
     --border-color: rgba(0,0,0,0.08);
-    --selection-color: #be243c;
+    --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
     --shadow-color-2: rgba(0,0,0,0.05);
     --shadow-hover-color: rgba(0,0,0,0.28);
@@ -69,7 +69,7 @@
     --copyright-info-color: #c03;
     --avatar-background-color: #06c;
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
+    --archive-timeline-last-child-color: linear-gradient(to bottom, #e8e8e8 60%, rgba(0,0,0,0) 100%) 1 100%;
     --note-blue-title-bg: #d6f7fb;
     --note-red-title-bg: #fde9e9;
     --note-cyan-title-bg: #e9fdf9;
@@ -97,7 +97,7 @@
     --second-background-color: #242529;
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
-    --primary-color: #a31f34;
+    --primary-color: #005080;
     --first-text-color: #d2d2d7;
     --second-text-color: #cbcbd1;
     --third-text-color: #9595a2;
@@ -105,7 +105,7 @@
     --default-text-color: #bebec6;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
-    --selection-color: #be243c;
+    --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
     --shadow-color-2: rgba(255,255,255,0.05);
     --shadow-hover-color: rgba(69,69,69,0.28);
@@ -116,7 +116,7 @@
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
-    --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
+    --archive-timeline-last-child-color: linear-gradient(to bottom, #323232 60%, rgba(255,255,255,0) 100%) 1 100%;
     --note-blue-title-bg: #1e3e46;
     --note-red-title-bg: #4e1e1e;
     --note-cyan-title-bg: #1e4e4e;
@@ -143,7 +143,7 @@
   --second-background-color: #fafafa;
   --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
-  --primary-color: #a31f34;
+  --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
@@ -151,7 +151,7 @@
   --default-text-color: #373d3f;
   --invert-text-color: #bebec6;
   --border-color: rgba(0,0,0,0.08);
-  --selection-color: #be243c;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
   --shadow-color-2: rgba(0,0,0,0.05);
   --shadow-hover-color: rgba(0,0,0,0.28);
@@ -162,7 +162,7 @@
   --copyright-info-color: #c03;
   --avatar-background-color: #06c;
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%) 1 100%;
+  --archive-timeline-last-child-color: linear-gradient(to bottom, #e8e8e8 60%, rgba(0,0,0,0) 100%) 1 100%;
   --note-blue-title-bg: #d6f7fb;
   --note-red-title-bg: #fde9e9;
   --note-cyan-title-bg: #e9fdf9;
@@ -188,7 +188,7 @@
   --second-background-color: #242529;
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
-  --primary-color: #a31f34;
+  --primary-color: #005080;
   --first-text-color: #d2d2d7;
   --second-text-color: #cbcbd1;
   --third-text-color: #9595a2;
@@ -196,7 +196,7 @@
   --default-text-color: #bebec6;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
-  --selection-color: #be243c;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
   --shadow-color-2: rgba(255,255,255,0.05);
   --shadow-hover-color: rgba(69,69,69,0.28);
@@ -207,7 +207,7 @@
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
-  --archive-timeline-last-child-color: linear-gradient(to bottom, rgba(180,180,180,0.3) 60%, rgba(255,255,255,0) 100%) 1 100%;
+  --archive-timeline-last-child-color: linear-gradient(to bottom, #323232 60%, rgba(255,255,255,0) 100%) 1 100%;
   --note-blue-title-bg: #1e3e46;
   --note-red-title-bg: #4e1e1e;
   --note-cyan-title-bg: #1e4e4e;
@@ -603,4 +603,16 @@
     left: 0 !important;
     display: none !important;
   }
+}
+@media (prefers-color-scheme: dark) {
+  .article-title img {
+    filter: brightness(0.7);
+    -webkit-filter: brightness(0.7);
+    transition: filter 0.3s ease;
+  }
+}
+.dark-mode .article-title img {
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+  transition: filter 0.3s ease;
 }
