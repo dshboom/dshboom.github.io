@@ -1,336 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【置顶】dshboom个人博客</title>
-    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
-<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
-<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
-<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
-<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
-                     
-                ></p>
-<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BB%8B%E7%BB%8D/photo-1675686773703-da33d8ac2c0d.webp"
-                     
-                ></p>
-<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
-  </entry>
-  <entry>
-    <title>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法</title>
-    <url>/2023/04/05/Arduino%E6%95%99%E7%A8%8B-(%E4%BA%8C)Arduino%E5%BC%80%E5%8F%91%E6%9D%BF%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p><em><strong>本文以Windows 7操作系统和Arduino UNO开发板为例，演示了安装Arduino UNO开发板驱动程序的一般方法，如果您的Arduino开发板无法识别串口，可以尝试以下方法。</strong></em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-ef34d66afca29707a5fcab2fde6621d4_720w.webp"
-                      alt="win7"
-                ></p>
-<h3 id="一、安装Arduino-IDE"><a href="#一、安装Arduino-IDE" class="headerlink" title="一、安装Arduino IDE"></a>一、安装Arduino IDE</h3><p>Arduino开发板的串口驱动程序一般包含在Arduino IDE安装目录下，要安装驱动程序，您需要先安装Arduino IDE。关于Arduino IDE的安装方法，您可以参考下列文章：</p>
-<a class="button  center large" href='https://dshboom.top/2023/03/25/arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85arduino%20ide/' title='Arduino教程 | (一)安装Arduino IDE 点击前往'>Arduino教程 | (一)安装Arduino IDE 点击前往</a>
-
-<p><em><strong>注：在安装过程中，请务必注意Arduino IDE程序的安装路径。</strong></em></p>
-<h3 id="二、更新Arduino开发板的串口驱动程序"><a href="#二、更新Arduino开发板的串口驱动程序" class="headerlink" title="二、更新Arduino开发板的串口驱动程序"></a>二、更新Arduino开发板的串口驱动程序</h3><p><strong>连接您的Arduino开发板</strong>，确保USB识别插入设备（没反应可能是数据线损坏），打开设备管理器界面（桌面右键计算机-&gt;管理-&gt;设备管理器）</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-80c51db8d6c5424a8de49bfce3348bfd_720w.webp"
-                      alt="Gl"
-                ></p>
-<p>打开设备管理器，您将会看到“未知设备”图标，右键该图标，点击“更新驱动程序”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-9242fc57890d27d436b1a3e2b570f6c6_720w.webp"
-                      alt="GX"
-                ></p>
-<p>点击“浏览计算机以查找驱动程序软件”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-d04c41039f18ca6ec8a6a3923607a880_720w.webp"
-                      alt="LL"
-                ></p>
-<p>填写您的Arduino IDE安装目录下的drivers文件地址，默认地址如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\arduino\drivers</span><br></pre></td></tr></table></figure></div>
-
-<p><em><strong>注：若您选择了其他安装位置，地址可能不同。</strong></em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-e3e3ee166d653ff777e64f8601d29a32_720w.webp"
-                      alt="AZ"
-                ></p>
-<p>点击“下一步”后，将会弹出以上界面，选择“始终信任”并点击“安装”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-deda4dc0c0b20920233bc1756e29ffc8_720w.webp"
-                      alt="CG"
-                ></p>
-<p><em><strong>出现上图界面代表您的驱动程序安装成功。</strong></em></p>
-<hr>
-<p>本文章同步发布到知乎，点击按钮前往⬇</p>
-<a class="button  center large" href='https://zhuanlan.zhihu.com/p/619548347' title='Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎'>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎</a>
-]]></content>
-      <tags>
-        <tag>Arduino</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
-    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E8%AF%86%E5%88%AB%E8%87%AA%E5%B7%B1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80%EF%BC%9F/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230405091045.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><h3 id="一、Windows系统"><a href="#一、Windows系统" class="headerlink" title="一、Windows系统"></a>一、Windows系统</h3><h4 id="1-命令行查询"><a href="#1-命令行查询" class="headerlink" title="1.命令行查询"></a>1.命令行查询</h4><p>使用win+R或搜索栏搜索”运行”以打开”运行”窗口</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230404233004.jpg"
-                      alt="打开运行"
-                ></p>
-<p>然后在输入框内输入cmd并回车打开命令提示符</p>
-<p><em>注：您也可以直接在搜索栏中搜索”cmd”打开。</em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-c83a87f4a4c1eeee3ce4fe3d1e87fd35_r.jpg"
-                      alt="cmd"
-                ></p>
-<p>在命令提示符中输入”ipconfig”，将会显示如下画面：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-8908192dddf8b7c1fc217600fe7c1ff1_720w.webp"
-                      alt="ip"
-                ></p>
-<p>图中箭头所指的”IPV4地址”即为您的内网IP地址。</p>
-<h4 id="2-“设置”查询"><a href="#2-“设置”查询" class="headerlink" title="2.“设置”查询"></a>2.“设置”查询</h4><p>您也可以通过设置来查看您的内网IP</p>
-<p>win+i呼出系统设置，以win11操作系统为例，会出现如下界面：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-6f3370953dd20c821ca6b47997c8c3d0_720w.webp"
-                      alt="设置"
-                ></p>
-<p>点击“网络和Internet”选项。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-78f36ca8aee65e7216519c24c300b34e_720w.webp"
-                      alt="internet"
-                ></p>
-<p>点击WLAN</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-f01553f4de8ff98861eb1a7fb84ca732_720w.webp"
-                      alt="WLAN"
-                ></p>
-<p>点击属性设置</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-cf94e86392cd436653982a68b202ba35_720w.webp"
-                      alt="sx"
-                ></p>
-<p>图中箭头所指的就是您的内网IP地址。</p>
-<h3 id="二、Linux系统"><a href="#二、Linux系统" class="headerlink" title="二、Linux系统"></a>二、Linux系统</h3><p>在Linux系统中，您可以使用终端查看自己的内网IP地址。以debian操作系统为例：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-94669fddd543c801ea61d7f43baac2c1_720w.webp"
-                      alt="debian"
-                ></p>
-<p>您可以通过输入”ip a”来查询自己的内网IP。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-04 23:50:22 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/593464067/answer/2968807117' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>网络</tag>
-        <tag>计算机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】如何在windows7的基础上在安装一个windows server 2012 r2？</title>
-    <url>/2023/04/04/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8windows7%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AAwindows%20server%202012%20r2/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E7%B3%BB%E7%BB%9F/QQ%E6%88%AA%E5%9B%BE20230404213633.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>​    <em><strong>在一个系统上安装另一个系统，您可以选择使用虚拟机软件或安装双系统。如果您需要同时使用两个系统，您可以选择虚拟机，如果您在一定时间内单独使用windows server 2012 r2操作系统，您可以考虑组建双系统。</strong></em></p>
-<h2 id="一、虚拟机软件"><a href="#一、虚拟机软件" class="headerlink" title="一、虚拟机软件"></a>一、虚拟机软件</h2><p>​    虚拟机软件可以模拟计算机环境，并提供与计算机硬件相同的功能。</p>
-<p>优点：<strong>可以同时使用主机操作系统和虚拟机操作系统</strong>，文件完全独立于主机；拥有快照功能，可随时恢复。</p>
-<p>缺点：主机性能无法完全发挥，<strong>损失硬件性能利用率</strong>。</p>
-<p>​    如果您希望了解有关VMware pro虚拟机软件安装相关的信息，您可以点击以下链接浏览我之前写过的文章。</p>
-<p><a class="link"   href="https://zhuanlan.zhihu.com/p/616883406" >VMware Workstation Pro 17虚拟机软件详细安装教程 &lt;— 点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>​    使用虚拟机软件安装系统，您通常需要使用该系统的ISO镜像文件，Windows Server 2012 R2的ISO文件ED2K地址如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_server_2012_x64_dvd_915588.iso|3826081792|6A56281311F9FE6973F66CF36E2F50BE|/</span><br></pre></td></tr></table></figure></div>
-
-<p><em><strong>注：该链接来自MSDN i tell you网站，<a class="link"   href="https://msdn.itellyou.cn/" >点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
-<h2 id="二、双系统"><a href="#二、双系统" class="headerlink" title="二、双系统"></a>二、双系统</h2><p>​    如果您没有同时使用两个系统的需求，您可以尝试使用双系统配置，在一台电脑上安装两个系统，在系统启动时选择您需要的系统。</p>
-<p>​    安装双系统可以ISO文件或PE引导的方式安装系统。需要注意的是，双系统要求您的系统拥有至少两个分区，鉴于数据存储与系统盘分开的原则，您的电脑最好拥有两个或以上的分区。如果您的电脑不满足该分区条件，您可以使用磁盘分区软件对磁盘进行分区操作<em><strong>（磁盘操作风险很大，没有经验不建议尝试，操作前务必备份重要文件）</strong></em>。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-04 21:35:13 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/347762620/answer/2968632547' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】用XP系统的电脑想升级用Windows10要更换什么硬件</title>
-    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E7%94%A8XP%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%B5%E8%84%91%E6%83%B3%E5%8D%87%E7%BA%A7%E7%94%A8Windows10%E8%A6%81%E6%9B%B4%E6%8D%A2%E4%BB%80%E4%B9%88%E7%A1%AC%E4%BB%B6/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/QQ%E6%88%AA%E5%9B%BE20230401192252.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>要回答这个问题，我们先查看一下巨硬官方给出的Windows 10最低配置要求：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/v2-facff6fd7f0bc754c972533d969a2485_720w.webp"
-                      alt="1"
-                ></p>
-<p><strong>如果您的配置达到或高于该要求，那么您可以考虑升级Windows 10系统。</strong>需要注意的是，如果您对系统运行流畅度有一定要求，不建议在刚刚达到要求的电脑上使用Windows 10系统。您可以选择购买更大的内存或使用固态硬盘来改善系统运行的流畅度。</p>
-<p>在为老机型选择Windows 10操作系统版本时，您还可以通过使用LTSC版本来降低内存和磁盘占用。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-03-25 17:10:52 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>”操作系统“</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
-    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BF%A1%E5%BF%B5%E6%94%AF%E6%92%91%E7%9D%80%E6%88%91%E4%BB%AC%E8%A6%81%E4%B8%8D%E6%96%AD%E5%8A%AA%E5%8A%9B%E6%8C%A3%E9%92%B1/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/QQ%E6%88%AA%E5%9B%BE20230401191111.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>在人类社会当中，当一个事物被需要的时候，那么该事物就产生了价值。</strong></em></p>
-<p>不断地获取资源是人与生俱来的本能。我们作为社会中的个体，面对由复杂的社会关系交织组成的人类社会时，希望通过提升自己的社会价值使自己拥有更多的社会资源。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-bc0fe4ebf8fb2f7e10f7481a8259d1b4_720w.webp"
-                      alt="1"
-                ></p>
-<p>而金钱是人类社会所广泛认同的价值之一，即金钱在一定程度上代表了社会地位，所以问题中的“赚钱”也就可以理解为对更高的人生价值和社会地位的追求。</p>
-<p><strong>但人类不能简单的抽象成一个逐利的生物，我们拥有思想情感和理想抱负。</strong>我们热爱自己真正热爱的领域，愿意为感兴趣的事务投入更多的时间和金钱；我们有自己的理想，会为了实现自己的理想而继续奋斗；我们有自己的信仰，会在信念的驱动力下跨步向前。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-01242efe003c7cc8d8c7bae02514ac2c_720w.webp"
-                      alt="2"
-                ></p>
-<p>但社会是现实的，想要做自己想做的事，需要更多的社会资源，不可避免地需要自己拥有更多的社会财富，也就是金钱。</p>
-<p>由此可见，<em><strong>“信念驱使，资源实现”</strong></em>，就是驱使一个人不断努力挣钱底层逻辑。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-03-25 14:43:09 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>人生观</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
-    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
-<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
-                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
-                >
-
-<p><em>图为Type B为Arduino UNO开发板供电</em></p>
-<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
-<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
-                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
-                >
-
-<p><em>图为手机电源适配器为Arduino供电</em></p>
-<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
-                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
-                >
-
-<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
-<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
-<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
-<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
-                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
-                >
-
-<p><em>图为使用VIN引脚为Arduiino供电</em></p>
-<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
-<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
-<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
-<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
-<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
-<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
-<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
-<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
-                      alt="某电商网站截图"
-                ></p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<a class="button  center large" href='https://www.zhihu.com/question/591611418/answer/2953835320' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>Arduino</tag>
-        <tag>知乎问答</tag>
-        <tag>电子技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Arduino教程 | (一)安装Arduino IDE</title>
     <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
     <content><![CDATA[<p>本篇教程介绍了Arduino IDE的下载、安装和基础设置。</p>
@@ -465,6 +135,139 @@
 <hr>
 <p>本文章同步发布到知乎，点击按钮前往⬇</p>
 <a class="button  center large" href='https://zhuanlan.zhihu.com/p/617017855' title='Arduino教程 | （一）安装Arduino IDE - 知乎'>Arduino教程 | （一）安装Arduino IDE - 知乎</a>
+]]></content>
+      <tags>
+        <tag>Arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
+    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
+<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
+                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
+                >
+
+<p><em>图为Type B为Arduino UNO开发板供电</em></p>
+<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
+<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
+                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
+                >
+
+<p><em>图为手机电源适配器为Arduino供电</em></p>
+<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
+                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
+                >
+
+<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
+<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
+<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
+<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
+                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
+                >
+
+<p><em>图为使用VIN引脚为Arduiino供电</em></p>
+<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
+<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
+<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
+<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
+<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
+<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
+<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
+<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
+                      alt="某电商网站截图"
+                ></p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<a class="button  center large" href='https://www.zhihu.com/question/591611418/answer/2953835320' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>Arduino</tag>
+        <tag>知乎问答</tag>
+        <tag>电子技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法</title>
+    <url>/2023/04/05/Arduino%E6%95%99%E7%A8%8B-(%E4%BA%8C)Arduino%E5%BC%80%E5%8F%91%E6%9D%BF%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p><em><strong>本文以Windows 7操作系统和Arduino UNO开发板为例，演示了安装Arduino UNO开发板驱动程序的一般方法，如果您的Arduino开发板无法识别串口，可以尝试以下方法。</strong></em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-ef34d66afca29707a5fcab2fde6621d4_720w.webp"
+                      alt="win7"
+                ></p>
+<h3 id="一、安装Arduino-IDE"><a href="#一、安装Arduino-IDE" class="headerlink" title="一、安装Arduino IDE"></a>一、安装Arduino IDE</h3><p>Arduino开发板的串口驱动程序一般包含在Arduino IDE安装目录下，要安装驱动程序，您需要先安装Arduino IDE。关于Arduino IDE的安装方法，您可以参考下列文章：</p>
+<a class="button  center large" href='https://dshboom.top/2023/03/25/arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85arduino%20ide/' title='Arduino教程 | (一)安装Arduino IDE 点击前往'>Arduino教程 | (一)安装Arduino IDE 点击前往</a>
+
+<p><em><strong>注：在安装过程中，请务必注意Arduino IDE程序的安装路径。</strong></em></p>
+<h3 id="二、更新Arduino开发板的串口驱动程序"><a href="#二、更新Arduino开发板的串口驱动程序" class="headerlink" title="二、更新Arduino开发板的串口驱动程序"></a>二、更新Arduino开发板的串口驱动程序</h3><p><strong>连接您的Arduino开发板</strong>，确保USB识别插入设备（没反应可能是数据线损坏），打开设备管理器界面（桌面右键计算机-&gt;管理-&gt;设备管理器）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-80c51db8d6c5424a8de49bfce3348bfd_720w.webp"
+                      alt="Gl"
+                ></p>
+<p>打开设备管理器，您将会看到“未知设备”图标，右键该图标，点击“更新驱动程序”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-9242fc57890d27d436b1a3e2b570f6c6_720w.webp"
+                      alt="GX"
+                ></p>
+<p>点击“浏览计算机以查找驱动程序软件”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-d04c41039f18ca6ec8a6a3923607a880_720w.webp"
+                      alt="LL"
+                ></p>
+<p>填写您的Arduino IDE安装目录下的drivers文件地址，默认地址如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\arduino\drivers</span><br></pre></td></tr></table></figure></div>
+
+<p><em><strong>注：若您选择了其他安装位置，地址可能不同。</strong></em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-e3e3ee166d653ff777e64f8601d29a32_720w.webp"
+                      alt="AZ"
+                ></p>
+<p>点击“下一步”后，将会弹出以上界面，选择“始终信任”并点击“安装”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-deda4dc0c0b20920233bc1756e29ffc8_720w.webp"
+                      alt="CG"
+                ></p>
+<p><em><strong>出现上图界面代表您的驱动程序安装成功。</strong></em></p>
+<hr>
+<p>本文章同步发布到知乎，点击按钮前往⬇</p>
+<a class="button  center large" href='https://zhuanlan.zhihu.com/p/619548347' title='Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎'>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎</a>
 ]]></content>
       <tags>
         <tag>Arduino</tag>
@@ -622,6 +425,28 @@
       </tags>
   </entry>
   <entry>
+    <title>【置顶】dshboom个人博客</title>
+    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
+<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
+<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
+<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
+<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                     
+                ></p>
+<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BB%8B%E7%BB%8D/photo-1675686773703-da33d8ac2c0d.webp"
+                     
+                ></p>
+<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
+  </entry>
+  <entry>
     <title>【日志】2023-03-18 小记</title>
     <url>/2023/03/18/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-03-18%20%E5%B0%8F%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><hr>
@@ -677,6 +502,181 @@
 ]]></content>
       <tags>
         <tag>网站日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】如何在windows7的基础上在安装一个windows server 2012 r2？</title>
+    <url>/2023/04/04/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8windows7%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AAwindows%20server%202012%20r2/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E7%B3%BB%E7%BB%9F/QQ%E6%88%AA%E5%9B%BE20230404213633.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>​    <em><strong>在一个系统上安装另一个系统，您可以选择使用虚拟机软件或安装双系统。如果您需要同时使用两个系统，您可以选择虚拟机，如果您在一定时间内单独使用windows server 2012 r2操作系统，您可以考虑组建双系统。</strong></em></p>
+<h2 id="一、虚拟机软件"><a href="#一、虚拟机软件" class="headerlink" title="一、虚拟机软件"></a>一、虚拟机软件</h2><p>​    虚拟机软件可以模拟计算机环境，并提供与计算机硬件相同的功能。</p>
+<p>优点：<strong>可以同时使用主机操作系统和虚拟机操作系统</strong>，文件完全独立于主机；拥有快照功能，可随时恢复。</p>
+<p>缺点：主机性能无法完全发挥，<strong>损失硬件性能利用率</strong>。</p>
+<p>​    如果您希望了解有关VMware pro虚拟机软件安装相关的信息，您可以点击以下链接浏览我之前写过的文章。</p>
+<p><a class="link"   href="https://zhuanlan.zhihu.com/p/616883406" >VMware Workstation Pro 17虚拟机软件详细安装教程 &lt;— 点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​    使用虚拟机软件安装系统，您通常需要使用该系统的ISO镜像文件，Windows Server 2012 R2的ISO文件ED2K地址如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_server_2012_x64_dvd_915588.iso|3826081792|6A56281311F9FE6973F66CF36E2F50BE|/</span><br></pre></td></tr></table></figure></div>
+
+<p><em><strong>注：该链接来自MSDN i tell you网站，<a class="link"   href="https://msdn.itellyou.cn/" >点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
+<h2 id="二、双系统"><a href="#二、双系统" class="headerlink" title="二、双系统"></a>二、双系统</h2><p>​    如果您没有同时使用两个系统的需求，您可以尝试使用双系统配置，在一台电脑上安装两个系统，在系统启动时选择您需要的系统。</p>
+<p>​    安装双系统可以ISO文件或PE引导的方式安装系统。需要注意的是，双系统要求您的系统拥有至少两个分区，鉴于数据存储与系统盘分开的原则，您的电脑最好拥有两个或以上的分区。如果您的电脑不满足该分区条件，您可以使用磁盘分区软件对磁盘进行分区操作<em><strong>（磁盘操作风险很大，没有经验不建议尝试，操作前务必备份重要文件）</strong></em>。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-04 21:35:13 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/347762620/answer/2968632547' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
+    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E8%AF%86%E5%88%AB%E8%87%AA%E5%B7%B1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80%EF%BC%9F/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230405091045.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><h3 id="一、Windows系统"><a href="#一、Windows系统" class="headerlink" title="一、Windows系统"></a>一、Windows系统</h3><h4 id="1-命令行查询"><a href="#1-命令行查询" class="headerlink" title="1.命令行查询"></a>1.命令行查询</h4><p>使用win+R或搜索栏搜索”运行”以打开”运行”窗口</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230404233004.jpg"
+                      alt="打开运行"
+                ></p>
+<p>然后在输入框内输入cmd并回车打开命令提示符</p>
+<p><em>注：您也可以直接在搜索栏中搜索”cmd”打开。</em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-c83a87f4a4c1eeee3ce4fe3d1e87fd35_r.jpg"
+                      alt="cmd"
+                ></p>
+<p>在命令提示符中输入”ipconfig”，将会显示如下画面：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-8908192dddf8b7c1fc217600fe7c1ff1_720w.webp"
+                      alt="ip"
+                ></p>
+<p>图中箭头所指的”IPV4地址”即为您的内网IP地址。</p>
+<h4 id="2-“设置”查询"><a href="#2-“设置”查询" class="headerlink" title="2.“设置”查询"></a>2.“设置”查询</h4><p>您也可以通过设置来查看您的内网IP</p>
+<p>win+i呼出系统设置，以win11操作系统为例，会出现如下界面：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-6f3370953dd20c821ca6b47997c8c3d0_720w.webp"
+                      alt="设置"
+                ></p>
+<p>点击“网络和Internet”选项。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-78f36ca8aee65e7216519c24c300b34e_720w.webp"
+                      alt="internet"
+                ></p>
+<p>点击WLAN</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-f01553f4de8ff98861eb1a7fb84ca732_720w.webp"
+                      alt="WLAN"
+                ></p>
+<p>点击属性设置</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-cf94e86392cd436653982a68b202ba35_720w.webp"
+                      alt="sx"
+                ></p>
+<p>图中箭头所指的就是您的内网IP地址。</p>
+<h3 id="二、Linux系统"><a href="#二、Linux系统" class="headerlink" title="二、Linux系统"></a>二、Linux系统</h3><p>在Linux系统中，您可以使用终端查看自己的内网IP地址。以debian操作系统为例：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-94669fddd543c801ea61d7f43baac2c1_720w.webp"
+                      alt="debian"
+                ></p>
+<p>您可以通过输入”ip a”来查询自己的内网IP。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-04 23:50:22 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/593464067/answer/2968807117' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
+    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BF%A1%E5%BF%B5%E6%94%AF%E6%92%91%E7%9D%80%E6%88%91%E4%BB%AC%E8%A6%81%E4%B8%8D%E6%96%AD%E5%8A%AA%E5%8A%9B%E6%8C%A3%E9%92%B1/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/QQ%E6%88%AA%E5%9B%BE20230401191111.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>在人类社会当中，当一个事物被需要的时候，那么该事物就产生了价值。</strong></em></p>
+<p>不断地获取资源是人与生俱来的本能。我们作为社会中的个体，面对由复杂的社会关系交织组成的人类社会时，希望通过提升自己的社会价值使自己拥有更多的社会资源。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-bc0fe4ebf8fb2f7e10f7481a8259d1b4_720w.webp"
+                      alt="1"
+                ></p>
+<p>而金钱是人类社会所广泛认同的价值之一，即金钱在一定程度上代表了社会地位，所以问题中的“赚钱”也就可以理解为对更高的人生价值和社会地位的追求。</p>
+<p><strong>但人类不能简单的抽象成一个逐利的生物，我们拥有思想情感和理想抱负。</strong>我们热爱自己真正热爱的领域，愿意为感兴趣的事务投入更多的时间和金钱；我们有自己的理想，会为了实现自己的理想而继续奋斗；我们有自己的信仰，会在信念的驱动力下跨步向前。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-01242efe003c7cc8d8c7bae02514ac2c_720w.webp"
+                      alt="2"
+                ></p>
+<p>但社会是现实的，想要做自己想做的事，需要更多的社会资源，不可避免地需要自己拥有更多的社会财富，也就是金钱。</p>
+<p>由此可见，<em><strong>“信念驱使，资源实现”</strong></em>，就是驱使一个人不断努力挣钱底层逻辑。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-03-25 14:43:09 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>人生观</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】用XP系统的电脑想升级用Windows10要更换什么硬件</title>
+    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E7%94%A8XP%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%B5%E8%84%91%E6%83%B3%E5%8D%87%E7%BA%A7%E7%94%A8Windows10%E8%A6%81%E6%9B%B4%E6%8D%A2%E4%BB%80%E4%B9%88%E7%A1%AC%E4%BB%B6/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/QQ%E6%88%AA%E5%9B%BE20230401192252.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>要回答这个问题，我们先查看一下巨硬官方给出的Windows 10最低配置要求：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/v2-facff6fd7f0bc754c972533d969a2485_720w.webp"
+                      alt="1"
+                ></p>
+<p><strong>如果您的配置达到或高于该要求，那么您可以考虑升级Windows 10系统。</strong>需要注意的是，如果您对系统运行流畅度有一定要求，不建议在刚刚达到要求的电脑上使用Windows 10系统。您可以选择购买更大的内存或使用固态硬盘来改善系统运行的流畅度。</p>
+<p>在为老机型选择Windows 10操作系统版本时，您还可以通过使用LTSC版本来降低内存和磁盘占用。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-03-25 17:10:52 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>”操作系统“</tag>
       </tags>
   </entry>
   <entry>

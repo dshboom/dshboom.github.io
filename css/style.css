@@ -7350,11 +7350,11 @@ pre .deletion {
 }
 .home-content-container {
   background: var(--background-color);
-  margin-left: 38px;
+  margin-right: 38px;
 }
 @media (max-width: 780px) {
   .home-content-container {
-    margin-left: 19px;
+    margin-right: 19px;
   }
 }
 .home-content-container .seo-reader-text {
