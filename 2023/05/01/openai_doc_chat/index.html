@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    <meta name="description" content="“人生如逆旅，我亦是行人”">
+    <meta name="author" content="dshboom">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-redefine.png">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://dshboom.top/2023/05/01/openai_doc_chat/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="&#x3D;&#x3D;本文章翻译自openai.com，由Edge浏览器网页翻译提供翻译服务，与原文有所差别，仅供学习交流！&#x3D;&#x3D; 文本了解如何生成或操作文本介绍完成终结点可用于各种任务。它为我们的任何模型提供了一个简单但功能强大的界面。您输入一些文本作为提示，模型将生成一个文本补全，尝试匹配您为其提供的任何上下文或模式。例如，如果你给 API 提示，“正如笛卡尔所说，我认为，因此”，它将以很高的概率返回完成“我是”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenAI官网关于问答的教程">
+<meta property="og:url" content="https://dshboom.top/2023/05/01/openai_doc_chat/index.html">
+<meta property="og:site_name" content="dshboom的个人博客">
+<meta property="og:description" content="&#x3D;&#x3D;本文章翻译自openai.com，由Edge浏览器网页翻译提供翻译服务，与原文有所差别，仅供学习交流！&#x3D;&#x3D; 文本了解如何生成或操作文本介绍完成终结点可用于各种任务。它为我们的任何模型提供了一个简单但功能强大的界面。您输入一些文本作为提示，模型将生成一个文本补全，尝试匹配您为其提供的任何上下文或模式。例如，如果你给 API 提示，“正如笛卡尔所说，我认为，因此”，它将以很高的概率返回完成“我是”">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-05-01T07:57:00.000Z">
+<meta property="article:modified_time" content="2023-05-01T07:59:43.836Z">
+<meta property="article:author" content="dshboom">
+<meta property="article:tag" content="翻译教程">
+<meta name="twitter:card" content="summary">
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#005080">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            OpenAI官网关于问答的教程 -
+        
+        dshboom blog site
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+            
+                
+                    <meta name="referrer" content="https://dshboom.top">
+                
+    
+            
+                
+                    <meta name="baidu-site-verification" content="codeva-PaQJbCFktp" />
+                
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"dshboom.top","root":"/","language":"zh-CN","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center"},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[""]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":false,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#005080","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":false,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true},"home_banner":{"enable":true,"image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"“人生如逆旅，我亦是行人”","subtitle":{"text":["做自己所热爱的事。","唯寂寞始能长保清醒，唯清醒始能永耐寂寞。","静水流深，平静致远。","小舟从此逝，江海寄余生。"],"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/dshboom","instagram":null,"zhihu":"https://www.zhihu.com/people/dshboom","twitter":"https://twitter.com/dshboom","email":"dshboom@outlook.com","qq":"https://i.328888.xyz/2023/03/05/GdZDC.md.jpeg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":true,"audios":[{"name":"Canon in D","artist":"Brian Crain","url":"http://music.163.com/song/media/outer/url?id=1091088.mp3","cover":"https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"},{"name":"Wild Sea","artist":"Roberto Cacciapaglia","url":"http://music.163.com/song/media/outer/url?id=18495509.mp3","cover":"https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/music/20220723001115870611.jpg"},{"name":"你从未离去","artist":"白挺","url":"http://music.163.com/song/media/outer/url?id=31365604.mp3","cover":"https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/music/20220210091901693720.jpg"},{"name":"In Love","artist":"July","url":"http://music.163.com/song/media/outer/url?id=26127161.mp3","cover":"https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/music/20181119051114709568.jpg"},{"name":"后会无期","artist":"G.E.M. 邓紫棋","url":"http://music.163.com/song/media/outer/url?id=28793502.mp3","cover":"http://p4.music.126.net/vpvPajo3kn88nHc7jUjeWQ==/5974746185758035.jpg"}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.1.0","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"日常":{"path":"/imageShare","icon":"fa-solid fa-image"},"讨论区":{"path":"/talk","icon":"fa-regular fa-keynote"}},"search":{"enable":true,"preload":true,"path":"search.json","field":"post","content":true,"format":"striptags"},"tags":{"Tags":{"icon":"fa-solid fa-tags","path":"/tags/"}}},"page_templates":{"friends_column":0,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","announcement":null,"links":{"讨论区":{"path":"/talk","icon":"fa-regular fa-keynote"},"日常":{"path":"/imageShare","icon":"fa-solid fa-image"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}}};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="main-content-container">
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                dshboom blog site
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/imageShare"  >
+                                    
+                                        
+                                            <i class="fa-solid fa-image"></i>
+                                        
+                                        日常
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/talk"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-keynote"></i>
+                                        
+                                        讨论区
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/imageShare"  >
+                             
+                                
+                                    <i class="fa-solid fa-image"></i>
+                                
+                                日常
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/talk"  >
+                             
+                                
+                                    <i class="fa-regular fa-keynote"></i>
+                                
+                                讨论区
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+            
+                <div class="article-title">
+                    <h1 class="article-title-regular">OpenAI官网关于问答的教程</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/redefine-avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">dshboom</span>
+                            
+                                <span class="author-label"></span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-05-01 15:57</span>
+        <span class="mobile">2023-05-01 15:57</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-05-01 15:59:43</span>
+            <span class="mobile">2023-05-01 15:59</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%BF%BB%E8%AF%91%E6%95%99%E7%A8%8B/">翻译教程</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>4.7k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>16 分钟</span>
+        </span>
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <p>==本文章翻译自openai.com，由Edge浏览器网页翻译提供翻译服务，与原文有所差别，仅供学习交流！==</p>
+<h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><h4 id="了解如何生成或操作文本"><a href="#了解如何生成或操作文本" class="headerlink" title="了解如何生成或操作文本"></a>了解如何生成或操作文本</h4><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>完成终结点可用于各种任务。它为我们的任何模型提供了一个简单但功能强大的界面。您输入一些文本作为提示，模型将生成一个文本补全，尝试匹配您为其提供的任何上下文或模式。例如，如果你给 API 提示，“正如笛卡尔所说，我认为，因此”，它将以很高的概率返回完成“我是”。</p>
+<p>开始探索完井的最佳方式是通过我们的游乐场。它只是一个文本框，您可以在其中提交提示以生成完成。您可以从如下所示的示例开始：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">为冰淇淋店写一个标语。</span><br></pre></td></tr></table></figure></div>
+
+<p>提交后，您将看到如下所示的内容：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">为冰淇淋店写一个标语。我们用每一勺提供微笑！</span><br></pre></td></tr></table></figure></div>
+
+<p>您看到的实际完成情况可能会有所不同，因为默认情况下 API 是不确定的。这意味着每次调用它时，即使提示保持不变，您也可能得到略有不同的完成。将温度设置为 0 将使输出大部分具有确定性，但可能会保留少量可变性。</p>
+<p>这个简单的文本输入、文本输出界面意味着您可以通过提供说明或仅提供您希望它做什么的几个示例来“编程”模型。它的成功通常取决于任务的复杂性和提示的质量。一个好的经验法则是考虑如何为中学生写一个单词问题来解决。编写良好的提示为模型提供了足够的信息，以便了解您想要什么以及它应该如何响应。</p>
+<p>本指南涵盖一般提示设计最佳实践和示例。要了解有关使用我们的 Codex 模型处理代码的更多信息，请访问我们的代码指南。</p>
+<blockquote>
+<p>请记住，默认模型的训练数据在 2021 年中断，因此它们可能不了解当前事件。我们计划在未来增加更多的持续培训。</p>
+</blockquote>
+<h2 id="提示设计"><a href="#提示设计" class="headerlink" title="提示设计"></a>提示设计</h2><h3 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h3><p>我们的模型可以做任何事情，从生成原始故事到执行复杂的文本分析。因为他们可以做很多事情，所以你必须明确描述你想要什么。展示，而不仅仅是讲述，通常是良好提示的秘诀。</p>
+<h5 id="创建提示有三个基本准则："><a href="#创建提示有三个基本准则：" class="headerlink" title="创建提示有三个基本准则："></a>创建提示有三个基本准则：</h5><ol>
+<li><strong>展示和讲述</strong>。通过说明、示例或两者的组合来明确您想要什么。如果希望模型按字母顺序对项目列表进行排名或按情绪对段落进行分类，请显示这是您想要的。</li>
+<li><strong>提供高质量的数据</strong>。如果尝试生成分类器或让模型遵循模式，请确保有足够的示例。一定要校对你的例子——这个模型通常足够聪明，可以看穿基本的拼写错误并给你一个响应，但它也可能认为这是故意的，它可能会影响响应。</li>
+<li><strong>检查您的设置</strong>。温度和top_p设置控制模型在生成响应时的确定性。如果你要求它给出只有一个正确答案的答案，那么你需要把这些设置得更低。如果您正在寻找更多样化的响应，那么您可能希望将它们设置得更高。人们使用这些设置的第一个错误是假设它们是“聪明”或“创造力”控件。</li>
+</ol>
+<h3 id="故障-排除"><a href="#故障-排除" class="headerlink" title="故障 排除"></a>故障 排除</h3><h5 id="如果在使-API-按预期执行时遇到问题，请按照以下清单操作："><a href="#如果在使-API-按预期执行时遇到问题，请按照以下清单操作：" class="headerlink" title="如果在使 API 按预期执行时遇到问题，请按照以下清单操作："></a>如果在使 API 按预期执行时遇到问题，请按照以下清单操作：</h5><ol>
+<li><p>是否清楚预期的一代应该是什么？</p>
+</li>
+<li><p>有足够的例子吗？</p>
+</li>
+<li><p>您是否检查过您的示例是否有错误？（API 不会直接告诉你）</p>
+</li>
+<li><p>是否正确使用温度和top_p？</p>
+</li>
+</ol>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>为了使用 API 创建文本分类器，我们提供了任务的描述和一些示例。在此示例中，我们展示了如何对推文的情绪进行分类。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">确定推文的情绪是积极的、中立的还是消极的。</span><br><span class="line">推特：我喜欢新的蝙蝠侠电影！</span><br><span class="line">情绪：</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="在这个例子中，值得关注的几个功能："><a href="#在这个例子中，值得关注的几个功能：" class="headerlink" title="在这个例子中，值得关注的几个功能："></a>在这个例子中，值得关注的几个功能：</h5><ol>
+<li><strong>使用简单的语言来描述您的输入和输出</strong>。我们使用简单的语言输入“推文”和预期的输出“情绪”。最佳做法是，从简单的语言描述开始。虽然您通常可以使用速记或键来指示输入和输出，但最好从尽可能具有描述性开始，然后向后工作以删除多余的单词，看看性能是否保持一致。</li>
+<li><strong>向 API 展示如何响应任何案例</strong>。在此示例中，我们在指令中包含可能的情绪标签。中性标签很重要，因为在许多情况下，即使是人类也很难确定某事是积极的还是消极的，而在这种情况下，它两者都不是。</li>
+<li><strong>对于熟悉的任务，您需要更少的示例</strong>。对于此分类器，我们不提供任何示例。这是因为 API 已经了解了情绪和推文的概念。如果要为 API 可能不熟悉的内容构建分类器，则可能需要提供更多示例。</li>
+</ol>
+<h4 id="提高分类器的效率"><a href="#提高分类器的效率" class="headerlink" title="提高分类器的效率"></a>提高分类器的效率</h4><p>现在我们已经掌握了如何构建分类器，让我们以这个例子为例，使其更加高效，以便我们可以使用它从一个 API 调用中获取多个结果。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">对这些推文中的情绪进行分类：</span><br><span class="line"></span><br><span class="line">1.“我受不了作业”</span><br><span class="line">2.“这很糟糕。我很无聊😠”</span><br><span class="line">3.“我等不及万圣节了!!!”</span><br><span class="line">4.“我的猫很可爱❤️❤️”</span><br><span class="line">5.“我讨厌巧克力”</span><br><span class="line"></span><br><span class="line">推文情绪评级：</span><br></pre></td></tr></table></figure></div>
+
+<p>我们提供了一个带编号的推文列表，因此 API 可以在一次 API 调用中对五条（甚至更多）推文进行评级。</p>
+<p><strong>请务必注意，当您要求 API 创建列表或评估文本时，您需要特别注意概率设置（Top P 或温度）以避免漂移。</strong></p>
+<ol>
+<li><p>确保通过运行多个测试正确校准概率设置。</p>
+</li>
+<li><p>不要让你的列表太长，否则 API 可能会漂移。</p>
+</li>
+</ol>
+<h3 id="代写"><a href="#代写" class="headerlink" title="代写"></a>代写</h3><p>使用 API 可以完成的最强大但最简单的任务之一是生成新的想法或输入版本。你可以要求任何东西，从故事创意到商业计划，到角色描述和营销口号。在此示例中，我们将使用 API 创建在健身中使用虚拟现实的想法。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">集思广益，结合VR和健身的一些想法：</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>如果需要，您可以通过在提示中包含一些示例来提高响应的质量。</strong></p>
+<h3 id="谈话"><a href="#谈话" class="headerlink" title="谈话"></a>谈话</h3><p>该 API 非常擅长与人类甚至自身进行对话。只需几行指令，我们就看到 API 可以作为客户服务聊天机器人执行，它可以智能地回答问题而不会感到慌乱，或者是一个明智的对话伙伴，可以开玩笑和双关语。关键是告诉 API 它应该如何运行，然后提供一些示例。</p>
+<p>下面是 API 扮演 AI 回答问题的角色的示例：</p>
+<p><strong>以下是与AI助手的对话。助手乐于助人，富有创造力，聪明且非常友好。</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">人类：你好，你是谁？</span><br><span class="line"></span><br><span class="line">AI：我是OpenAI创造的AI。今天我能帮你什么？</span><br><span class="line">人：</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>这就是创建一个能够进行对话的聊天机器人所需要的一切。在它的简单性之下，有几件事值得关注：</strong></p>
+<ol>
+<li><strong>我们告诉 API 意图，但我们也告诉它如何行为</strong>。就像其他提示一样，我们将 API 提示到示例所代表的内容，但我们还添加了另一个关键细节：我们向它提供了有关如何与短语“助手乐于助人、富有创造力、聪明且非常友好”进行交互的明确说明。</li>
+<li><strong>如果没有该指令，API 可能会偏离并模仿与之交互的人，并变得讽刺或我们想要避免的其他行为。</strong></li>
+<li><strong>我们给 API 一个标识</strong>。一开始，我们让 API 作为 AI 助手进行响应。虽然 API 没有固有标识，但这有助于它以尽可能接近事实的方式进行响应。您可以通过其他方式使用身份来创建其他类型的聊天机器人。如果你告诉API作为一个在生物学领域担任研究科学家的女性做出回应，你会从API得到聪明而深思熟虑的评论，类似于你对具有这种背景的人的期望。</li>
+</ol>
+<p><strong>在这个例子中，我们创建了一个有点讽刺的聊天机器人，它不情愿地回答问题：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Marv 是一个聊天机器人，它不情愿地用讽刺的回答来回答问题：</span><br><span class="line"></span><br><span class="line">你：一公斤是多少磅？</span><br><span class="line">马夫：又是这个？一公斤有 2.2 磅。请注意这一点。</span><br><span class="line">你：HTML代表什么？</span><br><span class="line">Marv：谷歌太忙了吗？超文本标记语言。T代表将来尝试提出更好的问题。</span><br><span class="line">你：第一架飞机是什么时候飞的？</span><br><span class="line">Marv：17年1903月&lt;&gt;日，威尔伯和奥维尔·赖特进行了首次飞行。我希望他们来把我带走。</span><br><span class="line">你：生命的意义是什么？</span><br><span class="line">马夫：我不确定。我会问我的朋友谷歌。</span><br><span class="line">你：为什么天空是蓝色的？</span><br></pre></td></tr></table></figure></div>
+
+<p>为了创建一个有趣且有点有用的聊天机器人，我们提供了一些问题和答案示例，展示了 API 如何回复。只需要几个讽刺的响应，API 就能够拾取模式并提供无穷无尽的尖刻响应。</p>
+<h3 id="转型"><a href="#转型" class="headerlink" title="转型"></a>转型</h3><p>API 是一种语言模型，它熟悉单词和字符可用于表达信息的各种方式。范围从自然语言文本到代码和英语以外的语言。API 还能够在允许它以不同方式总结、转换和表达内容的级别上理解内容。</p>
+<h4 id="译本"><a href="#译本" class="headerlink" title="译本"></a>译本</h4><p><strong>在此示例中，我们向 API 展示了如何将英语转换为法语、西班牙语和日语：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">将其翻译成法语、西班牙语和日语：</span><br><span class="line"></span><br><span class="line">你们有哪些房间？</span><br></pre></td></tr></table></figure></div>
+
+<p>此示例之所以有效，是因为 API 已经掌握了这些语言，因此无需尝试教授它们。</p>
+<p>如果你想从英语翻译成API不熟悉的语言，你需要为它提供更多的例子，甚至微调一个模型来流利地做到这一点。</p>
+<h3 id="转换"><a href="#转换" class="headerlink" title="转换"></a>转换</h3><p>在此示例中，我们将电影名称转换为表情符号。这显示了 API 对拾取模式和处理其他字符的适应性。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">将电影标题转换为表情符号。</span><br><span class="line"></span><br><span class="line">回到未来： 👨👴🚗🕒</span><br><span class="line">蝙蝠侠： 🤵🦇</span><br><span class="line">变形金刚： 🚗🤖</span><br><span class="line">星球大战：</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h3><p><strong>API 能够掌握文本的上下文并以不同的方式改写它。在这个例子中，我们创建了一个解释，一个孩子可以从更长、更复杂的文本段落中理解。这说明 API 对语言有深入的掌握。</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">总结一下二年级学生：</span><br><span class="line"></span><br><span class="line">木星是距离太阳的第五颗行星，也是太阳系中最大的行星。它是一颗气态巨行星，质量是太阳的千分之一，但是太阳系中所有其他行星总和的两倍半。木星是夜空中肉眼可见的最亮的天体之一，早在有记载的历史之前就为古代文明所知。它以罗马神木星命名。[19]从地球上看，木星的亮度足以使其反射光投射出可见的阴影，[20]并且平均是夜空中仅次于月球和金星的第三亮自然物体。</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>虽然所有提示都会导致完成，但在您希望 API 从上次中断的地方继续的情况下，将文本完成视为自己的任务可能会很有帮助。例如，如果给出此提示，API 将继续思考垂直农业。您可以降低温度设置以使 API 更专注于提示的意图，也可以提高温度设置以使其偏离正切线。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">垂直农业为在当地生产粮食、降低运输成本和</span><br></pre></td></tr></table></figure></div>
+
+<p>下一个提示显示了如何使用完成来帮助编写 React 组件。我们向 API 发送一些代码，它能够继续其余的代码，因为它了解 React 库。我们建议将我们的 Codex 模型用于涉及理解或生成代码的任务。要了解更多信息，请访问我们的代码指南。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">从“反应”导入反应;</span><br><span class="line">const 标头组件 = （） =&gt; （</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="事实答复"><a href="#事实答复" class="headerlink" title="事实答复"></a>事实答复</h3><p>API 有很多知识，它是从训练它的数据中学习的。它还能够提供听起来非常真实但实际上是编造的响应。有<strong>两种方法可以限制 API 组成答案的可能性。</strong></p>
+<ol>
+<li><strong>为 API 提供基本事实</strong>。如果您向 API 提供文本正文来回答有关（如维基百科条目）的问题，则不太可能虚构响应。</li>
+<li><strong>使用低概率并向 API 展示如何说“我不知道”</strong>。如果 API 明白，在不太确定响应的情况下，说“我不知道”或某些变体是合适的，那么它就不太倾向于编造答案。</li>
+</ol>
+<p>在此示例中，我们向 API 提供它知道的问题和答案的示例，然后提供它不知道的事情的示例并提供问号。我们还将概率设置为零，以便 API 更有可能在有任何疑问时响应“？”。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">问：蝙蝠侠是谁？</span><br><span class="line">答：蝙蝠侠是一个虚构的漫画人物。</span><br><span class="line"></span><br><span class="line">问：什么是扭转力？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：什么是 Devz9？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：乔治·卢卡斯是谁？</span><br><span class="line">答：乔治·卢卡斯是美国电影导演和制片人，以创作《星球大战》而闻名。</span><br><span class="line"></span><br><span class="line">问：加州的首府是什么？</span><br><span class="line">答：萨克拉门托。</span><br><span class="line"></span><br><span class="line">问：什么绕地球运行？</span><br><span class="line">答：月亮。</span><br><span class="line"></span><br><span class="line">问：弗雷德·里克森是谁？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：什么是原子？</span><br><span class="line">答：原子是构成一切的微小粒子。</span><br><span class="line"></span><br><span class="line">问：阿尔万·蒙茨是谁？</span><br><span class="line">一个：？</span><br><span class="line">问：什么是Kozar-09？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：火星有多少颗卫星？</span><br><span class="line">答：两个，火卫一和火卫一。</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="插入文本试用版"><a href="#插入文本试用版" class="headerlink" title="插入文本试用版"></a>插入文本<del>试用版</del></h3><p>完成终结点还支持通过在前缀提示之外提供后缀提示来在文本中插入文本。在编写长篇文本、段落之间过渡、遵循大纲或引导模型走向结尾时，自然会出现这种需求。这也适用于代码，可用于插入函数或文件的中间。请访问我们的代码指南以了解更多信息。</p>
+<p>为了说明后缀上下文对我们的预测能力有多重要，请考虑提示，“今天我决定做出重大改变。人们可以通过多种方式想象完成句子。但是，如果我们现在提供故事的结局：“我的新头发得到了很多赞美！”，预期的完成就变得清晰了。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我在波士顿大学上大学。获得学位后，我决定做出改变。“一个很大的变化！   我收拾好行李，搬到了美国西海岸。”   现在，我对太平洋的了解实在是太好了！</span><br></pre></td></tr></table></figure></div>
+
+
+
+<p>通过为模型提供额外的上下文，它可以更具可操纵性。但是，对于模型来说，这是一项更具限制和挑战性的任务。</p>
+<h3 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h3><p>插入文本是测试版中的一项新功能，您可能需要修改使用 API 的方式以获得更好的结果。以下是一些最佳做法：</p>
+<p><strong>使用 max_tokens &gt; 256</strong>。该模型更擅长插入较长的完成项。如果max_tokens太小，模型可能会在连接到后缀之前被切断。请注意，即使使用较大的max_tokens，也只需为生成的代币数量付费。</p>
+<p><strong>更喜欢finish_reason==“停止”</strong>。当模型到达自然停止点或用户提供的停止序列时，它将finish_reason设置为“停止”。这表明模型已成功连接到后缀，并且是完成质量的良好信号。这对于在使用 n &gt; 1 或重新采样时在几个完成之间进行选择尤其重要（请参阅下一点）。</p>
+<p><strong>重新采样 3-5 次</strong>。虽然几乎所有完成都连接到前缀，但在更困难的情况下，模型可能难以连接后缀。我们发现，在这种情况下，重新采样 3 或 5 次（或使用 k=3，5 的 best_of）并选择以“停止”作为其finish_reason的样本可能是一种有效的方法。在重新采样时，您通常需要更高的温度来增加多样性。</p>
+<p>注意：如果所有返回的示例都有 finish_reason == “length”，则可能是max_tokens太小并且模型在设法自然连接提示和后缀之前耗尽了令牌。考虑在重新采样前增加max_tokens。</p>
+<p><strong>尝试提供更多线索</strong>。在某些情况下，为了更好地帮助模型的生成，您可以通过提供一些模型可以遵循的模式示例来提供线索，以决定停止的自然位置。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">如何制作美味的热巧克力：</span><br><span class="line">\1. 烧开水 2.将热巧克力放入杯中 3.在杯子中加入开水 4.享受热巧克力</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\1. 狗是忠诚的动物。</span><br><span class="line"></span><br><span class="line">2.狮子是凶猛的动物。</span><br><span class="line"></span><br><span class="line">\3. 海豚是爱玩的动物。4.马是雄伟的动物。</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="润色文本"><a href="#润色文本" class="headerlink" title="润色文本"></a>润色文本</h3><p>编辑端点可用于编辑文本，而不仅仅是完成文本。您提供一些文本和有关如何修改它的说明，模型将尝试相应地对其进行编辑。这是用于翻译、编辑和调整文本的自然界面。这对于重构和使用代码也很有用。请访问我们的代码指南以了解更多信息。在此初始测试期内，编辑端点的使用是免费的。</p>
+<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><h5 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">GPT-3 是一个非常好的人工智能</span><br><span class="line">这很擅长写回复</span><br><span class="line">当有人提问时</span><br><span class="line">它给出了建议</span><br><span class="line">这是一首押韵的诗</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="指示"><a href="#指示" class="headerlink" title="指示"></a>指示</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">以 GPT-3 的声音制作这个</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">我是一个非常好的人工智能</span><br><span class="line">我很擅长写回复</span><br><span class="line">当我被问到一个问题时</span><br><span class="line">我给出我的建议</span><br><span class="line">这是我做的一首押韵的诗</span><br></pre></td></tr></table></figure></div>
+
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E7%BF%BB%E8%AF%91%E6%95%99%E7%A8%8B/">#翻译教程</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/04/21/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-04-21%20%E5%B0%8F%E8%AE%B0/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">【日志】2023-04-21 小记</span>
+                                    <span class="post-nav-item">下一篇</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+
+            
+                <div class="comment-container">
+                    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;评论
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-pjax>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://weline.dshboom.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">OpenAI官网关于问答的教程</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E6%9C%AC"><span class="nav-text">文本</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="nav-text">介绍</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8F%90%E7%A4%BA%E8%AE%BE%E8%AE%A1"><span class="nav-text">提示设计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC"><span class="nav-text">基本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%85%E9%9A%9C-%E6%8E%92%E9%99%A4"><span class="nav-text">故障 排除</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E7%B1%BB"><span class="nav-text">分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E5%86%99"><span class="nav-text">代写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B0%88%E8%AF%9D"><span class="nav-text">谈话</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E5%9E%8B"><span class="nav-text">转型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E6%8D%A2"><span class="nav-text">转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%BC%E8%BF%B0"><span class="nav-text">综述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%93%E5%B0%BE"><span class="nav-text">结尾</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8B%E5%AE%9E%E7%AD%94%E5%A4%8D"><span class="nav-text">事实答复</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC%E8%AF%95%E7%94%A8%E7%89%88"><span class="nav-text">插入文本试用版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="nav-text">最佳实践</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B6%A6%E8%89%B2%E6%96%87%E6%9C%AC"><span class="nav-text">润色文本</span></a></li></ol></li></ol></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">dshboom</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
+                <br>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.1.0</a>
+        </div>
+        
+        
+        
+            <div id="start_div" style="display:none">
+                2023/3/5 9:35:00
+            </div>
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/navbarShrink.js"></script>
+
+<script src="/js/tools/scrollTopBottom.js"></script>
+
+<script src="/js/tools/lightDarkSwitch.js"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/tocToggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            Global.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            Global.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            Global.refresh();
+        });
+    });
+</script>
+
+
+
+
+    <div id="aplayer"></div>
+
+<script src="/js/libs/APlayer.min.js"></script>
+
+
+<script src="/js/plugins/aplayer.js"></script>
+
+
+</body>
+</html>

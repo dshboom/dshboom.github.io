@@ -1,6 +1,619 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【置顶】dshboom个人博客</title>
+    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
+<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
+<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
+<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
+<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                     
+                ></p>
+<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BB%8B%E7%BB%8D/photo-1675686773703-da33d8ac2c0d.webp"
+                     
+                ></p>
+<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
+  </entry>
+  <entry>
+    <title>OpenAI官网关于问答的教程</title>
+    <url>/2023/05/01/openai_doc_chat/</url>
+    <content><![CDATA[<p>==本文章翻译自openai.com，由Edge浏览器网页翻译提供翻译服务，与原文有所差别，仅供学习交流！==</p>
+<h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><h4 id="了解如何生成或操作文本"><a href="#了解如何生成或操作文本" class="headerlink" title="了解如何生成或操作文本"></a>了解如何生成或操作文本</h4><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>完成终结点可用于各种任务。它为我们的任何模型提供了一个简单但功能强大的界面。您输入一些文本作为提示，模型将生成一个文本补全，尝试匹配您为其提供的任何上下文或模式。例如，如果你给 API 提示，“正如笛卡尔所说，我认为，因此”，它将以很高的概率返回完成“我是”。</p>
+<p>开始探索完井的最佳方式是通过我们的游乐场。它只是一个文本框，您可以在其中提交提示以生成完成。您可以从如下所示的示例开始：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">为冰淇淋店写一个标语。</span><br></pre></td></tr></table></figure></div>
+
+<p>提交后，您将看到如下所示的内容：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">为冰淇淋店写一个标语。我们用每一勺提供微笑！</span><br></pre></td></tr></table></figure></div>
+
+<p>您看到的实际完成情况可能会有所不同，因为默认情况下 API 是不确定的。这意味着每次调用它时，即使提示保持不变，您也可能得到略有不同的完成。将温度设置为 0 将使输出大部分具有确定性，但可能会保留少量可变性。</p>
+<p>这个简单的文本输入、文本输出界面意味着您可以通过提供说明或仅提供您希望它做什么的几个示例来“编程”模型。它的成功通常取决于任务的复杂性和提示的质量。一个好的经验法则是考虑如何为中学生写一个单词问题来解决。编写良好的提示为模型提供了足够的信息，以便了解您想要什么以及它应该如何响应。</p>
+<p>本指南涵盖一般提示设计最佳实践和示例。要了解有关使用我们的 Codex 模型处理代码的更多信息，请访问我们的代码指南。</p>
+<blockquote>
+<p>请记住，默认模型的训练数据在 2021 年中断，因此它们可能不了解当前事件。我们计划在未来增加更多的持续培训。</p>
+</blockquote>
+<h2 id="提示设计"><a href="#提示设计" class="headerlink" title="提示设计"></a>提示设计</h2><h3 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h3><p>我们的模型可以做任何事情，从生成原始故事到执行复杂的文本分析。因为他们可以做很多事情，所以你必须明确描述你想要什么。展示，而不仅仅是讲述，通常是良好提示的秘诀。</p>
+<h5 id="创建提示有三个基本准则："><a href="#创建提示有三个基本准则：" class="headerlink" title="创建提示有三个基本准则："></a>创建提示有三个基本准则：</h5><ol>
+<li><strong>展示和讲述</strong>。通过说明、示例或两者的组合来明确您想要什么。如果希望模型按字母顺序对项目列表进行排名或按情绪对段落进行分类，请显示这是您想要的。</li>
+<li><strong>提供高质量的数据</strong>。如果尝试生成分类器或让模型遵循模式，请确保有足够的示例。一定要校对你的例子——这个模型通常足够聪明，可以看穿基本的拼写错误并给你一个响应，但它也可能认为这是故意的，它可能会影响响应。</li>
+<li><strong>检查您的设置</strong>。温度和top_p设置控制模型在生成响应时的确定性。如果你要求它给出只有一个正确答案的答案，那么你需要把这些设置得更低。如果您正在寻找更多样化的响应，那么您可能希望将它们设置得更高。人们使用这些设置的第一个错误是假设它们是“聪明”或“创造力”控件。</li>
+</ol>
+<h3 id="故障-排除"><a href="#故障-排除" class="headerlink" title="故障 排除"></a>故障 排除</h3><h5 id="如果在使-API-按预期执行时遇到问题，请按照以下清单操作："><a href="#如果在使-API-按预期执行时遇到问题，请按照以下清单操作：" class="headerlink" title="如果在使 API 按预期执行时遇到问题，请按照以下清单操作："></a>如果在使 API 按预期执行时遇到问题，请按照以下清单操作：</h5><ol>
+<li><p>是否清楚预期的一代应该是什么？</p>
+</li>
+<li><p>有足够的例子吗？</p>
+</li>
+<li><p>您是否检查过您的示例是否有错误？（API 不会直接告诉你）</p>
+</li>
+<li><p>是否正确使用温度和top_p？</p>
+</li>
+</ol>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>为了使用 API 创建文本分类器，我们提供了任务的描述和一些示例。在此示例中，我们展示了如何对推文的情绪进行分类。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">确定推文的情绪是积极的、中立的还是消极的。</span><br><span class="line">推特：我喜欢新的蝙蝠侠电影！</span><br><span class="line">情绪：</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="在这个例子中，值得关注的几个功能："><a href="#在这个例子中，值得关注的几个功能：" class="headerlink" title="在这个例子中，值得关注的几个功能："></a>在这个例子中，值得关注的几个功能：</h5><ol>
+<li><strong>使用简单的语言来描述您的输入和输出</strong>。我们使用简单的语言输入“推文”和预期的输出“情绪”。最佳做法是，从简单的语言描述开始。虽然您通常可以使用速记或键来指示输入和输出，但最好从尽可能具有描述性开始，然后向后工作以删除多余的单词，看看性能是否保持一致。</li>
+<li><strong>向 API 展示如何响应任何案例</strong>。在此示例中，我们在指令中包含可能的情绪标签。中性标签很重要，因为在许多情况下，即使是人类也很难确定某事是积极的还是消极的，而在这种情况下，它两者都不是。</li>
+<li><strong>对于熟悉的任务，您需要更少的示例</strong>。对于此分类器，我们不提供任何示例。这是因为 API 已经了解了情绪和推文的概念。如果要为 API 可能不熟悉的内容构建分类器，则可能需要提供更多示例。</li>
+</ol>
+<h4 id="提高分类器的效率"><a href="#提高分类器的效率" class="headerlink" title="提高分类器的效率"></a>提高分类器的效率</h4><p>现在我们已经掌握了如何构建分类器，让我们以这个例子为例，使其更加高效，以便我们可以使用它从一个 API 调用中获取多个结果。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">对这些推文中的情绪进行分类：</span><br><span class="line"></span><br><span class="line">1.“我受不了作业”</span><br><span class="line">2.“这很糟糕。我很无聊😠”</span><br><span class="line">3.“我等不及万圣节了!!!”</span><br><span class="line">4.“我的猫很可爱❤️❤️”</span><br><span class="line">5.“我讨厌巧克力”</span><br><span class="line"></span><br><span class="line">推文情绪评级：</span><br></pre></td></tr></table></figure></div>
+
+<p>我们提供了一个带编号的推文列表，因此 API 可以在一次 API 调用中对五条（甚至更多）推文进行评级。</p>
+<p><strong>请务必注意，当您要求 API 创建列表或评估文本时，您需要特别注意概率设置（Top P 或温度）以避免漂移。</strong></p>
+<ol>
+<li><p>确保通过运行多个测试正确校准概率设置。</p>
+</li>
+<li><p>不要让你的列表太长，否则 API 可能会漂移。</p>
+</li>
+</ol>
+<h3 id="代写"><a href="#代写" class="headerlink" title="代写"></a>代写</h3><p>使用 API 可以完成的最强大但最简单的任务之一是生成新的想法或输入版本。你可以要求任何东西，从故事创意到商业计划，到角色描述和营销口号。在此示例中，我们将使用 API 创建在健身中使用虚拟现实的想法。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">集思广益，结合VR和健身的一些想法：</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>如果需要，您可以通过在提示中包含一些示例来提高响应的质量。</strong></p>
+<h3 id="谈话"><a href="#谈话" class="headerlink" title="谈话"></a>谈话</h3><p>该 API 非常擅长与人类甚至自身进行对话。只需几行指令，我们就看到 API 可以作为客户服务聊天机器人执行，它可以智能地回答问题而不会感到慌乱，或者是一个明智的对话伙伴，可以开玩笑和双关语。关键是告诉 API 它应该如何运行，然后提供一些示例。</p>
+<p>下面是 API 扮演 AI 回答问题的角色的示例：</p>
+<p><strong>以下是与AI助手的对话。助手乐于助人，富有创造力，聪明且非常友好。</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">人类：你好，你是谁？</span><br><span class="line"></span><br><span class="line">AI：我是OpenAI创造的AI。今天我能帮你什么？</span><br><span class="line">人：</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>这就是创建一个能够进行对话的聊天机器人所需要的一切。在它的简单性之下，有几件事值得关注：</strong></p>
+<ol>
+<li><strong>我们告诉 API 意图，但我们也告诉它如何行为</strong>。就像其他提示一样，我们将 API 提示到示例所代表的内容，但我们还添加了另一个关键细节：我们向它提供了有关如何与短语“助手乐于助人、富有创造力、聪明且非常友好”进行交互的明确说明。</li>
+<li><strong>如果没有该指令，API 可能会偏离并模仿与之交互的人，并变得讽刺或我们想要避免的其他行为。</strong></li>
+<li><strong>我们给 API 一个标识</strong>。一开始，我们让 API 作为 AI 助手进行响应。虽然 API 没有固有标识，但这有助于它以尽可能接近事实的方式进行响应。您可以通过其他方式使用身份来创建其他类型的聊天机器人。如果你告诉API作为一个在生物学领域担任研究科学家的女性做出回应，你会从API得到聪明而深思熟虑的评论，类似于你对具有这种背景的人的期望。</li>
+</ol>
+<p><strong>在这个例子中，我们创建了一个有点讽刺的聊天机器人，它不情愿地回答问题：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Marv 是一个聊天机器人，它不情愿地用讽刺的回答来回答问题：</span><br><span class="line"></span><br><span class="line">你：一公斤是多少磅？</span><br><span class="line">马夫：又是这个？一公斤有 2.2 磅。请注意这一点。</span><br><span class="line">你：HTML代表什么？</span><br><span class="line">Marv：谷歌太忙了吗？超文本标记语言。T代表将来尝试提出更好的问题。</span><br><span class="line">你：第一架飞机是什么时候飞的？</span><br><span class="line">Marv：17年1903月&lt;&gt;日，威尔伯和奥维尔·赖特进行了首次飞行。我希望他们来把我带走。</span><br><span class="line">你：生命的意义是什么？</span><br><span class="line">马夫：我不确定。我会问我的朋友谷歌。</span><br><span class="line">你：为什么天空是蓝色的？</span><br></pre></td></tr></table></figure></div>
+
+<p>为了创建一个有趣且有点有用的聊天机器人，我们提供了一些问题和答案示例，展示了 API 如何回复。只需要几个讽刺的响应，API 就能够拾取模式并提供无穷无尽的尖刻响应。</p>
+<h3 id="转型"><a href="#转型" class="headerlink" title="转型"></a>转型</h3><p>API 是一种语言模型，它熟悉单词和字符可用于表达信息的各种方式。范围从自然语言文本到代码和英语以外的语言。API 还能够在允许它以不同方式总结、转换和表达内容的级别上理解内容。</p>
+<h4 id="译本"><a href="#译本" class="headerlink" title="译本"></a>译本</h4><p><strong>在此示例中，我们向 API 展示了如何将英语转换为法语、西班牙语和日语：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">将其翻译成法语、西班牙语和日语：</span><br><span class="line"></span><br><span class="line">你们有哪些房间？</span><br></pre></td></tr></table></figure></div>
+
+<p>此示例之所以有效，是因为 API 已经掌握了这些语言，因此无需尝试教授它们。</p>
+<p>如果你想从英语翻译成API不熟悉的语言，你需要为它提供更多的例子，甚至微调一个模型来流利地做到这一点。</p>
+<h3 id="转换"><a href="#转换" class="headerlink" title="转换"></a>转换</h3><p>在此示例中，我们将电影名称转换为表情符号。这显示了 API 对拾取模式和处理其他字符的适应性。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">将电影标题转换为表情符号。</span><br><span class="line"></span><br><span class="line">回到未来： 👨👴🚗🕒</span><br><span class="line">蝙蝠侠： 🤵🦇</span><br><span class="line">变形金刚： 🚗🤖</span><br><span class="line">星球大战：</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h3><p><strong>API 能够掌握文本的上下文并以不同的方式改写它。在这个例子中，我们创建了一个解释，一个孩子可以从更长、更复杂的文本段落中理解。这说明 API 对语言有深入的掌握。</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">总结一下二年级学生：</span><br><span class="line"></span><br><span class="line">木星是距离太阳的第五颗行星，也是太阳系中最大的行星。它是一颗气态巨行星，质量是太阳的千分之一，但是太阳系中所有其他行星总和的两倍半。木星是夜空中肉眼可见的最亮的天体之一，早在有记载的历史之前就为古代文明所知。它以罗马神木星命名。[19]从地球上看，木星的亮度足以使其反射光投射出可见的阴影，[20]并且平均是夜空中仅次于月球和金星的第三亮自然物体。</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>虽然所有提示都会导致完成，但在您希望 API 从上次中断的地方继续的情况下，将文本完成视为自己的任务可能会很有帮助。例如，如果给出此提示，API 将继续思考垂直农业。您可以降低温度设置以使 API 更专注于提示的意图，也可以提高温度设置以使其偏离正切线。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">垂直农业为在当地生产粮食、降低运输成本和</span><br></pre></td></tr></table></figure></div>
+
+<p>下一个提示显示了如何使用完成来帮助编写 React 组件。我们向 API 发送一些代码，它能够继续其余的代码，因为它了解 React 库。我们建议将我们的 Codex 模型用于涉及理解或生成代码的任务。要了解更多信息，请访问我们的代码指南。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">从“反应”导入反应;</span><br><span class="line">const 标头组件 = （） =&gt; （</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="事实答复"><a href="#事实答复" class="headerlink" title="事实答复"></a>事实答复</h3><p>API 有很多知识，它是从训练它的数据中学习的。它还能够提供听起来非常真实但实际上是编造的响应。有<strong>两种方法可以限制 API 组成答案的可能性。</strong></p>
+<ol>
+<li><strong>为 API 提供基本事实</strong>。如果您向 API 提供文本正文来回答有关（如维基百科条目）的问题，则不太可能虚构响应。</li>
+<li><strong>使用低概率并向 API 展示如何说“我不知道”</strong>。如果 API 明白，在不太确定响应的情况下，说“我不知道”或某些变体是合适的，那么它就不太倾向于编造答案。</li>
+</ol>
+<p>在此示例中，我们向 API 提供它知道的问题和答案的示例，然后提供它不知道的事情的示例并提供问号。我们还将概率设置为零，以便 API 更有可能在有任何疑问时响应“？”。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">问：蝙蝠侠是谁？</span><br><span class="line">答：蝙蝠侠是一个虚构的漫画人物。</span><br><span class="line"></span><br><span class="line">问：什么是扭转力？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：什么是 Devz9？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：乔治·卢卡斯是谁？</span><br><span class="line">答：乔治·卢卡斯是美国电影导演和制片人，以创作《星球大战》而闻名。</span><br><span class="line"></span><br><span class="line">问：加州的首府是什么？</span><br><span class="line">答：萨克拉门托。</span><br><span class="line"></span><br><span class="line">问：什么绕地球运行？</span><br><span class="line">答：月亮。</span><br><span class="line"></span><br><span class="line">问：弗雷德·里克森是谁？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：什么是原子？</span><br><span class="line">答：原子是构成一切的微小粒子。</span><br><span class="line"></span><br><span class="line">问：阿尔万·蒙茨是谁？</span><br><span class="line">一个：？</span><br><span class="line">问：什么是Kozar-09？</span><br><span class="line">一个：？</span><br><span class="line"></span><br><span class="line">问：火星有多少颗卫星？</span><br><span class="line">答：两个，火卫一和火卫一。</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="插入文本试用版"><a href="#插入文本试用版" class="headerlink" title="插入文本试用版"></a>插入文本<del>试用版</del></h3><p>完成终结点还支持通过在前缀提示之外提供后缀提示来在文本中插入文本。在编写长篇文本、段落之间过渡、遵循大纲或引导模型走向结尾时，自然会出现这种需求。这也适用于代码，可用于插入函数或文件的中间。请访问我们的代码指南以了解更多信息。</p>
+<p>为了说明后缀上下文对我们的预测能力有多重要，请考虑提示，“今天我决定做出重大改变。人们可以通过多种方式想象完成句子。但是，如果我们现在提供故事的结局：“我的新头发得到了很多赞美！”，预期的完成就变得清晰了。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">我在波士顿大学上大学。获得学位后，我决定做出改变。“一个很大的变化！   我收拾好行李，搬到了美国西海岸。”   现在，我对太平洋的了解实在是太好了！</span><br></pre></td></tr></table></figure></div>
+
+
+
+<p>通过为模型提供额外的上下文，它可以更具可操纵性。但是，对于模型来说，这是一项更具限制和挑战性的任务。</p>
+<h3 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h3><p>插入文本是测试版中的一项新功能，您可能需要修改使用 API 的方式以获得更好的结果。以下是一些最佳做法：</p>
+<p><strong>使用 max_tokens &gt; 256</strong>。该模型更擅长插入较长的完成项。如果max_tokens太小，模型可能会在连接到后缀之前被切断。请注意，即使使用较大的max_tokens，也只需为生成的代币数量付费。</p>
+<p><strong>更喜欢finish_reason==“停止”</strong>。当模型到达自然停止点或用户提供的停止序列时，它将finish_reason设置为“停止”。这表明模型已成功连接到后缀，并且是完成质量的良好信号。这对于在使用 n &gt; 1 或重新采样时在几个完成之间进行选择尤其重要（请参阅下一点）。</p>
+<p><strong>重新采样 3-5 次</strong>。虽然几乎所有完成都连接到前缀，但在更困难的情况下，模型可能难以连接后缀。我们发现，在这种情况下，重新采样 3 或 5 次（或使用 k=3，5 的 best_of）并选择以“停止”作为其finish_reason的样本可能是一种有效的方法。在重新采样时，您通常需要更高的温度来增加多样性。</p>
+<p>注意：如果所有返回的示例都有 finish_reason == “length”，则可能是max_tokens太小并且模型在设法自然连接提示和后缀之前耗尽了令牌。考虑在重新采样前增加max_tokens。</p>
+<p><strong>尝试提供更多线索</strong>。在某些情况下，为了更好地帮助模型的生成，您可以通过提供一些模型可以遵循的模式示例来提供线索，以决定停止的自然位置。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">如何制作美味的热巧克力：</span><br><span class="line">\1. 烧开水 2.将热巧克力放入杯中 3.在杯子中加入开水 4.享受热巧克力</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">\1. 狗是忠诚的动物。</span><br><span class="line"></span><br><span class="line">2.狮子是凶猛的动物。</span><br><span class="line"></span><br><span class="line">\3. 海豚是爱玩的动物。4.马是雄伟的动物。</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="润色文本"><a href="#润色文本" class="headerlink" title="润色文本"></a>润色文本</h3><p>编辑端点可用于编辑文本，而不仅仅是完成文本。您提供一些文本和有关如何修改它的说明，模型将尝试相应地对其进行编辑。这是用于翻译、编辑和调整文本的自然界面。这对于重构和使用代码也很有用。请访问我们的代码指南以了解更多信息。在此初始测试期内，编辑端点的使用是免费的。</p>
+<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><h5 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">GPT-3 是一个非常好的人工智能</span><br><span class="line">这很擅长写回复</span><br><span class="line">当有人提问时</span><br><span class="line">它给出了建议</span><br><span class="line">这是一首押韵的诗</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="指示"><a href="#指示" class="headerlink" title="指示"></a>指示</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">以 GPT-3 的声音制作这个</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h5><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">我是一个非常好的人工智能</span><br><span class="line">我很擅长写回复</span><br><span class="line">当我被问到一个问题时</span><br><span class="line">我给出我的建议</span><br><span class="line">这是我做的一首押韵的诗</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <tags>
+        <tag>翻译教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【日志】2023-04-21 小记</title>
+    <url>/2023/04/21/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-04-21%20%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><p>最近有些忙，以至于博客的日志已经好久没有更新了。<br>关注我博客评论区的朋友应该可以发现，早在</p>
+<hr>
+<p>发布时间：<em>2023-04-21 7:46</em></p>
+<hr>
+]]></content>
+      <tags>
+        <tag>网站日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】arduino渐变灯控制？</title>
+    <url>/2023/04/15/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91arduino%E6%B8%90%E5%8F%98%E7%81%AF%E6%8E%A7%E5%88%B6%EF%BC%9F/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%B8%90%E5%8F%98%E7%81%AF/QQ%E6%88%AA%E5%9B%BE20230415141607.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>本回答介绍了如何通过Arduino程序控制Arduino开发板实现LED灯在由暗到亮到暗的过程中的任意时刻按下开关熄灭LED灯。</strong></em></p>
+<p>根据题主提出的问题，分析得到两个目标：</p>
+<ul>
+<li><strong>小灯在由亮到暗循环显示。</strong></li>
+<li><strong>任意时刻按开关熄灭灯。</strong></li>
+</ul>
+<p><strong>对于这两个目标，我们可以通过Arduino中的内置函数analogWrite()和digitalRead()来实现。</strong></p>
+<p>可以在循环中检测开关是否按下，如果按下，则将灯的状态设为 OFF，并在下一次循环中将灯的状态更新为当前亮度。</p>
+<p>下面是一个简单的示例代码，演示如何使用按钮状态判断来实现这个功能：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> LED_PIN = <span class="number">9</span>;      <span class="comment">// 定义LED的引脚号</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> SWITCH_PIN = <span class="number">2</span>;   <span class="comment">// 定义开关的引脚号</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> brightness = <span class="number">0</span>;         <span class="comment">// 当前灯的亮度</span></span><br><span class="line">boolean turn_off = <span class="literal">false</span>;   <span class="comment">// 是否需要关闭灯</span></span><br><span class="line"><span class="type">int</span> buttonState = <span class="number">0</span>;        <span class="comment">// 开关状态</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(LED_PIN, OUTPUT);    <span class="comment">// 将LED引脚设为输出模式</span></span><br><span class="line">  <span class="built_in">pinMode</span>(SWITCH_PIN, INPUT_PULLUP);  <span class="comment">// 将开关引脚设为输入模式</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  buttonState = <span class="built_in">digitalRead</span>(SWITCH_PIN);</span><br><span class="line">  <span class="keyword">if</span> (buttonState == LOW) &#123;</span><br><span class="line">    turn_off = <span class="literal">true</span>;  <span class="comment">// 关闭灯</span></span><br><span class="line">    brightness = <span class="number">0</span>;   <span class="comment">// 设置亮度为0</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (!turn_off) &#123;</span><br><span class="line">    <span class="comment">// 逐渐增加亮度</span></span><br><span class="line">    brightness += <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">if</span> (brightness &gt; <span class="number">255</span>) &#123;</span><br><span class="line">      brightness = <span class="number">255</span>;</span><br><span class="line">      turn_off = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="comment">// 逐渐降低亮度</span></span><br><span class="line">    brightness -= <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">if</span> (brightness &lt; <span class="number">0</span>) &#123;</span><br><span class="line">      brightness = <span class="number">0</span>;</span><br><span class="line">      turn_off = <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">analogWrite</span>(LED_PIN, brightness);  <span class="comment">// 设置灯的亮度</span></span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">10</span>);                         <span class="comment">// 延时等待</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-15 23:44:00 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/595537748/answer/2984153598' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>Arduino</tag>
+        <tag>知乎问答</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arduino教程 | （三）通过电位器控制 LED 灯</title>
+    <url>/2023/04/15/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%89)%E9%80%9A%E8%BF%87%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6%20LED%20%E7%81%AF/</url>
+    <content><![CDATA[<p><em><strong>本文实现了使用Arduino UNO开发板实现电位器控制LED灯，以下是具体教程。</strong></em></p>
+<p><strong>我们可以把实现步骤分为两部分。第一，获取电位器输入信息；第二，输出PWM波控制LED灯。</strong></p>
+<p><em>下面我以Arduino UNO、50k电位器和绿光LED灯演示如何使用Arduino开发板控制LED灯。</em></p>
+<h3 id="一、读取电位器数据"><a href="#一、读取电位器数据" class="headerlink" title="一、读取电位器数据"></a>一、读取电位器数据</h3><p>在Arduino中，您可以使用内置函数analogRead()来读取模拟输入引脚的电压输入信号。</p>
+<p>以Arduino UNO开发板为例，A0-A5引脚是开发板的模拟输入引脚。该函数的返回值范围是0-1023。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-ef1e91db9cc7edf90bbb8c406252c235_720w.png"
+                      alt="1"
+                ></p>
+<p>您可以使用以下代码来用串口输出电位器的电压信号。</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">// 初始化串口通讯</span></span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>); </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">// 读取模拟输入引脚A0的输入信号</span></span><br><span class="line">  <span class="type">int</span> signal = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">  <span class="comment">// 通过串口发送给电脑 </span></span><br><span class="line">  Serial.<span class="built_in">println</span>(signal); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-b4560a8acc53291d2cd5ef39dc3142d4_720w.png"
+                      alt="2"
+                ></p>
+<p>通过上图的硬件连接和软件程序，您可以实现通过Arduino开发板读取电位器数据并发送到电脑串口上。</p>
+<p>以下是程序输出结果：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/QQ%E5%BD%95%E5%B1%8F20230414202124.gif"
+                      alt="4"
+                ></p>
+<h3 id="二、控制LED灯"><a href="#二、控制LED灯" class="headerlink" title="二、控制LED灯"></a>二、控制LED灯</h3><p><strong>要使用Arduino控制LED亮度，可以采用以下步骤：</strong></p>
+<ol>
+<li>连接硬件：将一个LED连接到Arduino板上的数字引脚上，正极连接到数字引脚，负极连接到地。</li>
+<li>编写代码：使用Arduino内置函数analogWrite()，范围是0~255。</li>
+</ol>
+<p>以下代码演示了如何用Arduino开发板实现呼吸灯：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> ledPin = <span class="number">9</span>; <span class="comment">//LED连接到数字引脚9上</span></span><br><span class="line"><span class="type">int</span> brightness = <span class="number">0</span>; <span class="comment">//初始亮度为0</span></span><br><span class="line"><span class="type">int</span> fadeAmount = <span class="number">5</span>; <span class="comment">//渐变速度</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(ledPin, OUTPUT); <span class="comment">//设置数字引脚9为输出</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">analogWrite</span>(ledPin, brightness); <span class="comment">//写入亮度值到LED</span></span><br><span class="line">  brightness = brightness + fadeAmount; <span class="comment">//增加亮度值</span></span><br><span class="line">  <span class="keyword">if</span> (brightness == <span class="number">0</span> || brightness == <span class="number">255</span>) &#123; <span class="comment">//如果亮度值达到最大或最小值，改变渐变方向</span></span><br><span class="line">    fadeAmount = -fadeAmount;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">30</span>); <span class="comment">//等待30毫秒</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>您可以这样连接Arduino开发板硬件：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-ac32be7274d00e2f3615d6c199f17943_720w.png"
+                      alt="3"
+                ></p>
+<h3 id="三、映射函数map"><a href="#三、映射函数map" class="headerlink" title="三、映射函数map()"></a>三、映射函数map()</h3><p>对比analogRead()和analogWrite()函数，我们可以发现，analogRead()函数的输出值为0-1023，而analogWrite()函数的输入范围是0-255。为了将读取到的电位器数据传输到analogWrite()函数中，我们需要使用map()函数等比映射变量范围。</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">map</span> (x, in_min, in_max, out_min, out_max)</span><br><span class="line"><span class="comment">// 参数</span></span><br><span class="line"><span class="comment">// x： 要映射的值</span></span><br><span class="line"><span class="comment">// in_min： 映射前区间最小值</span></span><br><span class="line"><span class="comment">// in_max： 映射前区间最大值</span></span><br><span class="line"><span class="comment">// out_min： 映射后区间最小值</span></span><br><span class="line"><span class="comment">// out_max 映射后区间最大值</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="四、整合方案，实现功能"><a href="#四、整合方案，实现功能" class="headerlink" title="四、整合方案，实现功能"></a>四、整合方案，实现功能</h3><p><em><strong>以上文本介绍了如何使用Arduino开发板读取电位器数据和控制LED灯，将以上功能整合，即可达到本文所需要的效果。</strong></em></p>
+<p>连接硬件：连接旋转式电位器和 OLED 灯到 Arduino 板上。电路图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-5177bd6560b2ca199bf8f4672615b6d8_720w.png"
+                      alt="4"
+                ></p>
+<ol>
+<li>在 Arduino IDE 中编写代码，读取旋转式电位器的值。</li>
+<li>将读取的值映射到 OLED 灯的亮度范围内。</li>
+<li>将映射后的值发送到 OLED 灯，以控制其亮度。</li>
+</ol>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> potPin = A0;  <span class="comment">// 电位器连接到 A0 引脚</span></span><br><span class="line"><span class="type">int</span> ledPin = <span class="number">9</span>;   <span class="comment">// OLED 灯连接到 9 号引脚</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(ledPin, OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> potValue = <span class="built_in">analogRead</span>(potPin);  <span class="comment">// 读取电位器的值</span></span><br><span class="line">  <span class="type">int</span> brightness = <span class="built_in">map</span>(potValue, <span class="number">0</span>, <span class="number">1023</span>, <span class="number">0</span>, <span class="number">255</span>);  <span class="comment">// 将值映射到亮度范围内</span></span><br><span class="line">  <span class="built_in">analogWrite</span>(ledPin, brightness);  <span class="comment">// 发送映射后的值到 OLED 灯</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>将以上代码烧录到您的Arduino开发板中，即可实现通过旋转式电位器控制 LED 灯的功能。</strong></p>
+<hr>
+<p>本文章同步发布到知乎，点击按钮前往⬇</p>
+<a class="button  center large" href='https://zhuanlan.zhihu.com/p/622029652' title='Arduino教程 | （三）通过电位器控制 LED 灯 - 知乎'>Arduino教程 | （三）通过电位器控制 LED 灯 - 知乎</a>
+]]></content>
+      <tags>
+        <tag>Arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法</title>
+    <url>/2023/04/05/Arduino%E6%95%99%E7%A8%8B-(%E4%BA%8C)Arduino%E5%BC%80%E5%8F%91%E6%9D%BF%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p><em><strong>本文以Windows 7操作系统和Arduino UNO开发板为例，演示了安装Arduino UNO开发板驱动程序的一般方法，如果您的Arduino开发板无法识别串口，可以尝试以下方法。</strong></em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-ef34d66afca29707a5fcab2fde6621d4_720w.webp"
+                      alt="win7"
+                ></p>
+<h3 id="一、安装Arduino-IDE"><a href="#一、安装Arduino-IDE" class="headerlink" title="一、安装Arduino IDE"></a>一、安装Arduino IDE</h3><p>Arduino开发板的串口驱动程序一般包含在Arduino IDE安装目录下，要安装驱动程序，您需要先安装Arduino IDE。关于Arduino IDE的安装方法，您可以参考下列文章：</p>
+<a class="button  center large" href='https://dshboom.top/2023/03/25/arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85arduino%20ide/' title='Arduino教程 | (一)安装Arduino IDE 点击前往'>Arduino教程 | (一)安装Arduino IDE 点击前往</a>
+
+<p><em><strong>注：在安装过程中，请务必注意Arduino IDE程序的安装路径。</strong></em></p>
+<h3 id="二、更新Arduino开发板的串口驱动程序"><a href="#二、更新Arduino开发板的串口驱动程序" class="headerlink" title="二、更新Arduino开发板的串口驱动程序"></a>二、更新Arduino开发板的串口驱动程序</h3><p><strong>连接您的Arduino开发板</strong>，确保USB识别插入设备（没反应可能是数据线损坏），打开设备管理器界面（桌面右键计算机-&gt;管理-&gt;设备管理器）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-80c51db8d6c5424a8de49bfce3348bfd_720w.webp"
+                      alt="Gl"
+                ></p>
+<p>打开设备管理器，您将会看到“未知设备”图标，右键该图标，点击“更新驱动程序”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-9242fc57890d27d436b1a3e2b570f6c6_720w.webp"
+                      alt="GX"
+                ></p>
+<p>点击“浏览计算机以查找驱动程序软件”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-d04c41039f18ca6ec8a6a3923607a880_720w.webp"
+                      alt="LL"
+                ></p>
+<p>填写您的Arduino IDE安装目录下的drivers文件地址，默认地址如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\arduino\drivers</span><br></pre></td></tr></table></figure></div>
+
+<p><em><strong>注：若您选择了其他安装位置，地址可能不同。</strong></em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-e3e3ee166d653ff777e64f8601d29a32_720w.webp"
+                      alt="AZ"
+                ></p>
+<p>点击“下一步”后，将会弹出以上界面，选择“始终信任”并点击“安装”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-deda4dc0c0b20920233bc1756e29ffc8_720w.webp"
+                      alt="CG"
+                ></p>
+<p><em><strong>出现上图界面代表您的驱动程序安装成功。</strong></em></p>
+<hr>
+<p>本文章同步发布到知乎，点击按钮前往⬇</p>
+<a class="button  center large" href='https://zhuanlan.zhihu.com/p/619548347' title='Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎'>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎</a>
+]]></content>
+      <tags>
+        <tag>Arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】如何在 C 语言中实现条件判断和循环？</title>
+    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8%20C%20%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF%EF%BC%9F/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/C%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD%E5%BE%AA%E7%8E%AF/QQ%E6%88%AA%E5%9B%BE20230415094332.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><strong>在 C 语言中，可以使用以下几个关键字实现条件判断和循环：</strong></p>
+<ul>
+<li>if/else 语句：用于条件判断，如果条件满足，则执行 if 后面的语句，否则执行 else 后面的语句。例如：</li>
+</ul>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span> (a &gt; <span class="number">5</span>) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;a比5大\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;a比5小\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>switch/case 语句：用于多条件判断，根据表达式的值，执行相应的语句块。例如：</li>
+</ul>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> grade = <span class="number">85</span>;</span><br><span class="line">	<span class="keyword">switch</span> (grade) </span><br><span class="line">	&#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">90</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Excellent!\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">80</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Good!\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">70</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Average\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">60</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Pass\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">default</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Fail\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>while/do-while 语句：用于循环执行一段代码，只要条件满足，就会一直执行。while 循环先判断条件再执行，do-while 循环先执行一次再判断条件。例如：</li>
+</ul>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (i &lt; <span class="number">10</span>) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, i);</span><br><span class="line">      i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">do</span> </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, j);</span><br><span class="line">      j++;</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">while</span> (j &lt; <span class="number">10</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>for 语句：用于循环执行一段代码，可指定循环次数和循环变量的初始值和增量。例如：</li>
+</ul>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p><em><strong>以上是 C 语言中常用的条件判断和循环语句，它们可以组合使用，实现更复杂的程序逻辑。</strong></em></p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-14 21:27:00 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/595537748/answer/2984153598' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】如何识别自己计算机的内网地址？</title>
+    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E8%AF%86%E5%88%AB%E8%87%AA%E5%B7%B1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80%EF%BC%9F/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230405091045.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><h3 id="一、Windows系统"><a href="#一、Windows系统" class="headerlink" title="一、Windows系统"></a>一、Windows系统</h3><h4 id="1-命令行查询"><a href="#1-命令行查询" class="headerlink" title="1.命令行查询"></a>1.命令行查询</h4><p>使用win+R或搜索栏搜索”运行”以打开”运行”窗口</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230404233004.jpg"
+                      alt="打开运行"
+                ></p>
+<p>然后在输入框内输入cmd并回车打开命令提示符</p>
+<p><em>注：您也可以直接在搜索栏中搜索”cmd”打开。</em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-c83a87f4a4c1eeee3ce4fe3d1e87fd35_r.jpg"
+                      alt="cmd"
+                ></p>
+<p>在命令提示符中输入”ipconfig”，将会显示如下画面：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-8908192dddf8b7c1fc217600fe7c1ff1_720w.webp"
+                      alt="ip"
+                ></p>
+<p>图中箭头所指的”IPV4地址”即为您的内网IP地址。</p>
+<h4 id="2-“设置”查询"><a href="#2-“设置”查询" class="headerlink" title="2.“设置”查询"></a>2.“设置”查询</h4><p>您也可以通过设置来查看您的内网IP</p>
+<p>win+i呼出系统设置，以win11操作系统为例，会出现如下界面：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-6f3370953dd20c821ca6b47997c8c3d0_720w.webp"
+                      alt="设置"
+                ></p>
+<p>点击“网络和Internet”选项。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-78f36ca8aee65e7216519c24c300b34e_720w.webp"
+                      alt="internet"
+                ></p>
+<p>点击WLAN</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-f01553f4de8ff98861eb1a7fb84ca732_720w.webp"
+                      alt="WLAN"
+                ></p>
+<p>点击属性设置</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-cf94e86392cd436653982a68b202ba35_720w.webp"
+                      alt="sx"
+                ></p>
+<p>图中箭头所指的就是您的内网IP地址。</p>
+<h3 id="二、Linux系统"><a href="#二、Linux系统" class="headerlink" title="二、Linux系统"></a>二、Linux系统</h3><p>在Linux系统中，您可以使用终端查看自己的内网IP地址。以debian操作系统为例：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-94669fddd543c801ea61d7f43baac2c1_720w.webp"
+                      alt="debian"
+                ></p>
+<p>您可以通过输入”ip a”来查询自己的内网IP。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-04 23:50:22 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/593464067/answer/2968807117' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】如何在windows7的基础上在安装一个windows server 2012 r2？</title>
+    <url>/2023/04/04/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8windows7%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AAwindows%20server%202012%20r2/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E7%B3%BB%E7%BB%9F/QQ%E6%88%AA%E5%9B%BE20230404213633.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>​    <em><strong>在一个系统上安装另一个系统，您可以选择使用虚拟机软件或安装双系统。如果您需要同时使用两个系统，您可以选择虚拟机，如果您在一定时间内单独使用windows server 2012 r2操作系统，您可以考虑组建双系统。</strong></em></p>
+<h2 id="一、虚拟机软件"><a href="#一、虚拟机软件" class="headerlink" title="一、虚拟机软件"></a>一、虚拟机软件</h2><p>​    虚拟机软件可以模拟计算机环境，并提供与计算机硬件相同的功能。</p>
+<p>优点：<strong>可以同时使用主机操作系统和虚拟机操作系统</strong>，文件完全独立于主机；拥有快照功能，可随时恢复。</p>
+<p>缺点：主机性能无法完全发挥，<strong>损失硬件性能利用率</strong>。</p>
+<p>​    如果您希望了解有关VMware pro虚拟机软件安装相关的信息，您可以点击以下链接浏览我之前写过的文章。</p>
+<p><a class="link"   href="https://zhuanlan.zhihu.com/p/616883406" >VMware Workstation Pro 17虚拟机软件详细安装教程 &lt;— 点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​    使用虚拟机软件安装系统，您通常需要使用该系统的ISO镜像文件，Windows Server 2012 R2的ISO文件ED2K地址如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_server_2012_x64_dvd_915588.iso|3826081792|6A56281311F9FE6973F66CF36E2F50BE|/</span><br></pre></td></tr></table></figure></div>
+
+<p><em><strong>注：该链接来自MSDN i tell you网站，<a class="link"   href="https://msdn.itellyou.cn/" >点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
+<h2 id="二、双系统"><a href="#二、双系统" class="headerlink" title="二、双系统"></a>二、双系统</h2><p>​    如果您没有同时使用两个系统的需求，您可以尝试使用双系统配置，在一台电脑上安装两个系统，在系统启动时选择您需要的系统。</p>
+<p>​    安装双系统可以ISO文件或PE引导的方式安装系统。需要注意的是，双系统要求您的系统拥有至少两个分区，鉴于数据存储与系统盘分开的原则，您的电脑最好拥有两个或以上的分区。如果您的电脑不满足该分区条件，您可以使用磁盘分区软件对磁盘进行分区操作<em><strong>（磁盘操作风险很大，没有经验不建议尝试，操作前务必备份重要文件）</strong></em>。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-04-04 21:35:13 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/347762620/answer/2968632547' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
+    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BF%A1%E5%BF%B5%E6%94%AF%E6%92%91%E7%9D%80%E6%88%91%E4%BB%AC%E8%A6%81%E4%B8%8D%E6%96%AD%E5%8A%AA%E5%8A%9B%E6%8C%A3%E9%92%B1/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/QQ%E6%88%AA%E5%9B%BE20230401191111.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>在人类社会当中，当一个事物被需要的时候，那么该事物就产生了价值。</strong></em></p>
+<p>不断地获取资源是人与生俱来的本能。我们作为社会中的个体，面对由复杂的社会关系交织组成的人类社会时，希望通过提升自己的社会价值使自己拥有更多的社会资源。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-bc0fe4ebf8fb2f7e10f7481a8259d1b4_720w.webp"
+                      alt="1"
+                ></p>
+<p>而金钱是人类社会所广泛认同的价值之一，即金钱在一定程度上代表了社会地位，所以问题中的“赚钱”也就可以理解为对更高的人生价值和社会地位的追求。</p>
+<p><strong>但人类不能简单的抽象成一个逐利的生物，我们拥有思想情感和理想抱负。</strong>我们热爱自己真正热爱的领域，愿意为感兴趣的事务投入更多的时间和金钱；我们有自己的理想，会为了实现自己的理想而继续奋斗；我们有自己的信仰，会在信念的驱动力下跨步向前。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-01242efe003c7cc8d8c7bae02514ac2c_720w.webp"
+                      alt="2"
+                ></p>
+<p>但社会是现实的，想要做自己想做的事，需要更多的社会资源，不可避免地需要自己拥有更多的社会财富，也就是金钱。</p>
+<p>由此可见，<em><strong>“信念驱使，资源实现”</strong></em>，就是驱使一个人不断努力挣钱底层逻辑。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-03-25 14:43:09 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>人生观</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知乎问答】用XP系统的电脑想升级用Windows10要更换什么硬件</title>
+    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E7%94%A8XP%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%B5%E8%84%91%E6%83%B3%E5%8D%87%E7%BA%A7%E7%94%A8Windows10%E8%A6%81%E6%9B%B4%E6%8D%A2%E4%BB%80%E4%B9%88%E7%A1%AC%E4%BB%B6/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/QQ%E6%88%AA%E5%9B%BE20230401192252.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>要回答这个问题，我们先查看一下巨硬官方给出的Windows 10最低配置要求：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/v2-facff6fd7f0bc754c972533d969a2485_720w.webp"
+                      alt="1"
+                ></p>
+<p><strong>如果您的配置达到或高于该要求，那么您可以考虑升级Windows 10系统。</strong>需要注意的是，如果您对系统运行流畅度有一定要求，不建议在刚刚达到要求的电脑上使用Windows 10系统。您可以选择购买更大的内存或使用固态硬盘来改善系统运行的流畅度。</p>
+<p>在为老机型选择Windows 10操作系统版本时，您还可以通过使用LTSC版本来降低内存和磁盘占用。</p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<p>原文于知乎: 2023-03-25 17:10:52 由dshboom创建</p>
+<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>知乎问答</tag>
+        <tag>计算机</tag>
+        <tag>”操作系统“</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
+    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
+                      alt="知乎问题"
+                ></p>
+<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
+<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
+                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
+                >
+
+<p><em>图为Type B为Arduino UNO开发板供电</em></p>
+<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
+<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
+                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
+                >
+
+<p><em>图为手机电源适配器为Arduino供电</em></p>
+<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
+                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
+                >
+
+<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
+<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
+<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
+<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
+                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
+                >
+
+<p><em>图为使用VIN引脚为Arduiino供电</em></p>
+<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
+<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
+<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
+<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
+<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
+<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
+<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
+<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
+                      alt="某电商网站截图"
+                ></p>
+<hr>
+<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
+<a class="button  center large" href='https://www.zhihu.com/question/591611418/answer/2953835320' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
+      <tags>
+        <tag>Arduino</tag>
+        <tag>知乎问答</tag>
+        <tag>电子技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Arduino教程 | (一)安装Arduino IDE</title>
     <url>/2023/03/25/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85Arduino%20IDE/</url>
     <content><![CDATA[<p>本篇教程介绍了Arduino IDE的下载、安装和基础设置。</p>
@@ -135,67 +748,6 @@
 <hr>
 <p>本文章同步发布到知乎，点击按钮前往⬇</p>
 <a class="button  center large" href='https://zhuanlan.zhihu.com/p/617017855' title='Arduino教程 | （一）安装Arduino IDE - 知乎'>Arduino教程 | （一）安装Arduino IDE - 知乎</a>
-]]></content>
-      <tags>
-        <tag>Arduino</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法</title>
-    <url>/2023/04/05/Arduino%E6%95%99%E7%A8%8B-(%E4%BA%8C)Arduino%E5%BC%80%E5%8F%91%E6%9D%BF%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p><em><strong>本文以Windows 7操作系统和Arduino UNO开发板为例，演示了安装Arduino UNO开发板驱动程序的一般方法，如果您的Arduino开发板无法识别串口，可以尝试以下方法。</strong></em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-ef34d66afca29707a5fcab2fde6621d4_720w.webp"
-                      alt="win7"
-                ></p>
-<h3 id="一、安装Arduino-IDE"><a href="#一、安装Arduino-IDE" class="headerlink" title="一、安装Arduino IDE"></a>一、安装Arduino IDE</h3><p>Arduino开发板的串口驱动程序一般包含在Arduino IDE安装目录下，要安装驱动程序，您需要先安装Arduino IDE。关于Arduino IDE的安装方法，您可以参考下列文章：</p>
-<a class="button  center large" href='https://dshboom.top/2023/03/25/arduino%E6%95%99%E7%A8%8B-(%E4%B8%80)%E5%AE%89%E8%A3%85arduino%20ide/' title='Arduino教程 | (一)安装Arduino IDE 点击前往'>Arduino教程 | (一)安装Arduino IDE 点击前往</a>
-
-<p><em><strong>注：在安装过程中，请务必注意Arduino IDE程序的安装路径。</strong></em></p>
-<h3 id="二、更新Arduino开发板的串口驱动程序"><a href="#二、更新Arduino开发板的串口驱动程序" class="headerlink" title="二、更新Arduino开发板的串口驱动程序"></a>二、更新Arduino开发板的串口驱动程序</h3><p><strong>连接您的Arduino开发板</strong>，确保USB识别插入设备（没反应可能是数据线损坏），打开设备管理器界面（桌面右键计算机-&gt;管理-&gt;设备管理器）</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-80c51db8d6c5424a8de49bfce3348bfd_720w.webp"
-                      alt="Gl"
-                ></p>
-<p>打开设备管理器，您将会看到“未知设备”图标，右键该图标，点击“更新驱动程序”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-9242fc57890d27d436b1a3e2b570f6c6_720w.webp"
-                      alt="GX"
-                ></p>
-<p>点击“浏览计算机以查找驱动程序软件”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-d04c41039f18ca6ec8a6a3923607a880_720w.webp"
-                      alt="LL"
-                ></p>
-<p>填写您的Arduino IDE安装目录下的drivers文件地址，默认地址如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\arduino\drivers</span><br></pre></td></tr></table></figure></div>
-
-<p><em><strong>注：若您选择了其他安装位置，地址可能不同。</strong></em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-e3e3ee166d653ff777e64f8601d29a32_720w.webp"
-                      alt="AZ"
-                ></p>
-<p>点击“下一步”后，将会弹出以上界面，选择“始终信任”并点击“安装”。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%95%99%E7%A8%8B%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/v2-deda4dc0c0b20920233bc1756e29ffc8_720w.webp"
-                      alt="CG"
-                ></p>
-<p><em><strong>出现上图界面代表您的驱动程序安装成功。</strong></em></p>
-<hr>
-<p>本文章同步发布到知乎，点击按钮前往⬇</p>
-<a class="button  center large" href='https://zhuanlan.zhihu.com/p/619548347' title='Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎'>Arduino教程 | （二）Arduino开发板串口驱动程序安装方法 - 知乎</a>
 ]]></content>
       <tags>
         <tag>Arduino</tag>
@@ -353,78 +905,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Arduino教程 | 【问答】大家都是如何为Arduino供电的</title>
-    <url>/2023/03/26/Arduino%E6%95%99%E7%A8%8B-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E5%A6%82%E4%BD%95%E4%B8%BAArduino%E4%BE%9B%E7%94%B5%E7%9A%84/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094856.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>面对这个问题，首先要明确您的Arduino硬件设备。以Arduino UNO开发板为例，我将演示为Arduino供电的几种方法</p>
-<h3 id="一、使用Type-B插口为Arduino-UNO供电"><a href="#一、使用Type-B插口为Arduino-UNO供电" class="headerlink" title="一、使用Type B插口为Arduino UNO供电"></a>一、使用Type B插口为Arduino UNO供电</h3><p>在下载程序时，一般直接使用Type B线（即您下载程序所用的数据线）为Arduino开发板供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/1679791089686.heic"
-                      alt="使用Type B插口为Arduino UNO供电" style="zoom:33%;" 
-                >
-
-<p><em>图为Type B为Arduino UNO开发板供电</em></p>
-<p><em><strong>注意：在下载程序时不建议在Arduino开发板上连接任何外设，这样将会导致串口被占用或电脑USB口电流输出过高以至于程序下载失败。（通常电脑USB接口输出电压为5V 0.5~1A）</strong></em></p>
-<p>同样的，您可以使用常见的手机电源适配器为Arduino供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/d9879594cq6be1801d9cb0dd55cc3179.jpg"
-                      alt="手机电源适配器为Arduino供电" style="zoom:50%;" 
-                >
-
-<p><em>图为手机电源适配器为Arduino供电</em></p>
-<h3 id="二、DC供电插头为Arduino-UNO供电"><a href="#二、DC供电插头为Arduino-UNO供电" class="headerlink" title="二、DC供电插头为Arduino UNO供电"></a>二、DC供电插头为Arduino UNO供电</h3><p>使用Type B数据线仅仅作为供电线是有些奢侈的，我们还可以使用Arduino UNO开发板自带的DC5.5mm*2.1mm插头为它供电，如图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/V16%28%7EIM7F%5B%28RX987ZQT1%7D%40N.png"
-                      alt="DC5.5mm*2.1mm插头为Arduino供电" style="zoom: 67%;" 
-                >
-
-<p><em>图为DC5.5mm</em>2.1mm插头为Arduino UNO供电*</p>
-<p><em><strong>注意：该插孔电压范围是9~12V，高于该电压会导致LDO发烫或烧毁，低于该电压Arduino UNO可能不能正常工作。</strong></em></p>
-<p><strong>注：LDO（低压差线性稳压器），简单来说就是一个线性降压芯片。Arduino UNO开发板一般来说自带1117M3-3.3稳压器，上图用红框标识的就是LDO稳压器，Arduino有较大负载时，这颗LDO可能会发烫。</strong></p>
-<h3 id="三、VIN引脚供电"><a href="#三、VIN引脚供电" class="headerlink" title="三、VIN引脚供电"></a>三、VIN引脚供电</h3><p>有些时候，我们可能没有DC5.5mm*2.1mm插头，此时我们可以使用Arduino UNO开发板上的VIN引脚为它供电。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/7418117e9gaa8e1c2524f3d5c612dd77.jpg"
-                      alt="VIN引脚为Arduino供电" style="zoom: 50%;" 
-                >
-
-<p><em>图为使用VIN引脚为Arduiino供电</em></p>
-<p>如图，我使用可调电源输出9.00V连接到Arduino UNO的VIN引脚，Arduino可以正常启动。在您的生产环境中，您可以使用9V方形电池为Arduino供电。</p>
-<p><em><strong>注：VIN引脚的输入电压为7~12V。</strong></em></p>
-<h3 id="四、使用5V电源口为Arduino供电（不建议）"><a href="#四、使用5V电源口为Arduino供电（不建议）" class="headerlink" title="四、使用5V电源口为Arduino供电（不建议）"></a>四、使用5V电源口为Arduino供电（不建议）</h3><p>除此之外，您还可以使用5V电源口为Arduino供电，但我不建议您这么做，因为这种方式的输入电压必须严格控制在5V，在使用接线供电时，难以保证您的电源是否为标准的5V，<strong>可能导致Arduino开发板烧毁</strong>。</p>
-<h3 id="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"><a href="#五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路" class="headerlink" title="五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路"></a>五、如果您使用其他的开发板或自己为兼容Arduino的芯片设计的电路</h3><h4 id="1-其它的开发板"><a href="#1-其它的开发板" class="headerlink" title="1.其它的开发板"></a>1.其它的开发板</h4><p>您可以从网络上或商家处获取相关资料，当然，如果您所购买的开发板拥有USB接口，使用手机电源适配器或5V输出的电源连接USB接口是最稳妥的。</p>
-<h4 id="2-您为兼容Arduino的芯片设计的电路"><a href="#2-您为兼容Arduino的芯片设计的电路" class="headerlink" title="2.您为兼容Arduino的芯片设计的电路"></a>2.您为兼容Arduino的芯片设计的电路</h4><h5 id="a-220V输入"><a href="#a-220V输入" class="headerlink" title="a.220V输入"></a>a.220V输入</h5><p>对于这种情况，您的自由度将大大提升，倘若您的供电为220V，您可以使用阻容降压电路或电容分压桥来得到您想要的电压，但要注意，这种方法无法提供很大的功率，且有一定的危险性，优点是电路制造成本比较低，电路设计的复杂度不高。</p>
-<p><em><strong>如果是大功率场景，更安全的方式是内置220V输入的开关电源模块。</strong></em></p>
-<h5 id="b-直流输入"><a href="#b-直流输入" class="headerlink" title="b.直流输入"></a>b.直流输入</h5><p>使用直流输入时，您可以选择DC-DC电压转换芯片将电压降至12V以下，再使用线性稳压器为芯片供电<em><strong>（由于芯片是逻辑电路，不建议直接使用DC-DC输出为芯片供电，电源纹波可能导致电路工作不正常）</strong></em>。</p>
-<h5 id="c-电池输入"><a href="#c-电池输入" class="headerlink" title="c.电池输入"></a>c.电池输入</h5><p>当您使用电池为电路供电，您可以选择电池管理芯片和稳压芯片相结合的方案，在市场上也有这类模块供您选择。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E4%BE%9B%E7%94%B5/QQ%E6%88%AA%E5%9B%BE20230326094519.jpg"
-                      alt="某电商网站截图"
-                ></p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<a class="button  center large" href='https://www.zhihu.com/question/591611418/answer/2953835320' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>Arduino</tag>
-        <tag>知乎问答</tag>
-        <tag>电子技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【日志】2023-03-18 小记</title>
     <url>/2023/03/18/%E3%80%90%E6%97%A5%E5%BF%97%E3%80%912023-03-18%20%E5%B0%8F%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><hr>
@@ -483,351 +963,11 @@
       </tags>
   </entry>
   <entry>
-    <title>【置顶】dshboom个人博客</title>
-    <url>/2023/03/05/dshboom%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2><p><em>本博文已置顶</em></p>
-<h5 id="很高兴认识你。"><a href="#很高兴认识你。" class="headerlink" title="很高兴认识你。"></a>很高兴认识你。</h5><p>欢迎来到我的个人网站，本网站创建于2023-3-5 9:35:00，使用hexo构建，由dshboom维护。</p>
-<p>长期域名:<a href="https://dshboom.top/">https://dshboom.top</a></p>
-<p>其他域名:dshboom.github.io、dshboom.netlify.app</p>
-<h3 id="网站元素介绍："><a href="#网站元素介绍：" class="headerlink" title="网站元素介绍："></a>网站元素介绍：</h3><h4 id="背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com"><a href="#背景音乐：-Canon-in-D-Canon-In-D-Brian-Crain-高音质在线试听-Canon-In-D歌词-歌曲下载-酷狗音乐-kugou-com" class="headerlink" title="背景音乐：[Canon in D](Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com))"></a>背景音乐：[Canon in D](<a class="link"   href="https://m.kugou.com/kgmixsong/3rhtqc47.html" >Canon In D_Brian Crain_高音质在线试听_Canon In D歌词|歌曲下载_酷狗音乐 (kugou.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</h4><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&dl=danielle-suijkerbuijk-5urnQA0_Yxs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
-                     
-                ></p>
-<h4 id="“人生如逆旅，我亦是行人”"><a href="#“人生如逆旅，我亦是行人”" class="headerlink" title="“人生如逆旅，我亦是行人”"></a><em>“人生如逆旅，我亦是行人”</em></h4><p>语出苏轼《临江仙·送钱穆父》。人生是一段漫长的旅行，最重要的不是终点，而是沿途的风景。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BB%8B%E7%BB%8D/photo-1675686773703-da33d8ac2c0d.webp"
-                     
-                ></p>
-<h3 id="网站内容持续更新中，期待您的到来！"><a href="#网站内容持续更新中，期待您的到来！" class="headerlink" title="网站内容持续更新中，期待您的到来！"></a>网站内容持续更新中，期待您的到来！</h3>]]></content>
-  </entry>
-  <entry>
-    <title>【知乎问答】如何在windows7的基础上在安装一个windows server 2012 r2？</title>
-    <url>/2023/04/04/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8windows7%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AAwindows%20server%202012%20r2/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E7%B3%BB%E7%BB%9F/QQ%E6%88%AA%E5%9B%BE20230404213633.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>​    <em><strong>在一个系统上安装另一个系统，您可以选择使用虚拟机软件或安装双系统。如果您需要同时使用两个系统，您可以选择虚拟机，如果您在一定时间内单独使用windows server 2012 r2操作系统，您可以考虑组建双系统。</strong></em></p>
-<h2 id="一、虚拟机软件"><a href="#一、虚拟机软件" class="headerlink" title="一、虚拟机软件"></a>一、虚拟机软件</h2><p>​    虚拟机软件可以模拟计算机环境，并提供与计算机硬件相同的功能。</p>
-<p>优点：<strong>可以同时使用主机操作系统和虚拟机操作系统</strong>，文件完全独立于主机；拥有快照功能，可随时恢复。</p>
-<p>缺点：主机性能无法完全发挥，<strong>损失硬件性能利用率</strong>。</p>
-<p>​    如果您希望了解有关VMware pro虚拟机软件安装相关的信息，您可以点击以下链接浏览我之前写过的文章。</p>
-<p><a class="link"   href="https://zhuanlan.zhihu.com/p/616883406" >VMware Workstation Pro 17虚拟机软件详细安装教程 &lt;— 点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>​    使用虚拟机软件安装系统，您通常需要使用该系统的ISO镜像文件，Windows Server 2012 R2的ISO文件ED2K地址如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_server_2012_x64_dvd_915588.iso|3826081792|6A56281311F9FE6973F66CF36E2F50BE|/</span><br></pre></td></tr></table></figure></div>
-
-<p><em><strong>注：该链接来自MSDN i tell you网站，<a class="link"   href="https://msdn.itellyou.cn/" >点击跳转 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
-<h2 id="二、双系统"><a href="#二、双系统" class="headerlink" title="二、双系统"></a>二、双系统</h2><p>​    如果您没有同时使用两个系统的需求，您可以尝试使用双系统配置，在一台电脑上安装两个系统，在系统启动时选择您需要的系统。</p>
-<p>​    安装双系统可以ISO文件或PE引导的方式安装系统。需要注意的是，双系统要求您的系统拥有至少两个分区，鉴于数据存储与系统盘分开的原则，您的电脑最好拥有两个或以上的分区。如果您的电脑不满足该分区条件，您可以使用磁盘分区软件对磁盘进行分区操作<em><strong>（磁盘操作风险很大，没有经验不建议尝试，操作前务必备份重要文件）</strong></em>。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-04 21:35:13 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/347762620/answer/2968632547' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】是什么信念支撑着我们要不断努力挣钱</title>
-    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BF%A1%E5%BF%B5%E6%94%AF%E6%92%91%E7%9D%80%E6%88%91%E4%BB%AC%E8%A6%81%E4%B8%8D%E6%96%AD%E5%8A%AA%E5%8A%9B%E6%8C%A3%E9%92%B1/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/QQ%E6%88%AA%E5%9B%BE20230401191111.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>在人类社会当中，当一个事物被需要的时候，那么该事物就产生了价值。</strong></em></p>
-<p>不断地获取资源是人与生俱来的本能。我们作为社会中的个体，面对由复杂的社会关系交织组成的人类社会时，希望通过提升自己的社会价值使自己拥有更多的社会资源。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-bc0fe4ebf8fb2f7e10f7481a8259d1b4_720w.webp"
-                      alt="1"
-                ></p>
-<p>而金钱是人类社会所广泛认同的价值之一，即金钱在一定程度上代表了社会地位，所以问题中的“赚钱”也就可以理解为对更高的人生价值和社会地位的追求。</p>
-<p><strong>但人类不能简单的抽象成一个逐利的生物，我们拥有思想情感和理想抱负。</strong>我们热爱自己真正热爱的领域，愿意为感兴趣的事务投入更多的时间和金钱；我们有自己的理想，会为了实现自己的理想而继续奋斗；我们有自己的信仰，会在信念的驱动力下跨步向前。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E4%BF%A1%E5%BF%B5/v2-01242efe003c7cc8d8c7bae02514ac2c_720w.webp"
-                      alt="2"
-                ></p>
-<p>但社会是现实的，想要做自己想做的事，需要更多的社会资源，不可避免地需要自己拥有更多的社会财富，也就是金钱。</p>
-<p>由此可见，<em><strong>“信念驱使，资源实现”</strong></em>，就是驱使一个人不断努力挣钱底层逻辑。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-03-25 14:43:09 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>人生观</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】如何识别自己计算机的内网地址？</title>
-    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E8%AF%86%E5%88%AB%E8%87%AA%E5%B7%B1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80%EF%BC%9F/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230405091045.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><h3 id="一、Windows系统"><a href="#一、Windows系统" class="headerlink" title="一、Windows系统"></a>一、Windows系统</h3><h4 id="1-命令行查询"><a href="#1-命令行查询" class="headerlink" title="1.命令行查询"></a>1.命令行查询</h4><p>使用win+R或搜索栏搜索”运行”以打开”运行”窗口</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/QQ%E6%88%AA%E5%9B%BE20230404233004.jpg"
-                      alt="打开运行"
-                ></p>
-<p>然后在输入框内输入cmd并回车打开命令提示符</p>
-<p><em>注：您也可以直接在搜索栏中搜索”cmd”打开。</em></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-c83a87f4a4c1eeee3ce4fe3d1e87fd35_r.jpg"
-                      alt="cmd"
-                ></p>
-<p>在命令提示符中输入”ipconfig”，将会显示如下画面：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-8908192dddf8b7c1fc217600fe7c1ff1_720w.webp"
-                      alt="ip"
-                ></p>
-<p>图中箭头所指的”IPV4地址”即为您的内网IP地址。</p>
-<h4 id="2-“设置”查询"><a href="#2-“设置”查询" class="headerlink" title="2.“设置”查询"></a>2.“设置”查询</h4><p>您也可以通过设置来查看您的内网IP</p>
-<p>win+i呼出系统设置，以win11操作系统为例，会出现如下界面：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-6f3370953dd20c821ca6b47997c8c3d0_720w.webp"
-                      alt="设置"
-                ></p>
-<p>点击“网络和Internet”选项。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-78f36ca8aee65e7216519c24c300b34e_720w.webp"
-                      alt="internet"
-                ></p>
-<p>点击WLAN</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-f01553f4de8ff98861eb1a7fb84ca732_720w.webp"
-                      alt="WLAN"
-                ></p>
-<p>点击属性设置</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-cf94e86392cd436653982a68b202ba35_720w.webp"
-                      alt="sx"
-                ></p>
-<p>图中箭头所指的就是您的内网IP地址。</p>
-<h3 id="二、Linux系统"><a href="#二、Linux系统" class="headerlink" title="二、Linux系统"></a>二、Linux系统</h3><p>在Linux系统中，您可以使用终端查看自己的内网IP地址。以debian操作系统为例：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/%E7%9C%8B%E5%86%85%E7%BD%91%E5%9C%B0%E5%9D%80/v2-94669fddd543c801ea61d7f43baac2c1_720w.webp"
-                      alt="debian"
-                ></p>
-<p>您可以通过输入”ip a”来查询自己的内网IP。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-04 23:50:22 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/593464067/answer/2968807117' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】用XP系统的电脑想升级用Windows10要更换什么硬件</title>
-    <url>/2023/04/01/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E7%94%A8XP%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%B5%E8%84%91%E6%83%B3%E5%8D%87%E7%BA%A7%E7%94%A8Windows10%E8%A6%81%E6%9B%B4%E6%8D%A2%E4%BB%80%E4%B9%88%E7%A1%AC%E4%BB%B6/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/QQ%E6%88%AA%E5%9B%BE20230401192252.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p>要回答这个问题，我们先查看一下巨硬官方给出的Windows 10最低配置要求：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/winXP%E5%8D%87%E7%BA%A7win10/v2-facff6fd7f0bc754c972533d969a2485_720w.webp"
-                      alt="1"
-                ></p>
-<p><strong>如果您的配置达到或高于该要求，那么您可以考虑升级Windows 10系统。</strong>需要注意的是，如果您对系统运行流畅度有一定要求，不建议在刚刚达到要求的电脑上使用Windows 10系统。您可以选择购买更大的内存或使用固态硬盘来改善系统运行的流畅度。</p>
-<p>在为老机型选择Windows 10操作系统版本时，您还可以通过使用LTSC版本来降低内存和磁盘占用。</p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-03-25 17:10:52 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/589567299/answer/2952880055' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>”操作系统“</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>论文设计_基于Arduino的桌面气象时钟</title>
     <url>/2023/03/11/%E8%AE%BA%E6%96%87%E8%AE%BE%E8%AE%A1_%E5%9F%BA%E4%BA%8EArduino%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%B0%94%E8%B1%A1%E6%97%B6%E9%92%9F/</url>
     <content><![CDATA[<h2 id="我发表了一篇论文，点击查看-lt-–"><a href="#我发表了一篇论文，点击查看-lt-–" class="headerlink" title="我发表了一篇论文，点击查看 &lt;–"></a>我发表了一篇论文，<a class="link"   href="https://maifile.cn/est/a2646785203523/pdf" >点击查看 &lt;– <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2><h5 id="github地址-dshboom时钟气象站-github-com"><a href="#github地址-dshboom时钟气象站-github-com" class="headerlink" title="github地址:dshboom时钟气象站 (github.com)"></a>github地址:<a class="link"   href="https://github.com/dshboom/esp8266-" >dshboom时钟气象站 (github.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h5>]]></content>
       <tags>
         <tag>论文设计</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arduino教程 | （三）通过电位器控制 LED 灯</title>
-    <url>/2023/04/15/Arduino%E6%95%99%E7%A8%8B-(%E4%B8%89)%E9%80%9A%E8%BF%87%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6%20LED%20%E7%81%AF/</url>
-    <content><![CDATA[<p><em><strong>本文实现了使用Arduino UNO开发板实现电位器控制LED灯，以下是具体教程。</strong></em></p>
-<p><strong>我们可以把实现步骤分为两部分。第一，获取电位器输入信息；第二，输出PWM波控制LED灯。</strong></p>
-<p><em>下面我以Arduino UNO、50k电位器和绿光LED灯演示如何使用Arduino开发板控制LED灯。</em></p>
-<h3 id="一、读取电位器数据"><a href="#一、读取电位器数据" class="headerlink" title="一、读取电位器数据"></a>一、读取电位器数据</h3><p>在Arduino中，您可以使用内置函数analogRead()来读取模拟输入引脚的电压输入信号。</p>
-<p>以Arduino UNO开发板为例，A0-A5引脚是开发板的模拟输入引脚。该函数的返回值范围是0-1023。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-ef1e91db9cc7edf90bbb8c406252c235_720w.png"
-                      alt="1"
-                ></p>
-<p>您可以使用以下代码来用串口输出电位器的电压信号。</p>
-<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">// 初始化串口通讯</span></span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>); </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">// 读取模拟输入引脚A0的输入信号</span></span><br><span class="line">  <span class="type">int</span> signal = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">  <span class="comment">// 通过串口发送给电脑 </span></span><br><span class="line">  Serial.<span class="built_in">println</span>(signal); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-b4560a8acc53291d2cd5ef39dc3142d4_720w.png"
-                      alt="2"
-                ></p>
-<p>通过上图的硬件连接和软件程序，您可以实现通过Arduino开发板读取电位器数据并发送到电脑串口上。</p>
-<p>以下是程序输出结果：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/QQ%E5%BD%95%E5%B1%8F20230414202124.gif"
-                      alt="4"
-                ></p>
-<h3 id="二、控制LED灯"><a href="#二、控制LED灯" class="headerlink" title="二、控制LED灯"></a>二、控制LED灯</h3><p><strong>要使用Arduino控制LED亮度，可以采用以下步骤：</strong></p>
-<ol>
-<li>连接硬件：将一个LED连接到Arduino板上的数字引脚上，正极连接到数字引脚，负极连接到地。</li>
-<li>编写代码：使用Arduino内置函数analogWrite()，范围是0~255。</li>
-</ol>
-<p>以下代码演示了如何用Arduino开发板实现呼吸灯：</p>
-<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> ledPin = <span class="number">9</span>; <span class="comment">//LED连接到数字引脚9上</span></span><br><span class="line"><span class="type">int</span> brightness = <span class="number">0</span>; <span class="comment">//初始亮度为0</span></span><br><span class="line"><span class="type">int</span> fadeAmount = <span class="number">5</span>; <span class="comment">//渐变速度</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(ledPin, OUTPUT); <span class="comment">//设置数字引脚9为输出</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">analogWrite</span>(ledPin, brightness); <span class="comment">//写入亮度值到LED</span></span><br><span class="line">  brightness = brightness + fadeAmount; <span class="comment">//增加亮度值</span></span><br><span class="line">  <span class="keyword">if</span> (brightness == <span class="number">0</span> || brightness == <span class="number">255</span>) &#123; <span class="comment">//如果亮度值达到最大或最小值，改变渐变方向</span></span><br><span class="line">    fadeAmount = -fadeAmount;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">30</span>); <span class="comment">//等待30毫秒</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>您可以这样连接Arduino开发板硬件：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-ac32be7274d00e2f3615d6c199f17943_720w.png"
-                      alt="3"
-                ></p>
-<h3 id="三、映射函数map"><a href="#三、映射函数map" class="headerlink" title="三、映射函数map()"></a>三、映射函数map()</h3><p>对比analogRead()和analogWrite()函数，我们可以发现，analogRead()函数的输出值为0-1023，而analogWrite()函数的输入范围是0-255。为了将读取到的电位器数据传输到analogWrite()函数中，我们需要使用map()函数等比映射变量范围。</p>
-<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">map</span> (x, in_min, in_max, out_min, out_max)</span><br><span class="line"><span class="comment">// 参数</span></span><br><span class="line"><span class="comment">// x： 要映射的值</span></span><br><span class="line"><span class="comment">// in_min： 映射前区间最小值</span></span><br><span class="line"><span class="comment">// in_max： 映射前区间最大值</span></span><br><span class="line"><span class="comment">// out_min： 映射后区间最小值</span></span><br><span class="line"><span class="comment">// out_max 映射后区间最大值</span></span><br></pre></td></tr></table></figure></div>
-
-<h3 id="四、整合方案，实现功能"><a href="#四、整合方案，实现功能" class="headerlink" title="四、整合方案，实现功能"></a>四、整合方案，实现功能</h3><p><em><strong>以上文本介绍了如何使用Arduino开发板读取电位器数据和控制LED灯，将以上功能整合，即可达到本文所需要的效果。</strong></em></p>
-<p>连接硬件：连接旋转式电位器和 OLED 灯到 Arduino 板上。电路图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6LED/v2-5177bd6560b2ca199bf8f4672615b6d8_720w.png"
-                      alt="4"
-                ></p>
-<ol>
-<li>在 Arduino IDE 中编写代码，读取旋转式电位器的值。</li>
-<li>将读取的值映射到 OLED 灯的亮度范围内。</li>
-<li>将映射后的值发送到 OLED 灯，以控制其亮度。</li>
-</ol>
-<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> potPin = A0;  <span class="comment">// 电位器连接到 A0 引脚</span></span><br><span class="line"><span class="type">int</span> ledPin = <span class="number">9</span>;   <span class="comment">// OLED 灯连接到 9 号引脚</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(ledPin, OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> potValue = <span class="built_in">analogRead</span>(potPin);  <span class="comment">// 读取电位器的值</span></span><br><span class="line">  <span class="type">int</span> brightness = <span class="built_in">map</span>(potValue, <span class="number">0</span>, <span class="number">1023</span>, <span class="number">0</span>, <span class="number">255</span>);  <span class="comment">// 将值映射到亮度范围内</span></span><br><span class="line">  <span class="built_in">analogWrite</span>(ledPin, brightness);  <span class="comment">// 发送映射后的值到 OLED 灯</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>将以上代码烧录到您的Arduino开发板中，即可实现通过旋转式电位器控制 LED 灯的功能。</strong></p>
-<hr>
-<p>本文章同步发布到知乎，点击按钮前往⬇</p>
-<a class="button  center large" href='https://zhuanlan.zhihu.com/p/622029652' title='Arduino教程 | （三）通过电位器控制 LED 灯 - 知乎'>Arduino教程 | （三）通过电位器控制 LED 灯 - 知乎</a>
-]]></content>
-      <tags>
-        <tag>Arduino</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】如何在 C 语言中实现条件判断和循环？</title>
-    <url>/2023/04/05/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8%20C%20%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF%EF%BC%9F/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/C%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD%E5%BE%AA%E7%8E%AF/QQ%E6%88%AA%E5%9B%BE20230415094332.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><strong>在 C 语言中，可以使用以下几个关键字实现条件判断和循环：</strong></p>
-<ul>
-<li>if/else 语句：用于条件判断，如果条件满足，则执行 if 后面的语句，否则执行 else 后面的语句。例如：</li>
-</ul>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span> (a &gt; <span class="number">5</span>) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;a比5大\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;a比5小\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>switch/case 语句：用于多条件判断，根据表达式的值，执行相应的语句块。例如：</li>
-</ul>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> grade = <span class="number">85</span>;</span><br><span class="line">	<span class="keyword">switch</span> (grade) </span><br><span class="line">	&#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">90</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Excellent!\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">80</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Good!\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">70</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Average\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="number">60</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Pass\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">default</span>:</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Fail\n&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>while/do-while 语句：用于循环执行一段代码，只要条件满足，就会一直执行。while 循环先判断条件再执行，do-while 循环先执行一次再判断条件。例如：</li>
-</ul>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (i &lt; <span class="number">10</span>) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, i);</span><br><span class="line">      i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">do</span> </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, j);</span><br><span class="line">      j++;</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">while</span> (j &lt; <span class="number">10</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>for 语句：用于循环执行一段代码，可指定循环次数和循环变量的初始值和增量。例如：</li>
-</ul>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p><em><strong>以上是 C 语言中常用的条件判断和循环语句，它们可以组合使用，实现更复杂的程序逻辑。</strong></em></p>
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-14 21:27:00 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/595537748/answer/2984153598' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>知乎问答</tag>
-        <tag>计算机</tag>
-        <tag>C语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知乎问答】arduino渐变灯控制？</title>
-    <url>/2023/04/15/%E3%80%90%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94%E3%80%91arduino%E6%B8%90%E5%8F%98%E7%81%AF%E6%8E%A7%E5%88%B6%EF%BC%9F/</url>
-    <content><![CDATA[<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/Arduino%E6%B8%90%E5%8F%98%E7%81%AF/QQ%E6%88%AA%E5%9B%BE20230415141607.jpg"
-                      alt="知乎问题"
-                ></p>
-<h1 id="来自dshboom的回答："><a href="#来自dshboom的回答：" class="headerlink" title="来自dshboom的回答："></a>来自<em>dshboom</em>的回答：</h1><p><em><strong>本回答介绍了如何通过Arduino程序控制Arduino开发板实现LED灯在由暗到亮到暗的过程中的任意时刻按下开关熄灭LED灯。</strong></em></p>
-<p>根据题主提出的问题，分析得到两个目标：</p>
-<ul>
-<li><strong>小灯在由亮到暗循环显示。</strong></li>
-<li><strong>任意时刻按开关熄灭灯。</strong></li>
-</ul>
-<p><strong>对于这两个目标，我们可以通过Arduino中的内置函数analogWrite()和digitalRead()来实现。</strong></p>
-<p>可以在循环中检测开关是否按下，如果按下，则将灯的状态设为 OFF，并在下一次循环中将灯的状态更新为当前亮度。</p>
-<p>下面是一个简单的示例代码，演示如何使用按钮状态判断来实现这个功能：</p>
-<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> LED_PIN = <span class="number">9</span>;      <span class="comment">// 定义LED的引脚号</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> SWITCH_PIN = <span class="number">2</span>;   <span class="comment">// 定义开关的引脚号</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> brightness = <span class="number">0</span>;         <span class="comment">// 当前灯的亮度</span></span><br><span class="line">boolean turn_off = <span class="literal">false</span>;   <span class="comment">// 是否需要关闭灯</span></span><br><span class="line"><span class="type">int</span> buttonState = <span class="number">0</span>;        <span class="comment">// 开关状态</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">pinMode</span>(LED_PIN, OUTPUT);    <span class="comment">// 将LED引脚设为输出模式</span></span><br><span class="line">  <span class="built_in">pinMode</span>(SWITCH_PIN, INPUT_PULLUP);  <span class="comment">// 将开关引脚设为输入模式</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  buttonState = <span class="built_in">digitalRead</span>(SWITCH_PIN);</span><br><span class="line">  <span class="keyword">if</span> (buttonState == LOW) &#123;</span><br><span class="line">    turn_off = <span class="literal">true</span>;  <span class="comment">// 关闭灯</span></span><br><span class="line">    brightness = <span class="number">0</span>;   <span class="comment">// 设置亮度为0</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (!turn_off) &#123;</span><br><span class="line">    <span class="comment">// 逐渐增加亮度</span></span><br><span class="line">    brightness += <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">if</span> (brightness &gt; <span class="number">255</span>) &#123;</span><br><span class="line">      brightness = <span class="number">255</span>;</span><br><span class="line">      turn_off = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="comment">// 逐渐降低亮度</span></span><br><span class="line">    brightness -= <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">if</span> (brightness &lt; <span class="number">0</span>) &#123;</span><br><span class="line">      brightness = <span class="number">0</span>;</span><br><span class="line">      turn_off = <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">analogWrite</span>(LED_PIN, brightness);  <span class="comment">// 设置灯的亮度</span></span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">10</span>);                         <span class="comment">// 延时等待</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<p>此回答来自我的知乎账号，欢迎访问我的知乎个人主页：）</p>
-<p>原文于知乎: 2023-04-15 23:44:00 由dshboom创建</p>
-<a class="button  center large" href='https://www.zhihu.com/question/595537748/answer/2984153598' title='点击前往知乎阅读'>点击前往知乎阅读</a>]]></content>
-      <tags>
-        <tag>Arduino</tag>
-        <tag>知乎问答</tag>
       </tags>
   </entry>
 </search>
