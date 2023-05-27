@@ -136,7 +136,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-9f8c21ed06f74c2a16e36be4db2e7b46_720w%20%281%29.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271344458.jpg"
                      
                 ></p>
 <p>在这篇文章中，我会向大家介绍如何借助SwitchHosts工具，加速GitHub的访问速度，从而流畅地浏览代码并享受快速高效的开发体验。</p>
@@ -144,7 +144,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-8875c56bfea9ca41fb478d26a15302fa_720w%20%281%29.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271344660.webp"
                      
                 ></p>
 <p>当计算机需要访问某个域名时，它首先会查询本地的hosts文件，看是否有该域名对应的IP地址。如果有，计算机会直接使用hosts文件中所指定的IP地址进行连接，而不会再去DNS服务器上查询IP地址，从而提高了访问速度。</p>
@@ -156,14 +156,14 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-e1d83114a20ad008d83e8b3f93f15fd1_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271345670.jpg"
                      
                 ></p>
 <p>右键该文件，点击属性，点击“安全”，编辑权限</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-a697ab932a4607b938d21e3fad156a88_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271345579.jpg"
                      
                 ></p>
 <p>点击“编辑”，编辑“Users”的权限</p>
@@ -171,21 +171,21 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-38ceb3d8cd954d6ad81e761cc9037f58_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271345742.jpg"
                      
                 ></p>
 <p>点击确定后可能会跳出安全提示，点击“是”即可</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-731ccf4a2aca9d4190516934d52e82a9_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271346488.jpg"
                      
                 ></p>
 <p>回到“常规”一栏，取消勾选“只读”</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-6f6252a354874d4b7fa0755c1d59eae9_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271346929.jpg"
                      
                 ></p>
 <p>点击确定后，hosts文件就不再局限于只读的身份啦！</p>
@@ -199,14 +199,14 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-e0a127c0896df8dc7b3f02174d07b5c6_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271346933.jpg"
                      
                 ></p>
 <p>点击”远程“，如图填入相关信息：</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-58d346ac18363a680791d06e575afd89_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271347918.jpg"
                      
                 ></p>
 <p>Hosts类型选择远程，标题可随便起，URL如下：</p>
@@ -217,7 +217,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-f2a296c8165102b5febe57cd4a178079_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271347702.jpg"
                      
                 ></p>
 <p>若出现”操作成功“字样，则GitHub加速成功！</p>
@@ -225,13 +225,13 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-5669a5708a80706cbadb67a96be5d5e4_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271347629.jpg"
                      
                 ></p>
 <h2 id="五、访问演示"><a href="#五、访问演示" class="headerlink" title="五、访问演示"></a>五、访问演示</h2><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://aliyundshboom.oss-cn-shenzhen.aliyuncs.com/blog/post/SwitchHosts_GitHub/v2-cd12f725365ad581cd4de02d268a0ca1_720w.webp"
+                     data-src="https://cdn.jsdelivr.net/gh/dshboom/image-bed@main/post/202305271348322.jpg"
                      
                 ></p>
 <p>OK，以上就是本篇文章的全部内容了，感谢大家的阅读！</p>
