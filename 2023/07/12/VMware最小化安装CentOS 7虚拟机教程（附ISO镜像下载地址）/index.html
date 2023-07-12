@@ -14,23 +14,49 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://dshboom.top/2023/07/10/镜头通告/"/>
+    <link rel="canonical" href="https://dshboom.top/2023/07/12/vmware最小化安装centos 7虚拟机教程（附iso镜像下载地址）/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="镜头 类型 景别 时长 内容 备注 场景预期 声音 摄影机角度 运镜 镜头焦段    1 地面 夕阳下 10秒 摄影机拍无人机 无 城市全貌 无 高空俯瞰 平稳飞行 宽镜头   2 无人机 高空 20秒 城市俯瞰景色 无 城市全貌 自然音效 高空俯瞰 平稳飞行 中长焦   3 地面 街道 15秒 夕阳照射在建筑物上 蓝调色调 夕阳下的街道 夕阳光线、人声 地面平视 移动摄影 中焦   4 地">
+        <meta name="description" content="一、相关介绍以及软件准备在云计算和虚拟化技术的快速发展下，VMware成为了企业中最流行的虚拟化平台之一。而CentOS 7则是一款稳定可靠的Linux发行版，被广泛应用于服务器环境中。本教程将向您介绍如何在VMware上最小化安装CentOS 7虚拟机，以便您能够快速搭建和配置自己的服务器环境。 您需要准备的软件资源如下：  VMware虚拟机软件（本教程中使用 VMware Workstati">
 <meta property="og:type" content="article">
-<meta property="og:title" content="镜头通告">
-<meta property="og:url" content="https://dshboom.top/2023/07/10/%E9%95%9C%E5%A4%B4%E9%80%9A%E5%91%8A/index.html">
+<meta property="og:title" content="VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址）">
+<meta property="og:url" content="https://dshboom.top/2023/07/12/VMware%E6%9C%80%E5%B0%8F%E5%8C%96%E5%AE%89%E8%A3%85CentOS%207%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%95%99%E7%A8%8B%EF%BC%88%E9%99%84ISO%E9%95%9C%E5%83%8F%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%89/index.html">
 <meta property="og:site_name" content="dshboom的个人博客">
-<meta property="og:description" content="镜头 类型 景别 时长 内容 备注 场景预期 声音 摄影机角度 运镜 镜头焦段    1 地面 夕阳下 10秒 摄影机拍无人机 无 城市全貌 无 高空俯瞰 平稳飞行 宽镜头   2 无人机 高空 20秒 城市俯瞰景色 无 城市全貌 自然音效 高空俯瞰 平稳飞行 中长焦   3 地面 街道 15秒 夕阳照射在建筑物上 蓝调色调 夕阳下的街道 夕阳光线、人声 地面平视 移动摄影 中焦   4 地">
+<meta property="og:description" content="一、相关介绍以及软件准备在云计算和虚拟化技术的快速发展下，VMware成为了企业中最流行的虚拟化平台之一。而CentOS 7则是一款稳定可靠的Linux发行版，被广泛应用于服务器环境中。本教程将向您介绍如何在VMware上最小化安装CentOS 7虚拟机，以便您能够快速搭建和配置自己的服务器环境。 您需要准备的软件资源如下：  VMware虚拟机软件（本教程中使用 VMware Workstati">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-10T08:38:00.000Z">
-<meta property="article:modified_time" content="2023-07-10T09:06:37.862Z">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121447757.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121449537.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121450112.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121453849.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121457253.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121457253.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121558775.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121602505.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121602614.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121605875.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121608603.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121608717.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121611705.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121612008.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121615925.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121617878.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121623759.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121625439.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121627844.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121629845.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121630163.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121632897.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121634064.png">
+<meta property="og:image" content="https://image.cdn.dshboom.top/post/202307121638578.png">
+<meta property="article:published_time" content="2023-07-12T08:46:00.000Z">
+<meta property="article:modified_time" content="2023-07-12T08:50:46.193Z">
 <meta property="article:author" content="dshboom">
-<meta property="article:tag" content="摄影">
+<meta property="article:tag" content="VMware">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image.cdn.dshboom.top/post/202307121447757.png">
     
     <!--- Icon Part-->
     <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
@@ -41,7 +67,7 @@
     
     <title>
         
-            镜头通告 -
+            VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址） -
         
         dshboom blog site
     </title>
@@ -248,7 +274,7 @@
             
             
                 <div class="article-title">
-                    <h1 class="article-title-regular">镜头通告</h1>
+                    <h1 class="article-title-regular">VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址）</h1>
                 </div>
             
                 
@@ -270,15 +296,15 @@
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2023-07-10 16:38</span>
-        <span class="mobile">2023-07-10 16:38</span>
+        <span class="desktop">2023-07-12 16:46</span>
+        <span class="mobile">2023-07-12 16:46</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-07-10 17:06:37</span>
-            <span class="mobile">2023-07-10 17:06</span>
+            <span class="desktop">2023-07-12 16:50:46</span>
+            <span class="mobile">2023-07-12 16:50</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -290,7 +316,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/%E6%91%84%E5%BD%B1/">摄影</a>&nbsp;
+                        <a href="/tags/VMware/">VMware</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Linux/">Linux</a>&nbsp;
                     </li>
                 
             </ul>
@@ -300,12 +330,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>450 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.4k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>5 分钟</span>
         </span>
     
     
@@ -317,122 +347,197 @@
             
 
             <div class="article-content markdown-body">
-                <table>
-<thead>
-<tr>
-<th>镜头</th>
-<th>类型</th>
-<th>景别</th>
-<th>时长</th>
-<th>内容</th>
-<th>备注</th>
-<th>场景预期</th>
-<th>声音</th>
-<th>摄影机角度</th>
-<th>运镜</th>
-<th>镜头焦段</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>地面</td>
-<td>夕阳下</td>
-<td>10秒</td>
-<td>摄影机拍无人机</td>
-<td>无</td>
-<td>城市全貌</td>
-<td>无</td>
-<td>高空俯瞰</td>
-<td>平稳飞行</td>
-<td>宽镜头</td>
-</tr>
-<tr>
-<td>2</td>
-<td>无人机</td>
-<td>高空</td>
-<td>20秒</td>
-<td>城市俯瞰景色</td>
-<td>无</td>
-<td>城市全貌</td>
-<td>自然音效</td>
-<td>高空俯瞰</td>
-<td>平稳飞行</td>
-<td>中长焦</td>
-</tr>
-<tr>
-<td>3</td>
-<td>地面</td>
-<td>街道</td>
-<td>15秒</td>
-<td>夕阳照射在建筑物上</td>
-<td>蓝调色调</td>
-<td>夕阳下的街道</td>
-<td>夕阳光线、人声</td>
-<td>地面平视</td>
-<td>移动摄影</td>
-<td>中焦</td>
-</tr>
-<tr>
-<td>4</td>
-<td>地面</td>
-<td>街道</td>
-<td>20秒</td>
-<td>捕捉行人和居民生活</td>
-<td>无</td>
-<td>街道人文风情</td>
-<td>环境音效、人声</td>
-<td>地面平视</td>
-<td>移动摄影</td>
-<td>中焦</td>
-</tr>
-<tr>
-<td>5</td>
-<td>地面</td>
-<td>街道</td>
-<td>15秒</td>
-<td>夕阳下的蓝调时刻</td>
-<td>无</td>
-<td>烟花</td>
-<td>烟花音效</td>
-<td>地面平视</td>
-<td>移动摄影</td>
-<td>中焦</td>
-</tr>
-<tr>
-<td>6</td>
-<td>地面</td>
-<td>自然景观</td>
-<td>20秒</td>
-<td>自然与城市的交融</td>
-<td>无</td>
-<td>公园或湖泊附近</td>
-<td>自然音效</td>
-<td>地面平视</td>
-<td>静态镜头</td>
-<td>中长焦</td>
-</tr>
-<tr>
-<td>7</td>
-<td>无人机</td>
-<td>高楼顶</td>
-<td>15秒</td>
-<td>城市夕阳景色</td>
-<td>无</td>
-<td>高楼顶的夕阳景色</td>
-<td>自然音效</td>
-<td>高空俯瞰</td>
-<td>平稳飞行</td>
-<td>中焦</td>
-</tr>
-</tbody></table>
-<p>备注：</p>
-<ol>
-<li>在镜头1中，确保在起飞时有足够的空间和安全距离。</li>
-<li>镜头2中的高空俯瞰可以展示城市的广阔视野，注意避免飞行过程中的障碍物。</li>
-<li>镜头3和镜头4中的夕阳照射和人文关怀场景，可以选择黄昏时分进行拍摄，以突出蓝调和温暖氛围。</li>
-<li>在镜头6中，选择公园或湖泊等自然景观时，注意选择视野开阔、美丽的地方，以展示自然与城市的交融。</li>
-<li>镜头7中的高楼顶拍摄需要获得相应的许可和安全措施。</li>
-</ol>
+                <h2 id="一、相关介绍以及软件准备"><a href="#一、相关介绍以及软件准备" class="headerlink" title="一、相关介绍以及软件准备"></a>一、相关介绍以及软件准备</h2><p><strong>在云计算和虚拟化技术的快速发展下，VMware成为了企业中最流行的虚拟化平台之一。而CentOS 7则是一款稳定可靠的Linux发行版，被广泛应用于服务器环境中。本教程将向您介绍如何在VMware上最小化安装CentOS 7虚拟机，以便您能够快速搭建和配置自己的服务器环境。</strong></p>
+<p><strong>您需要准备的软件资源如下：</strong></p>
+<ul>
+<li><strong>VMware虚拟机软件（本教程中使用 <em>VMware Workstation Pro 17</em> 演示）</strong></li>
+<li><strong>CentOS 7 安装镜像（ISO文件）</strong></li>
+</ul>
+<p><strong>如果您尚未安装VMware软件，可以参考这篇教程安装（附有安装地址）：</strong></p>
+<p><a href="https://dshboom.top/2023/03/25/vmware%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">VMware Workstation Pro 17虚拟机软件详细安装教程</a></p>
+<p>以下是 <strong>CentOS-7-x86_64-Minimal-2009.iso 的阿里云镜像下载地址，大小（973MB）</strong></p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://mirrors.aliyun.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso" >CentOS-7-x86_64-Minimal-2009.iso <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><strong>注意：这是最小化安装映像，不自带图形桌面。</strong></p>
+<p>如果您有图形桌面要求，以下是 <em><strong>CentOS-7-x86_64-DVD-2009.iso</strong></em> 的阿里云镜像下载地址，大小（4.4GB）</p>
+<p>(<a class="link"   target="_blank" rel="noopener" href="https://mirrors.aliyun.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso" >https://mirrors.aliyun.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</p>
+<p><strong>注意：本片教程中使用CentOS-7-x86_64-Minimal-2009.iso演示安装</strong></p>
+<h2 id="二、新建虚拟机"><a href="#二、新建虚拟机" class="headerlink" title="二、新建虚拟机"></a>二、新建虚拟机</h2><p>打开VMware，点击文件-&gt;新建虚拟机或直接点击主界面的“新建虚拟机”</p>
+<p><img src="https://image.cdn.dshboom.top/post/202307121447757.png" alt="https://image.cdn.dshboom.top/post/202307121447757.png"></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121449537.png"
+                      alt="image-20230712144944742"
+                ></p>
+<p>随后将跳出虚拟机向导，指导你安装虚拟机：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121450112.png"
+                     
+                ></p>
+<p>在本教程中，将会演示“典型”安装的相关设置步骤。</p>
+<p>点击下一步后，你可以选择安装操作系统的方式，由于我使用的是ISO镜像文件，所以我选择“安装程序光盘映像文件(iso)”选项：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121453849.png"
+                     
+                ></p>
+<p>点击下一步后，即可命名虚拟机名称和指定虚拟机位置：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121457253.png"
+                     
+                ></p>
+<p>点击下一步后，安装向导将提示您选择虚拟磁盘文件的位置，注意如果没有特殊情况，一般不建议将虚拟机安装在系统盘（一般是C盘）。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121457253.png"
+                     
+                ></p>
+<p>接下来选择虚拟机的磁盘大小和文件存储方式，默认20G 多文件存储，为方便虚拟机备份管理，我选择单文件储存：</p>
+<p>这是单文件存储和多文件存储的区别：</p>
+<blockquote>
+<p>单个文件存储：当您选择将虚拟机文件存储为单个文件时，所有虚拟机相关的文件（包括虚拟磁盘文件、配置文件、快照文件等）将被合并到一个单独的文件中。这个单个文件通常具有.vmdk扩展名。单个文件存储使得虚拟机的移植和备份变得更加方便，因为您只需要处理一个文件。</p>
+</blockquote>
+<blockquote>
+<p>多个文件存储：当您选择将虚拟机文件存储为多个文件时，虚拟机的不同组件将被存储为独立的文件。例如，虚拟磁盘文件存储为一个文件，配置文件存储为另一个文件，快照文件存储为单独的文件等。多个文件存储使得管理虚拟机的不同组件更加灵活，您可以对每个组件进行单独的操作和管理。</p>
+</blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121558775.png"
+                     
+                ></p>
+<p>点击下一步后，你可以确认虚拟机的最终情况，在此，我在“自定义硬件”中将虚拟机的内存和处理器分配了更多的性能，使得安装能够更加快速。您可以根据自己的需要来选择（默认选项也可以安装）。<em><strong>注意：虚拟机的硬件分配应该小于物理机</strong></em></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121602505.png"
+                      alt="image-20230712160201998"
+                ></p>
+<p>点击“完成“后，虚拟机将启动：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121602614.png"
+                      alt="image-20230712160250988"
+                ></p>
+<p>出现如下界面，请使用上下方向键将光标指向第二个选项，即”图形化安装界面“，这使得安装界面拥有可鼠标操作的图形显示界面，对第一次安装更为友好。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121605875.png"
+                      alt="image-20230712160525826"
+                ></p>
+<p>按”Enter“键确认后，来到图形化安装界面，可以选择语言和键盘样式，这将决定在接下来的安装过程中您将看到的提示语言。本篇教程中，为方便演示，选择 ”中文“ ”简体中文“ 来安装。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121608603.png"
+                      alt="image-20230712160806747"
+                ></p>
+<p>点击”继续”，将来到如下界面：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121608717.png"
+                      alt="image-20230712160851411"
+                ></p>
+<p>如果您的安装介质（即ISO文件）没有损坏且配置无误的话，默认如上图。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121611705.png"
+                      alt="image-20230712161118382"
+                ></p>
+<p>接下来选择“安装位置”，在面板中选择“自动配置分区”后点击“完成即可。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121612008.png"
+                      alt="image-20230712161205772"
+                ></p>
+<p>点击“完成”后，会退回到上一级菜单，请您选择“网络和主机名”完成网络配置，如果没有这一步，您的虚拟机可能无法连接互联网：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121615925.png"
+                      alt="image-20230712161553215"
+                ></p>
+<p>点击“打开”，填写您喜欢的主机名（默认也可），点击应用，点击完成。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121617878.png"
+                      alt="image-20230712161709068"
+                ></p>
+<p>此时您已经完成全部的必备安装设置，可以选择“开始安装”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121623759.png"
+                      alt="image-20230712162328771"
+                ></p>
+<p>开始安装后，请点击”ROOT密码”设置密码：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121625439.png"
+                     
+                ></p>
+<p>确保您的密码达到标准，点击“完成”。</p>
+<p>点击完成后，建议您点击“创建用户”以便权限管理。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121627844.png"
+                     
+                ></p>
+<p>最后点击”完成配置”即可：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121629845.png"
+                     
+                ></p>
+<p>等待一会，CentOS将提示您重启，请点击”重启“：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121630163.png"
+                     
+                ></p>
+<p>等待一会，如果出现如下界面，那么恭喜你！您的CentOS虚拟机安装成功了！</p>
+<p>输入刚刚才创建的用户名称和密码即可登录CentOS，您也可以直接以root用户身份登录，用户名输入root，密码输入刚才设置的密码即可。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121632897.png"
+                     
+                ></p>
+<p>下图为root用户登录示意图：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121634064.png"
+                     
+                ></p>
+<p>随便执行几个命令：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121638578.png"
+                     
+                ></p>
+<p><em><strong>大功告成！</strong></em></p>
+<hr>
+<p>下一篇文章，我将介绍使用Xshell工具SSH连接Linux虚拟机的教程，敬请期待！</p>
+<p>本文章同步发布到知乎，点击按钮前往⬇</p>
+<a class="button " href='VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址） - dshboom的文章 - 知乎 https://zhuanlan.zhihu.com/p/643063072' title='center large'>center large</a>
 
             </div>
 
@@ -442,7 +547,11 @@
                 <ul class="post-tags-box">
                     
                         <li class="tag-item">
-                            <a href="/tags/%E6%91%84%E5%BD%B1/">#摄影</a>&nbsp;
+                            <a href="/tags/VMware/">#VMware</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Linux/">#Linux</a>&nbsp;
                         </li>
                     
                 </ul>
@@ -453,29 +562,14 @@
             
                 <div class="article-nav">
                     
-                        <div class="article-prev">
-                            <a class="prev"
-                            rel="prev"
-                            href="/2023/07/12/VMware%E6%9C%80%E5%B0%8F%E5%8C%96%E5%AE%89%E8%A3%85CentOS%207%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%95%99%E7%A8%8B%EF%BC%88%E9%99%84ISO%E9%95%9C%E5%83%8F%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%89/"
-                            >
-                                <span class="left arrow-icon flex-center">
-                                    <i class="fa-solid fa-chevron-left"></i>
-                                </span>
-                                <span class="title flex-center">
-                                    <span class="post-nav-title-item">VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址）</span>
-                                    <span class="post-nav-item">上一篇</span>
-                                </span>
-                            </a>
-                        </div>
-                    
                     
                         <div class="article-next">
                             <a class="next"
                             rel="next"
-                            href="/2023/06/22/How_AutoGPTNextWeb/"
+                            href="/2023/07/10/%E9%95%9C%E5%A4%B4%E9%80%9A%E5%91%8A/"
                             >
                                 <span class="title flex-center">
-                                    <span class="post-nav-title-item">AutoGPT Next Web 介绍 | 如何使用AutoGPT Next Web</span>
+                                    <span class="post-nav-title-item">镜头通告</span>
                                     <span class="post-nav-item">下一篇</span>
                                 </span>
                                 <span class="right arrow-icon flex-center">
@@ -540,8 +634,8 @@
                 <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
-        <div class="page-title">镜头通告</div>
-        
+        <div class="page-title">VMware最小化安装CentOS 7虚拟机教程（附ISO镜像下载地址）</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%9B%B8%E5%85%B3%E4%BB%8B%E7%BB%8D%E4%BB%A5%E5%8F%8A%E8%BD%AF%E4%BB%B6%E5%87%86%E5%A4%87"><span class="nav-text">一、相关介绍以及软件准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%96%B0%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="nav-text">二、新建虚拟机</span></a></li></ol>
 
     </div>
 </div>
