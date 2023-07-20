@@ -1715,4 +1715,80 @@
         <tag>论文设计</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Arduino教程(四) | 控制SG90舵机</title>
+    <url>/2023/03/05/Arduino%E6%95%99%E7%A8%8B-(%E5%9B%9B)%E6%8E%A7%E5%88%B6SG90%E8%88%B5%E6%9C%BA/</url>
+    <content><![CDATA[<p><em><strong>久违的Arduino教程更新啦！今天为大家带来的是使用Arduino UNO开发板实现控制舵机，以下是具体教程。</strong></em></p>
+<h2 id="一、硬件连接"><a href="#一、硬件连接" class="headerlink" title="一、硬件连接"></a>一、硬件连接</h2><p>SG90舵机有三根线：电源、接地和信号。</p>
+<p>电源线通常为红色，应连接到 Arduino 板上的 5V 引脚。</p>
+<p>地线通常为黑色或棕色，应连接到 Arduino 板上的GND引脚。</p>
+<p>信号引脚通常为黄色、橙色或白色，应连接到 Arduino 板上的数字引脚。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307122152655.png"
+                     
+                ></p>
+<p>本文使用Arduino UNO开发板以如下方式连接：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307122156702.png"
+                     
+                ></p>
+<h2 id="二、Arduino程序编写"><a href="#二、Arduino程序编写" class="headerlink" title="二、Arduino程序编写"></a>二、Arduino程序编写</h2><h4 id="1-参考示例程序"><a href="#1-参考示例程序" class="headerlink" title="1.参考示例程序"></a>1.参考示例程序</h4><p>在Arduino中，可以使用servo库实现控制舵机控制。您可以在Arduino的lib管理器中搜索servo安装。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307122201737.png"
+                     
+                ></p>
+<p>安装servo库后，您可以在文件-&gt;示例-&gt;servo-&gt;Sweep中打开内置的示例程序。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307122201451.png"
+                     
+                ></p>
+<p>Sweep示例程序实现了一个舵机的扫描功能。舵机会从0度逐渐转动到180度，然后再逐渐转动回0度，循环往复。每个位置停留15毫秒，然后再转到下一个位置。</p>
+<h4 id="2-修改示例程序"><a href="#2-修改示例程序" class="headerlink" title="2.修改示例程序"></a>2.修改示例程序</h4><p>我将示例程序的代码做了一些修改，并添加了相关注释，程序代码如下：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Servo.h&gt;</span></span></span><br><span class="line"></span><br><span class="line">Servo myservo;  <span class="comment">// 创建舵机对象来控制舵机</span></span><br><span class="line"><span class="comment">// 大多数板子上可以创建12个舵机对象</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> pos = <span class="number">0</span>;    <span class="comment">// pos变量用于存储舵机位置</span></span><br><span class="line"><span class="type">int</span> speed = <span class="number">15</span>; <span class="comment">// speed变量用于控制舵机转动的速度，单位ms</span></span><br><span class="line"><span class="type">int</span> pin = <span class="number">9</span>;    <span class="comment">// pin变量用于选择控制舵机的引脚 只能使用pwm引脚 </span></span><br><span class="line"><span class="comment">// Arduino UNO中,pwm引脚是3、5、6、9、10和11</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  myservo.<span class="built_in">attach</span>(pin);  <span class="comment">// 将舵机连接到9号引脚的舵机对象</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (pos = <span class="number">0</span>; pos &lt;= <span class="number">180</span>; pos += <span class="number">1</span>) <span class="comment">// 从0度逐渐转动到180度 每次正方向转动1度</span></span><br><span class="line">  &#123; </span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);              <span class="comment">// 告诉舵机转到变量&#x27;pos&#x27;所表示的位置</span></span><br><span class="line">    <span class="built_in">delay</span>(speed);                       <span class="comment">// 等待15毫秒，让舵机到达目标位置</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (pos = <span class="number">180</span>; pos &gt;= <span class="number">0</span>; pos -= <span class="number">1</span>)<span class="comment">// 从0度逐渐转动到180度 每次负方向转动1度</span></span><br><span class="line">  &#123;</span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);              </span><br><span class="line">    <span class="built_in">delay</span>(speed);                     </span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>我通过增添speed变量使得舵机转动的速度可控，pin变量方便更改控制引脚。</p>
+<p><em><strong>注意：控制引脚需要使用pwm引脚，通常来说，pwm引脚带有”~”标识</strong></em></p>
+<p>示意图：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307122216512.png"
+                     
+                ></p>
+<h4 id="3-烧录程序-查看效果"><a href="#3-烧录程序-查看效果" class="headerlink" title="3.烧录程序 查看效果"></a>3.烧录程序 查看效果</h4><p>为使画面更加鬼畜，我将速度更改为2ms,演示视频如下：</p>
+]]></content>
+      <tags>
+        <tag>Arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows下OpenSSH的安装</title>
+    <url>/2023/03/05/Xshell%E5%B7%A5%E5%85%B7SSH%E8%BF%9E%E6%8E%A5CentOS%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+    <content><![CDATA[<h2 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h2><p><strong>什么是SSH？什么是OpenSSH？</strong></p>
+<p>SSH（Secure Shell）是一种网络协议，用于在不安全的网络中进行安全的远程登录和数据传输。它通过加密通信和身份验证机制，确保数据在传输过程中的机密性和完整性。</p>
+<p>OpenSSH是SSH协议的一个开源实现，它是目前最常用的SSH软件包之一。OpenSSH提供了一套完整的工具和服务，包括ssh客户端和ssh服务器，用于安全地远程登录和管理远程计算机。它支持多种加密算法和身份验证方法，可以在各种操作系统上运行，并且具有高度的可定制性和安全性。OpenSSH已经成为许多Linux和Unix系统的标准组件，并且被广泛应用于服务器管理和远程访问场景中。</p>
+<h2 id="二、Windows下安装OpenSSH客户端"><a href="#二、Windows下安装OpenSSH客户端" class="headerlink" title="二、Windows下安装OpenSSH客户端"></a>二、Windows下安装OpenSSH客户端</h2><h4 id="1-确认您的系统没有安装SSH工具"><a href="#1-确认您的系统没有安装SSH工具" class="headerlink" title="1.确认您的系统没有安装SSH工具"></a>1.确认您的系统没有安装SSH工具</h4><p>打开命令提示终端，输入ssh并回车，如果出现如下提示，则证明你的系统尚未安装ssh客户端：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121715042.png"
+                     
+                ></p>
+<p>如果出现如下提示，则您的系统已经安装了ssh客户端：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://image.cdn.dshboom.top/post/202307121717581.png"
+                     
+                ></p>
+<h4 id="2-下载OpenSSH"><a href="#2-下载OpenSSH" class="headerlink" title="2.下载OpenSSH"></a>2.下载OpenSSH</h4>]]></content>
+  </entry>
 </search>
